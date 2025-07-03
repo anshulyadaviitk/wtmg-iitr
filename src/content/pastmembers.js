@@ -95,11 +95,13 @@ export const past = {
     id: 'intern-06',
     type: 'intern',
     name: 'Mr. Ayush Ghosh',
+    degree: 'Intern',
+    college: 'Indian Institute of Engineering Science and Technology, Shibpur',
     photo: '/images/groupmembers/interns/aayush.jpeg',
-    position: 'Intern',
-    College: 'Indian Institute of Engineering Science and Technology, Shibpur',
-    topic: 'Computational fluid dynamics simulations of vacuum membrane distillation for wastewater treatment applications',
     duration: 'May–June 2025 (Two months)',
+    topic: 'Computational fluid dynamics simulations of vacuum membrane distillation for wastewater treatment applications',
+    affiliation: "",
+    
     email: '2022ceb043.ayush@students.iiests.ac.in'
   },
  {
@@ -111,7 +113,7 @@ export const past = {
      photo: '/images/pastmembers/interns/vaibhav.jpeg',
     duration: "May-June 2025 (Two months)",
     topic: "Computational Modelling and Evaluation of a Tablet Chlorinator for Water Treatment System",
-    affiliation: "Assistant Professor",
+    affiliation: "",
     email: "2023ceb055.vaibhav@students.iiests.ac.in"
   },
      
