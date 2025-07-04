@@ -470,7 +470,7 @@ export const interns = [
     id: 'intern-32',
     type: 'intern',
     name: 'Ms.  Deevanshi Agarwal',
-    photo: '/images/groupmembers/interns/deevanshi.jpeg',
+    photo: '/images/groupmembers/interns/deevanshi.jpg',
     position: 'Intern',
     College: 'Sunder Deep college of Architecture and Planning',
     topic: 'Integrated water architecture and urban infrastructure',
@@ -482,11 +482,11 @@ export const interns = [
     id: 'intern-31',
     type: 'intern',
     name: 'Mr. Anand Kumar',
-    photo: '/images/groupmembers/interns/anand.jpeg',
+    photo: '/images/groupmembers/interns/anand.jpg',
     position: 'Intern',
     College: 'Sunder Deep college of Architecture and Planning',
     topic: 'Integrated water architecture and urban infrastructure',
-    duration: 'July 2025 (One months)',
+    duration: 'July 2025 (One month)',
     email: 'anand.kr1708@gmail.com'
   },
   
@@ -513,6 +513,5 @@ export const interns = [
     duration: 'May–July 2025 (Two months)',
     email: 'nancybabel03@gmail.com'
   },
-  
 ];
 
