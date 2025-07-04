@@ -150,7 +150,6 @@ images:[
     duration: 'January 2025 – Present',
     email: '',
     contact: '',
-    coSupervisor: 'Dr. Prasanta K. Sahoo, National Institute of Hydrology, Roorkee',
     links: {
       linkedin: 'XXXX',
       researchgate: 'XXXX',
