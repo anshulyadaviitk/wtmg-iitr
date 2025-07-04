@@ -466,8 +466,20 @@ export const mastersStudents = [
 
 
 export const interns = [
+ {
+    id: 'intern-30',
+    type: 'intern',
+    name: 'Ms. Pratiksha',
+    photo: '/images/groupmembers/interns/pratiksha.jpeg',
+    position: 'Intern',
+    College: 'Graphic Era Deemed To Be University, Dehradun',
+    topic: 'Design and development of a prototype for zero liquid discharge wastewater treatment system',
+    duration: 'July–December 2025 (Six months)',
+    email: 'pratiksha.0059@gmail.com'
+  },
+
   {
-    id: 'intern-01',
+    id: 'intern-29',
     type: 'intern',
     name: 'Ms. Nancy Babel',
     photo: '/images/groupmembers/interns/nancy.jpg',
