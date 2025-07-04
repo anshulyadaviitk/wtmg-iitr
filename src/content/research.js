@@ -324,11 +324,11 @@ export const publications = {
   ],
  books: [
 {
-  id: 'book-05',
-  title: 'Computational techniques for simulating and optimizing membrane processes for (waste)water treatment',
-  authors: ['A.Yadav', 'P.K. Labhasetwar'],
+  id: 'book-06',
+  title: 'Architecture',
+  authors: ['H. Pathak', 'A.Yadav'],
   image: '', 
-  publisher: 'International Water Association Publishing',
+  publisher: 'Tata McGraw-Hill',
   year: 2026,
   link: '',
   isbn: '',
@@ -336,8 +336,9 @@ export const publications = {
   doi: '',
   featured: false
 },
+   
 {
-  id: 'book-04',
+  id: 'book-05',
   title: 'Integrated Water Architecture and Urban Infrastructure in the Sapta Puris of India',
   authors: ['H. Pathak', 'A.Yadav'],
   image: '', 
@@ -349,11 +350,12 @@ export const publications = {
   doi: '',
   featured: false
 },
-{
-  id: 'book-03',
-  title: 'Computational techniques for simulating and optimizing adsorption processes for (waste)water treatment',
+   
+   {
+  id: 'book-04',
+  title: 'Computational techniques for simulating and optimizing membrane processes for (waste)water treatment',
   authors: ['A.Yadav', 'P.K. Labhasetwar'],
-  image: '', // Replace with correct image if needed
+  image: '', 
   publisher: 'International Water Association Publishing',
   year: 2026,
   link: '',
@@ -362,10 +364,10 @@ export const publications = {
   doi: '',
   featured: false
 },
-{ id: 'book-02',
+{ id: 'book-03',
    title: 'Applications of two-dimensional nanomaterials for water and wastewater treatment',
    authors: ['A.Yadav', 'R. Yadav', 'P.K. Labhasetwar'],
-   image: '/images/research/books/application_book.jpg',
+   image: '/images/research/books/book3.jpg',
    publisher: 'Apple Academic Publishers, CRC Press',
   year: 2026,
   link: 'https://www.appleacademicpress.com/applications-of-two-dimensional-nanomaterials-in-water-and-wastewater-treatment-/9781779642967',
@@ -374,11 +376,26 @@ export const publications = {
   doi: '',
   featured: true 
 },
+   
+{
+  id: 'book-02',
+  title: 'Computational techniques for simulating and optimizing adsorption processes for (waste)water treatment',
+  authors: ['A.Yadav', 'P.K. Labhasetwar'],
+  image: '/images/research/books/book2.png',
+  publisher: 'International Water Association Publishing',
+  year: 2025,
+  link: '',
+  isbn: '',
+  eisbn: '',
+  doi: '',
+  featured: false
+},
+
 {
     id: 'book-01',
     title: 'Membrane-based point-of-use drinking water treatment systems',
     authors: ['P.K. Labhasetwar', 'A.Yadav'],
-    image: '/images/research/books/membre_book.jpeg',
+    image: '/images/research/books/book1.jpeg',
     publisher: 'International Water Association Publishing',
     year: 2023,
     link: 'https://iwaponline.com/ebooks/book/867/Membrane-Based-Point-of-Use-Drinking-Water',
