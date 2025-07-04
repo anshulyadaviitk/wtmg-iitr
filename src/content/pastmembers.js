@@ -178,7 +178,6 @@ export const past = {
      photo: '/images/pastmembers/interns/pranjal.jpeg',
     duration: "May-June 2025 (Two months)",
     topic: "Design and development of membrane crystallizer for Water Recovery and Salt Separation",
-    affiliation: "Assistant Professor",
     email: ""
   },
   {
@@ -186,10 +185,9 @@ export const past = {
     name: "Mr. Akash Pandey",
      degree: "Intern",
     college: "NA",
-     photo: '/images/pastmembers/interns/akash.jpeg',
+     photo: '/images/pastmembers/interns/akash.jpg',
     duration: "June-August 2024 (Three months)",
-    topic: "NA",
-    affiliation: "",
+    topic: "Membrane Distillation: Biofouling in Membrane Distillation",
     email: ""
   },
   {
@@ -200,7 +198,6 @@ export const past = {
      photo: '/images/pastmembers/interns/vedanshi.jpeg',
     duration: "Jan-April 2024 (Three months)",
     topic: "Response Surface Methodology and Artificial Neural Networks in Water Treatment Processes",
-    affiliation: "",
     email: ""
   },
   {
@@ -211,7 +208,6 @@ export const past = {
      photo: '/images/pastmembers/interns/jahanvi.jpeg',
     duration: "Feb-April 2024 (Three months)",
     topic: "Innovative Strategies for Enhancing Concrete Durability: Bacillus Species Encapsulation with Synthesized Polyurea",
-    affiliation: "",
     email: ""
   },
   {
@@ -222,7 +218,6 @@ export const past = {
      photo: '/images/pastmembers/interns/falshruti.jpg',
     duration: "Jan-April 2024 (Three months)",
     topic: "Enhanced the photocatalytic & Antibacterial potential of polysulfon membrane augmented with ZnO,SiO2 & TiO2",
-    affiliation: "Assistant Professor",
     email: ""
   },
   {
@@ -233,7 +228,6 @@ export const past = {
      photo: '/images/pastmembers/interns/shubham.jpeg',
     duration: "Feb-April 2024 (Three months)",
     topic: "Carbon Chain Grafted Polyvinylidene Fluoride Membranes For Textile Water Remediation",
-    affiliation: "Assistant Professor",
     email: ""
   },
   {
@@ -244,7 +238,6 @@ export const past = {
      photo: '/images/pastmembers/interns/rajyaguru.jpeg',
     duration: "May-July 2023 (Three months)",
     topic: "NA",
-    affiliation: "Assistant Professor",
     email: ""
   },
   {
@@ -255,7 +248,6 @@ export const past = {
      photo: '/images/pastmembers/interns/abhishek.jpeg',
     duration: "Feb-May 2023 (Three months)",
     topic: "NA",
-    affiliation: "Assistant Professor",
     email: ""
   },
   {
@@ -266,7 +258,6 @@ export const past = {
      photo: '/images/pastmembers/interns/tarun.jpeg',
     duration: "Feb-May 2023 (Three months)",
     topic: "NA",
-    affiliation: "Assistant Professor",
     email: ""
   },
   {
@@ -277,7 +268,6 @@ export const past = {
      photo: '/images/pastmembers/interns/monish.jpeg',
     duration: "Dec 2022 (One month)",
     topic: "NA",
-    affiliation: "Assistant Professor",
     email: ""
   },
   {
@@ -288,7 +278,6 @@ export const past = {
      photo: '/images/pastmembers/interns/gopika.jpeg',
     duration: "March-May 2022 (Three months)",
     topic: "Adsorption",
-    affiliation: "Assistant Professor",
     email: ""
   },
   {
@@ -299,7 +288,6 @@ export const past = {
      photo: '/images/pastmembers/interns/rashmi.jpeg',
     duration: "March-May 2022 (Three months)",
     topic: "Adsorption",
-    affiliation: "Assistant Professor",
     email: ""
   },
     {
@@ -310,7 +298,6 @@ export const past = {
      photo: '/images/pastmembers/interns/anju.jpeg',
     duration: "January-June 2022 (6 months)",
     topic: "Computational studies on nanomaterials for water treatment",
-    affiliation: "",
     email: ""
   },
    {
@@ -321,7 +308,6 @@ export const past = {
      photo: '/images/pastmembers/interns/sneha.png',
     duration: "Jan 2022- May 2022",
     topic: "Computational analysis of substituent effect on indole derivatives as potential antibacterial agents",
-    affiliation: "",
     email: ""
   },
   {
@@ -332,7 +318,6 @@ export const past = {
      photo: '/images/pastmembers/interns/pushpmala.jpeg',
     duration: "March-August 2021 (Six months)",
     topic: "Adsorption",
-    affiliation: "",
     email: ""
   },
   {
@@ -343,7 +328,6 @@ export const past = {
      photo: '/images/pastmembers/interns/prathibha.jpeg',
     duration: "March-August 2021 (Six months)",
     topic: "Membranes",
-    affiliation: "",
     email: ""
   },
   {
@@ -354,7 +338,6 @@ export const past = {
      photo: '/images/pastmembers/interns/rutu.jpeg',
     duration: "July-December, 2021 (Six months)",
     topic: "Catalytic adsorption treatmenr process of dye wastewater",
-    affiliation: "",
     email: ""
   },
   ],
