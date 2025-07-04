@@ -466,7 +466,31 @@ export const mastersStudents = [
 
 
 export const interns = [
- {
+  {
+    id: 'intern-32',
+    type: 'intern',
+    name: 'Ms.  Deevanshi Agarwal',
+    photo: '/images/groupmembers/interns/deevanshi.jpeg',
+    position: 'Intern',
+    College: 'Sunder Deep college of Architecture and Planning',
+    topic: 'Integrated water architecture and urban infrastructure',
+    duration: 'July 2025 (One month)',
+    email: 'NA'
+  },
+
+   {
+    id: 'intern-31',
+    type: 'intern',
+    name: 'Mr. Anand Kumar',
+    photo: '/images/groupmembers/interns/anand.jpeg',
+    position: 'Intern',
+    College: 'Sunder Deep college of Architecture and Planning',
+    topic: 'Integrated water architecture and urban infrastructure',
+    duration: 'July 2025 (One months)',
+    email: 'anand.kr1708@gmail.com'
+  },
+  
+  {
     id: 'intern-30',
     type: 'intern',
     name: 'Ms. Pratiksha',
