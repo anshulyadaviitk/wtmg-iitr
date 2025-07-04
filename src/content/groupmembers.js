@@ -493,7 +493,7 @@ export const interns = [
     id: 'intern-30',
     type: 'intern',
     name: 'Ms. Pratiksha',
-    photo: '/images/groupmembers/interns/pratiksha.jpeg',
+    photo: '/images/groupmembers/interns/pratiksha.jpg',
     position: 'Intern',
     College: 'Graphic Era Deemed To Be University, Dehradun',
     topic: 'Design and development of a prototype for zero liquid discharge wastewater treatment system',
