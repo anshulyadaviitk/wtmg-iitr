@@ -48,7 +48,7 @@ export const past = {
     // Add more mtech alumni
   ], interns: [
     {
-    id: 'intern-02',
+    id: 'intern-28',
     type: 'intern',
     name: 'Mr. Adnan Hamid',
     photo: '/images/groupmembers/interns/adnan.jpg',
@@ -59,7 +59,7 @@ export const past = {
     email: 'ah4685639@gmail.com'
   },
   {
-    id: 'intern-03',
+    id: 'intern-27',
     type: 'intern',
     name: 'Mr. Adarsh Kumar Jha',
     photo: '/images/groupmembers/interns/adarsh.jpeg',
@@ -70,7 +70,7 @@ export const past = {
     email: 'adarshkr.jha.mst22@itbhu.ac.in'
   },
   {
-    id: 'intern-04',
+    id: 'intern-26',
     type: 'intern',
     name: 'Mr. Raj Keshari',
     photo: '/images/groupmembers/interns/raj.jpeg',
@@ -81,7 +81,7 @@ export const past = {
     email: 'r2436533@gmail.com'
   },
   {
-    id: 'intern-05',
+    id: 'intern-25',
     type: 'intern',
     name: 'Ms. Sanchita Garai',
     photo: '/images/groupmembers/interns/sanchita.jpeg',
@@ -92,7 +92,7 @@ export const past = {
     email: '2022ceb024.sanchita@students.iiests.ac.in'
   },
   {
-    id: 'intern-06',
+    id: 'intern-24',
     type: 'intern',
     name: 'Mr. Ayush Ghosh',
     degree: 'Intern',
@@ -103,7 +103,7 @@ export const past = {
     email: '2022ceb043.ayush@students.iiests.ac.in'
   },
  {
-    id: 'intern-07',
+    id: 'intern-23',
     type: 'intern',
     name: "Mr. Vaibhav Kumar",
      degree: "Intern",
@@ -116,7 +116,7 @@ export const past = {
   },
      
     {
-    id: 'intern-01',
+    id: 'intern-22',
     name: "Ms. Rupal Niranjan",
     degree: "Intern",
     college: "Madan Mohan Malaviya University of Technology",
@@ -127,7 +127,7 @@ export const past = {
     email: ""
   },
   {
-    id: 'intern-01',
+    id: 'intern-21',
     name: "Ms. Khushi Mishra",
      degree: "Intern",
     college: "Madan Mohan Malaviya University of Technology",
@@ -138,7 +138,7 @@ export const past = {
     email: ""
   },
   {
-    id: 'intern-01',
+    id: 'intern-20',
     name: "Mr. Manas Mani Tripathi",
      degree: "Intern",
     college: "Madan Mohan Malaviya University of Technology",
@@ -149,7 +149,7 @@ export const past = {
     email: ""
   },
   {
-    id: 'intern-01',
+    id: 'intern-19',
     name: "Mr. Ankit Shukla",
      degree: "Intern",
     college: "Madan Mohan Malaviya University of Technology",
@@ -160,7 +160,7 @@ export const past = {
     email: ""
   },
   {
-    id: 'intern-01',
+    id: 'intern-18',
     name: "Mr. Ambresh Kumar Bakshi",
      degree: "Intern",
     college: "Madan Mohan Malaviya University of Technology",
@@ -171,7 +171,7 @@ export const past = {
     email: ""
   },
   {
-    id: 'intern-01',
+    id: 'intern-17',
     name: "Pranjal Srivastava",
      degree: "Intern",
     college: "Madan Mohan Malaviya University of Technology",
@@ -181,7 +181,7 @@ export const past = {
     email: ""
   },
   {
-    id: 'intern-01',
+    id: 'intern-16',
     name: "Mr. Akash Pandey",
      degree: "Intern",
     college: "NA",
@@ -191,7 +191,7 @@ export const past = {
     email: ""
   },
   {
-    id: 'intern-01',
+    id: 'intern-15',
     name: "Ms. Vedanshi Kuvadia",
      degree: "Intern",
     college: "NA",
@@ -201,7 +201,7 @@ export const past = {
     email: ""
   },
   {
-    id: 'intern-01',
+    id: 'intern-14',
     name: "Ms. Parmar Jahanviben Mahipatsinh",
      degree: "Intern",
     college: "NA",
@@ -211,7 +211,7 @@ export const past = {
     email: ""
   },
   {
-    id: 'intern-01',
+    id: 'intern-13',
     name: "Ms. Kaneria Falshruti Bhaveshbhai",
      degree: "Intern",
     college: "NA",
@@ -221,7 +221,7 @@ export const past = {
     email: ""
   },
   {
-    id: 'intern-01',
+    id: 'intern-12',
     name: "Mr. Shubham Rank",
      degree: "Intern",
     college: "NA",
@@ -231,7 +231,7 @@ export const past = {
     email: ""
   },
   {
-    id: 'intern-01',
+    id: 'intern-11',
     name: "Mr. Rajyaguru Deep",
      degree: "Intern",
     college: "BITS Pilani",
@@ -241,7 +241,7 @@ export const past = {
     email: ""
   },
   {
-    id: 'intern-01',
+    id: 'intern-10',
     name: "Mr. Abhishek Bhatt",
      degree: "Intern",
     college: "NA",
@@ -251,7 +251,7 @@ export const past = {
     email: ""
   },
   {
-    id: 'intern-01',
+    id: 'intern-09',
     name: "Mr. Tarun Mangukiya",
      degree: "Intern",
     college: "NA",
@@ -261,7 +261,7 @@ export const past = {
     email: ""
   },
   {
-    id: 'intern-01',
+    id: 'intern-08',
     name: "Mr. Monish Jatakiya",
      degree: "Intern",
     college: "NA",
@@ -271,7 +271,7 @@ export const past = {
     email: ""
   },
   {
-    id: 'intern-01',
+    id: 'intern-07',
     name: "Ms. Gopika B. Raj",
      degree: "Intern",
     college: "Central Institute of Petrochemicals Technology Kochi",
@@ -281,7 +281,7 @@ export const past = {
     email: ""
   },
   {
-    id: 'intern-01',
+    id: 'intern-06',
     name: "Mr. Rashmi Ranjan Mandal",
      degree: "Intern",
     college: "NA",
@@ -291,7 +291,7 @@ export const past = {
     email: ""
   },
     {
-      id: 'intern-01',
+      id: 'intern-05',
     name: "Ms. Anju Nair",
      degree: "Intern",
     college: "NA",
@@ -301,7 +301,7 @@ export const past = {
     email: ""
   },
    {
-     id: 'intern-01',
+     id: 'intern-04',
     name: "Ms. Sneha Bince ",
      degree: "Intern",
     college: "NA",
@@ -311,7 +311,7 @@ export const past = {
     email: ""
   },
   {
-    id: 'intern-01',
+    id: 'intern-03',
     name: "Ms. Pushpmala Kuwer",
      degree: "Intern",
     college: "Institute for Excellence in Higher Education, Bhopal",
@@ -321,7 +321,7 @@ export const past = {
     email: ""
   },
   {
-    id: 'intern-01',
+    id: 'intern-02',
     name: "Ms. Prathibha Yadav",
      degree: "Intern",
     college: "Institute for Excellence in Higher Education, Bhopal",
