@@ -342,7 +342,7 @@ export const publications = {
   title: 'Integrated Water Architecture and Urban Infrastructure in the Sapta Puris of India',
   authors: ['H. Pathak', 'A.Yadav'],
   image: '', 
-  publisher: 'International Water Association Publishing',
+  publisher: 'Apple Academic Publishers, CRC Press',
   year: 2026,
   link: '',
   isbn: '',
@@ -454,8 +454,6 @@ export const patents = [
     link: 'https://ipindia.gov.in/patent-details'
   },
 ];
-
-
 
 export const invitedTalks = [
   {
