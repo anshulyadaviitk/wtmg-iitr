@@ -2,7 +2,7 @@
 export const past = {
   phd: [
     {
-      id: 'al-phd-01',
+      id: 'al-phd-03',
       name: 'Mr. Raj Vardhan Prasad Patel',
       photo: '', // Replace with actual path if needed
       degree: 'PhD (2022–2024)',
@@ -22,7 +22,7 @@ export const past = {
       thesisLink: ''
     },
     {
-      id: 'al-phd-03',
+      id: 'al-phd-01',
       name: 'Mr. Bipinkumar Manubhai Baladaniya',
       photo: '', // Replace with actual path if needed
       degree: 'PhD (2023–2024)',
