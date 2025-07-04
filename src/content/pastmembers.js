@@ -100,8 +100,6 @@ export const past = {
     photo: '/images/groupmembers/interns/aayush.jpeg',
     duration: 'May–June 2025 (Two months)',
     topic: 'Computational fluid dynamics simulations of vacuum membrane distillation for wastewater treatment applications',
-    affiliation: "",
-    
     email: '2022ceb043.ayush@students.iiests.ac.in'
   },
  {
