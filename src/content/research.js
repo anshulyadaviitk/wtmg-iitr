@@ -323,12 +323,27 @@ export const publications = {
   }
   ],
  books: [
+   
 {
-  id: 'book-06',
-  title: 'Architecture',
+  id: 'book-07',
+  title: 'Archaeopedia',
   authors: ['H. Pathak', 'A.Yadav'],
   image: '', 
   publisher: 'Tata McGraw-Hill',
+  year: 2026,
+  link: '',
+  isbn: '',
+  eisbn: '',
+  doi: '',
+  featured: false
+},
+
+{
+  id: 'book-06',
+  title: 'Boron nitride nanomaterials-based adsorbents for water treatment',
+  authors: ['A.Yadav','N. Sinha'],
+  image: '', 
+  publisher: 'International Water Association Publishing',
   year: 2026,
   link: '',
   isbn: '',
@@ -351,7 +366,7 @@ export const publications = {
   featured: false
 },
    
-   {
+{
   id: 'book-04',
   title: 'Computational techniques for simulating and optimizing membrane processes for (waste)water treatment',
   authors: ['A.Yadav', 'P.K. Labhasetwar'],
@@ -411,7 +426,7 @@ export const patents = [
   {
   id: 'pat-05',
   title: 'An energy-efficient multi-stage modular membrane–crystallization system for zero liquid discharge in desalination and wastewater treatment',
-  inventors: ['A. Yadav', 'A.K. Jha', 'H. Pathak'],
+  inventors: ['A. Yadav', 'A.K. Jha', 'H. Pathak', 'V. Kumar'],
   patentNumber: 'IN2025110XXXXX',
   filingDate: '31–07–2025',
   status: 'Filed',
@@ -422,7 +437,7 @@ export const patents = [
     title: 'Multi-pass helical submerged membrane distillation module for desalination and wastewater treatment',
     inventors: ['A.Yadav', 'B. Krishna', 'Nikhil', 'P.K. Labhasetwar'],
     patentNumber: 'IN2025110XXXXX',
-    filingDate: '15–07–2025',
+    filingDate: '31–07–2025',
     status: 'Filed',
     link: 'https://ipindia.gov.in/patent-details'
   },
@@ -431,7 +446,7 @@ export const patents = [
     title: 'Twisted spacer filaments for low biofouling and scaling in the feed channel of membrane distillation',
     inventors: ['A.Yadav', 'A. Kumar', 'C.P. Singh', 'R.V. Patel'],
     patentNumber: 'IN2025110XXXXX',
-    filingDate: '15–07–2025',
+    filingDate: '31–07–2025',
     status: 'Filed',
     link: 'https://ipindia.gov.in/patent-details'
   },
