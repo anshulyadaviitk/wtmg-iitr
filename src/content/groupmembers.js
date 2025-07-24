@@ -291,7 +291,7 @@ export const mastersStudents = [
     topic: 'Aquatic Architecture for Sustainable Water Management by exploring the potential of Nature-based solutions and innovative design',
     duration: 'July 2024 – Present',
     email: 'architectharshpathak@gmail.com',
-    coSupervisor: 'N/A'
+    coSupervisor: 'Prof Tanaya Sarma, IIT Roorkee'
   },
   {
     id: 'mtech-03',
