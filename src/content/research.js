@@ -434,19 +434,19 @@ export const patents = [
 },
   {
     id: 'pat-04',
-    title: 'Multi-pass helical submerged membrane distillation module for desalination and wastewater treatment',
+    title: 'Multi-pass helical submerged membrane distillation module for treating desalination and wastewater and method thereof',
     inventors: ['A.Yadav', 'B. Krishna', 'Nikhil', 'P.K. Labhasetwar'],
     patentNumber: 'IN2025110XXXXX',
-    filingDate: '31–07–2025',
+    filingDate: '5–08–2025',
     status: 'Filed',
     link: 'https://ipindia.gov.in/patent-details'
   },
   {
     id: 'pat-03',
-    title: 'Twisted spacer filaments for low biofouling and scaling in the feed channel of membrane distillation',
+    title: 'Membrane distillation device integrated with fluid flow spacers for treating wastewater and method thereof',
     inventors: ['A.Yadav', 'A. Kumar', 'C.P. Singh', 'R.V. Patel'],
-    patentNumber: 'IN2025110XXXXX',
-    filingDate: '31–07–2025',
+    patentNumber: 'IN202511070380',
+    filingDate: '24–07–2025',
     status: 'Filed',
     link: 'https://ipindia.gov.in/patent-details'
   },
