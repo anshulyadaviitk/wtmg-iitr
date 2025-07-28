@@ -98,6 +98,36 @@ export const pi = {
   ],
   projects: [
     {
+      title: 'Development of low fouling tight ultreafiltration and loose nanofiltration membranes for the applications in fractionation and resource recovery',
+      funding: '42.12 lakhs',
+      duration: '2020-2021',
+      sponsor:'Council of Scientific & Industrial Research (CSIR)',
+      role: 'PI',
+      images:'images/logos/csir-logo.jpg',
+      description: ''
+    },  
+
+        {
+      title: 'Development of low fouling tight ultreafiltration and loose nanofiltration membranes for the applications in fractionation and resource recovery',
+      funding: '42.12 lakhs',
+      duration: '2023-2026',
+      sponsor:'Anusandhan National Research Foundation (ANRF)',
+      role: 'co-PI',
+      images:'images/logos/anrf-logo.jpg',
+      description: ''
+    },  
+    +
+    {
+      title: 'Development of low fouling tight ultreafiltration and loose nanofiltration membranes for the applications in fractionation and resource recovery',
+      funding: '42.12 lakhs',
+      duration: '2023-2026',
+      sponsor:'Anusandhan National Research Foundation (ANRF)',
+      role: 'co-PI',
+      images:'images/logos/anrf-logo.jpg',
+      description: ''
+    },    
+    
+    {
       title: 'Development of hydrophobic membranes for desalination and resource recovery using membrane distillation',
       funding: '20 lakhs',
       duration: '2025-2027',
@@ -106,6 +136,7 @@ export const pi = {
       images:'images/logos/iitr-logo-white.png',
       description: ''
     },
+   
    {
       title: 'Assessment of Environmental FIows in the Ghagra and Gomti River Basins',
       funding: '842.73 lakhs',
@@ -115,6 +146,7 @@ export const pi = {
       images:'images/logos/nmcg-logo.jpg',
       description: ''
     },    
+    
   ]
 };
 
