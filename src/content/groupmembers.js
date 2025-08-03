@@ -546,6 +546,18 @@ export const mastersStudents = [
 
 export const interns = [
 
+  {
+    id: 'intern-32',
+    type: 'intern',
+    name: 'Ms. Divyanshi',
+    photo: '/images/groupmembers/interns/divyanshi.jpg',
+    position: 'Intern',
+    College: 'Dr. Ambedkar Institute of Technology for Divyangjan',
+    topic: 'Design and development of a prototype for capacitive deionization for mineralized water treatment system',
+    duration: 'August 2025 (One months)',
+    email: 'aditi.shukla@gmail.com'
+  },
+  
     {
     id: 'intern-32',
     type: 'intern',
