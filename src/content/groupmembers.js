@@ -546,8 +546,21 @@ export const mastersStudents = [
 
 export const interns = [
 
+   
+    {
+    id: 'intern-34',
+    type: 'intern',
+    name: 'Ms. Aarushi Pathak',
+    photo: '/images/groupmembers/interns/aarushi.jpg',
+    position: 'Intern',
+    College: 'Dr. Ambedkar Institute of Technology for Divyangjan',
+    topic: 'Design and development of a prototype for capacitive deionization for mineralized water treatment system',
+    duration: 'August-October 2025 (Three months)',
+    email: 'aarushi@gmail.com'
+  },
+  
   {
-    id: 'intern-32',
+    id: 'intern-33',
     type: 'intern',
     name: 'Ms. Divyanshi',
     photo: '/images/groupmembers/interns/divyanshi.jpg',
@@ -555,7 +568,7 @@ export const interns = [
     College: 'Dr. Ambedkar Institute of Technology for Divyangjan',
     topic: 'Design and development of a prototype for capacitive deionization for mineralized water treatment system',
     duration: 'August 2025 (One months)',
-    email: 'aditi.shukla@gmail.com'
+    email: 'divyanshi@gmail.com'
   },
   
     {
