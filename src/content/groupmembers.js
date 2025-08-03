@@ -566,7 +566,7 @@ export const interns = [
     position: 'Intern',
     College: 'Dr. Ambedkar Institute of Technology for Divyangjan',
     topic: 'Design and development of a prototype for capacitive deionization for mineralized water treatment system',
-    duration: 'August 2025 (One months)',
+    duration: 'August-October 2025 (Three months)',
     email: 'aditi.shukla@gmail.com'
   },
 
