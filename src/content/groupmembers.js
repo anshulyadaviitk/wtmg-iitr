@@ -98,9 +98,9 @@ export const pi = {
   ],
   projects: [
     {
-      title: 'Development of low fouling tight ultreafiltration and loose nanofiltration membranes for the applications in fractionation and resource recovery',
-      funding: '42.12 lakhs',
-      duration: '2020-2021',
+      title: 'Design and development of indigenous Membrane Distillation unit for treating RO reject (high saline water) and producing potable water',
+      funding: '40 lakhs',
+      duration: '2020-2023',
       sponsor:'Council of Scientific & Industrial Research (CSIR)',
       role: 'PI',
       images:'images/logos/csir-logo.jpg',
@@ -108,17 +108,17 @@ export const pi = {
     },  
 
         {
-      title: 'Development of low fouling tight ultreafiltration and loose nanofiltration membranes for the applications in fractionation and resource recovery',
-      funding: '42.12 lakhs',
-      duration: '2023-2026',
-      sponsor:'Anusandhan National Research Foundation (ANRF)',
-      role: 'co-PI',
-      images:'images/logos/anrf-logo.jpg',
+      title: 'Experimental and Numerical studies of heat and mass transfer in vacuum membrane distillation process',
+      funding: '15 lakhs',
+      duration: '2019-2021',
+      sponsor:'Council of Scientific & Industrial Research (CSIR)',
+      role: 'PI',
+      images:'images/logos/csir-logo.jpg',
       description: ''
     },  
     +
     {
-      title: 'Development of low fouling tight ultreafiltration and loose nanofiltration membranes for the applications in fractionation and resource recovery',
+      title: 'Development of low fouling tight ultrafiltration and loose nanofiltration membranes for the applications in fractionation and resource recovery',
       funding: '42.12 lakhs',
       duration: '2023-2026',
       sponsor:'Anusandhan National Research Foundation (ANRF)',
@@ -126,6 +126,17 @@ export const pi = {
       images:'images/logos/anrf-logo.jpg',
       description: ''
     },    
+
+        {
+      title: 'Optimization of recovery efficiency of reverse osmosis-based point-of-use water treatment systems',
+      funding: '10 lakhs',
+      duration: '2024-2025',
+      sponsor:'Bureu of Indian Standards (BIS)',
+      role: 'PI',
+      images:'images/logos/bis-logo.png',
+      description: 'transferred when leaving CSIR'
+    },
+    
     
     {
       title: 'Development of hydrophobic membranes for desalination and resource recovery using membrane distillation',
