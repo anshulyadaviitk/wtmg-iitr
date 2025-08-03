@@ -277,7 +277,7 @@ images:[
     id: 'phd-04',
     type: 'PhD',
     name: 'Ms. Suman Supriya Sahu',
-    photo: '/images/groupmembers/internS/suman.jpg',
+    photo: '/images/groupmembers/interns/suman.jpg',
     position: 'PhD Scholar',
     peerReviewedPublications: [
   'N/A'
