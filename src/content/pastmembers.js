@@ -47,6 +47,43 @@ export const past = {
 
     // Add more mtech alumni
   ], interns: [
+
+  {
+    id: 'intern-32',
+    type: 'intern',
+    name: 'Ms.  Deevanshi Agarwal',
+    photo: '/images/groupmembers/interns/deevanshi.jpg',
+    position: 'Intern',
+    College: 'Sunder Deep college of Architecture and Planning',
+    topic: 'Integrated water architecture and urban infrastructure',
+    duration: 'July 2025 (One month)',
+    email: 'NA'
+  },
+
+   {
+    id: 'intern-31',
+    type: 'intern',
+    name: 'Mr. Anand Kumar',
+    photo: '/images/groupmembers/interns/anand.jpg',
+    position: 'Intern',
+    College: 'Sunder Deep college of Architecture and Planning',
+    topic: 'Integrated water architecture and urban infrastructure',
+    duration: 'July 2025 (One month)',
+    email: 'anand.kr1708@gmail.com'
+  },
+
+
+   {
+    id: 'intern-29',
+    type: 'intern',
+    name: 'Ms. Nancy Babel',
+    photo: '/images/groupmembers/interns/nancy.jpg',
+    position: 'Intern',
+    College: 'Indian Institute of Technology (Banaras Hindu University), Varanasi',
+    topic: 'Application of AI and ML techniques in water and wastewatewr treatment',
+    duration: 'May–July 2025 (Two months)',
+    email: 'nancybabel03@gmail.com'
+  },
     {
     id: 'intern-28',
     type: 'intern',
