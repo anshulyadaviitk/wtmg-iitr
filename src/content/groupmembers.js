@@ -260,6 +260,43 @@ images:[
       researchgate: 'XXXX',
       scholar: 'XXXX'
     }
+  },
+
+    {
+    id: 'phd-04',
+    type: 'PhD',
+    name: 'Ms. Suman Supriya Sahu',
+    photo: '/images/groupmembers/intern/suman.jpeg',
+    position: 'PhD Scholar',
+    peerReviewedPublications: [
+  'N/A'
+],
+patents: [
+  'N/A'
+],
+conferences: [
+  'N/A'
+],
+awards: [
+  'N/A'
+]
+,
+images:[
+  '/images/events/event1.jpg',
+    '/images/events/event2.jpg',
+    '/images/events/event3.jpg',
+    '/images/events/event4.jpg'
+],
+    previousDegree: "Integrated MSc in Environmental Science from Central University of Rajasthan (2024)",
+    topic: 'Development of a Solar-Powered Electrocoagulation–Membrane Hybrid System for Treatment of Agro-Based Pulp and Paper Industry Wastewater.',
+    duration: "January 2026 – Present",
+    email: 'sumansupriya274@gmail.com',
+    contact: 'XXXX',
+    links: {
+      linkedin: 'XXXX',
+      researchgate: 'XXXX',
+      scholar: 'XXXX'
+    }
   }
 ];
 
@@ -498,6 +535,29 @@ export const mastersStudents = [
 
 export const interns = [
 
+    {
+    id: 'intern-32',
+    type: 'intern',
+    name: 'Ms. Aditi Shukla',
+    photo: '/images/groupmembers/interns/aditi.jpg',
+    position: 'Intern',
+    College: 'Dr. Ambedkar Institute of Technology for Divyangjan',
+    topic: 'Design and development of a prototype for capacitive deionization for mineralized water treatment system',
+    duration: 'August 2025 (One months)',
+    email: 'aditi.shukla@gmail.com'
+  },
+
+    {
+    id: 'intern-31',
+    type: 'intern',
+    name: 'Ms. Namrata Kushwaha',
+    photo: '/images/groupmembers/interns/namrata.jpg',
+    position: 'Intern',
+    College: 'Dr. Ambedkar Institute of Technology for Divyangjan',
+    topic: 'Design and development of a prototype for capacitive deionization for mineralized water treatment system',
+    duration: 'August 2025 (One months)',
+    email: 'namrata@gmail.com'
+  },
   
   {
     id: 'intern-30',
