@@ -103,7 +103,7 @@ export const pi = {
       duration: '2020-2023',
       sponsor:'Council of Scientific & Industrial Research (CSIR)',
       role: 'PI',
-      images:'images/logos/csir-logo.jpg',
+      images:'images/logos/csir-logo.png',
       description: ''
     },  
 
@@ -113,7 +113,7 @@ export const pi = {
       duration: '2019-2021',
       sponsor:'Council of Scientific & Industrial Research (CSIR)',
       role: 'PI',
-      images:'images/logos/csir-logo.jpg',
+      images:'images/logos/csir-logo.png',
       description: ''
     },  
     
@@ -123,7 +123,7 @@ export const pi = {
       duration: '2023-2026',
       sponsor:'Anusandhan National Research Foundation (ANRF)',
       role: 'co-PI',
-      images:'images/logos/anrf-logo.jpg',
+      images:'images/logos/anrf-logo.webp',
       description: ''
     },    
 
@@ -133,7 +133,7 @@ export const pi = {
       duration: '2024-2025',
       sponsor:'Bureu of Indian Standards (BIS)',
       role: 'PI',
-      images:'images/logos/bis-logo.png',
+      images:'images/logos/bis-logo.svg',
       description: 'transferred when leaving CSIR'
     },
     
