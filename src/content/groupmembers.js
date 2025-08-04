@@ -289,7 +289,7 @@ conferences: [
   'N/A'
 ],
 awards: [
-  'N/A'
+  'UGC NET JRF 2025'
 ]
 ,
 images:[
