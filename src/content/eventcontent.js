@@ -2,10 +2,10 @@ export const events = {
   upcoming: [
     {
       title: "Fundamentals of CFD Modelling for Water and Wastewater Treatment using ANSYS",
-      date: "04–06 August, 2025",
+      date: "21–22 August, 2025",
       time: "9:00 AM - 5:00 PM",
-      location: "Virtual/Computer Lab 3, Engineering Building",
-      description: "A comprehensive 3-day workshop focusing on computational fluid dynamics applications in environmental engineering using ANSYS. Participants will gain hands-on experience with real-world case studies.",
+      location: "Seminar Hall, WRDM, IIT Roorkee",
+      description: "A comprehensive 2-day workshop focusing on computational fluid dynamics applications in environmental engineering using ANSYS. Participants will gain hands-on experience with real-world case studies.",
       image: "/images/events/Poster.jpg",
       registerLink: "/register/cfd-ansys-2025",
       speakers: [
