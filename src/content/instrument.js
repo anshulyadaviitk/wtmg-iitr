@@ -5,11 +5,6 @@ export const instruments = [
   //   link: 'https://www.porometer.com/products/porolux-revo/',
   // },
   // {
-  //   name: 'Krüss Drop Shape Analyzer',
-  //   image: '/images/instruments/inst-2.jpg',
-  //   link: 'https://www.kruss-scientific.com/en/products/drop-shape-analyzers/',
-  // },
-  // {
   //   name: 'Vacuum Plasma System',
   //   image: '/images/instruments/inst-3.jpg',
   //   link: 'https://en.wikipedia.org/wiki/Plasma_cleaner',
@@ -75,9 +70,9 @@ export const instruments = [
     link: 'https://var-tech.com/products/dc-power-supply-single-op-model-3005-b',
   },
   {
-    name: 'Drop Shape Analyzer (WCA)',
+    name: 'Water contact angle meter',
     image: '/images/instruments/inst-16.PNG',
-    link: 'https://www.kruss-scientific.com/en/products/drop-shape-analyzers/',
+    link: 'https://www.biolinscientific.com/attension/optical-tensiometers/theta-lite',
   },
   {
     name: 'Viscometer',
@@ -93,6 +88,11 @@ export const instruments = [
     name: 'Electrospinning Unit',
     image: '/images/instruments/inst-4.PNG',
     link: 'https://en.wikipedia.org/wiki/Electrospinning',
+  },
+  {
+    name: 'Tubular Furnace',
+    image: '/images/instruments/inst-20.PNG',
+    link: 'https://www.industrybuying.com/muffle-furnace-nsaw-LAB.FUR.69140363',
   },
   {
     name: 'Muffle Furnace',
