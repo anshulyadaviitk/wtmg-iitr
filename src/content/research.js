@@ -2,7 +2,7 @@
 export const publications = {
   journalArticles: [
     {
-      id: 'pub-01',
+      id: 'pub-18',
       type: 'journal',
       title: 'Advances in membrane distillation for wastewater treatment: Innovations, challenges, and sustainable opportunities',
       authors: ['R.V.Patel', 'A.Yadav', 'V.K.Shahi'], 
@@ -19,7 +19,7 @@ export const publications = {
       featured: true
     },
     {
-      id: 'pub-02',
+      id: 'pub-17',
       type: 'journal',
       title: 'Chemical grafting of hydrophobic functional groups on polyvinylidene fluoride side chain for vacuum membrane distillation applications',
       authors: ['R.V.Patel', 'S.Chaubey', 'A.Yadav', 'V.K.Shahi'],
@@ -36,7 +36,7 @@ export const publications = {
       featured: true
     },
     {
-      id: 'pub-03',
+      id: 'pub-16',
       type: 'journal',
       title: 'Carbon chain grafted polyvinylidene fluoride membranes for textile water remediation: Experimental and computational studies',
       authors: ['R.V.Patel', 'S.Chaubey', 'A.Yadav', 'B.G.Vyas', 'V.K.Shahi'],
@@ -53,7 +53,7 @@ export const publications = {
       featured: true
     },
     {
-      id: 'pub-05',
+      id: 'pub-15',
       type: 'journal',
       title: 'Adsorptive removal of norfloxacin from water using polyvinylidene fluoride-boron nitride nanosheets mixed matrix membrane: Insights from experiments and molecular dynamics simulation',
       authors: ['P.Awasthi', 'A.Yadav', 'N.Sinha'],
@@ -70,7 +70,7 @@ export const publications = {
       featured: false
     },
     {
-      id: 'pub-06',
+      id: 'pub-14',
       type: 'journal',
       title: 'Side-chain grafted functional groups poly(vinylidene fluoride-hexafluoropropylene) anti-fouling fluorinated polymer membrane with tuneable hydrophobicity for distillation',
       authors: ['A.Yadav', 'K.Singh', 'V.K.Shahi'],
@@ -87,7 +87,7 @@ export const publications = {
       featured: true
     },
     {
-      id: 'pub-07',
+      id: 'pub-13',
       type: 'journal',
       title: 'Investigations on the effect of spacer in direct contact and air gap membrane distillation using computational fluid dynamics',
       authors: ['A.Yadav', 'C.P.Singh', 'R.V.Patel', 'A.Kumar', 'P.K.Labhasetwar'],
@@ -104,7 +104,7 @@ export const publications = {
       featured: false
     },
     {
-      id: 'pub-08',
+      id: 'pub-12',
       type: 'journal',
       title: 'Hexagonal boron nitride nanosheets incorporated photocatalytic polyvinylidene fluoride mixed matrix membranes for textile wastewater treatment via vacuum-assisted distillation',
       authors: ['A.Yadav', 'R.V.Patel', 'P.Awasthi', 'N.Sinha', 'P.K.Labhasetwar'],
@@ -121,7 +121,7 @@ export const publications = {
       featured: false
     },
     {
-      id: 'pub-09',
+      id: 'pub-11',
       type: 'journal',
       title: 'Recovery of CaSO4 and NaCl from sub-soil brine using CNT@MOF5 incorporated poly(vinylidene fluoride-hexafluoropropylene) membranes via vacuum-assisted distillation',
       authors: ['A.Yadav', 'R.V.Patel', 'B.G.Vyas', 'P.K.Labhasetwar', 'V.K.Shahi'],
@@ -155,7 +155,7 @@ export const publications = {
       featured: false
     },
     {
-      id: 'pub-11',
+      id: 'pub-09',
       type: 'journal',
       title: 'Structural tailoring of ceria nanoparticles for fabricating fouling resistant nanocomposite membranes with high flux distillation',
       authors: ['A.Yadav', 'J.R.Mandal', 'A.B.Panda', 'V.K.Shahi'],
@@ -172,7 +172,7 @@ export const publications = {
       featured: false
     },
     {
-      id: 'pub-12',
+      id: 'pub-08',
       type: 'journal',
       title: 'Computational fluid dynamics based numerical simulations of heat transfer, fluid flow and mass transfer in vacuum membrane distillation process',
       authors: ['A.Yadav', 'C.P.Singh', 'R.V.Patel', 'P.K.Labhasetwar', 'V.K.Shahi'],
@@ -189,7 +189,7 @@ export const publications = {
       featured: false
     },
     {
-      id: 'pub-13',
+      id: 'pub-07',
       type: 'journal',
       title: 'Membrane distillation crystallization technology for zero liquid discharge and resource recovery: Opportunities, challenges and futuristic perspectives',
       authors: ['A.Yadav', 'P.K.Labhasetwar', 'V.K.Shahi'],
@@ -206,7 +206,7 @@ export const publications = {
       featured: true
     },
     {
-      id: 'pub-14',
+      id: 'pub-06',
       type: 'journal',
       title: 'Membrane distillation crystallization for simultaneous recovery of water and salt from tannery industry wastewater using TiO2 modified poly(vinylidene fluoride-co-hexafluoropropylene) nanocomposite membranes',
       authors: ['A.Yadav', 'K.Singh', 'A.B.Panda', 'P.K.Labhasetwar', 'V.K.Shahi'],
@@ -223,7 +223,7 @@ export const publications = {
       featured: true
     },
     {
-      id: 'pub-15',
+      id: 'pub-05',
       type: 'journal',
       title: 'Novel MIL101(Fe) impregnated poly(vinylidene fluoride-co-hexafluoropropylene) mixed matrix membranes for dye removal from textile industry wastewater',
       authors: ['A.Yadav', 'R.V.Patel', 'P.K.Labhasetwar', 'V.K.Shahi'],
@@ -240,7 +240,7 @@ export const publications = {
       featured: false
     },
     {
-      id: 'pub-16',
+      id: 'pub-04',
       type: 'journal',
       title: 'CNT functionalized ZIF-8 impregnated poly(vinylidene fluoride-co-hexafluoropropylene) mixed matrix membranes for antibiotics removal from pharmaceutical industry wastewater by vacuum membrane distillation',
       authors: ['A.Yadav', 'P.Yadav', 'P.K.Labhasetwar', 'V.K.Shahi'],
@@ -257,7 +257,7 @@ export const publications = {
       featured: false
     },
     {
-      id: 'pub-17',
+      id: 'pub-03',
       type: 'journal',
       title: 'Photocatalytic TiO2 incorporated PVDF-co-HFP UV-cleaning mixed matrix membranes for effective removal of dyes from synthetic wastewater system via membrane distillation',
       authors: ['A.Yadav', 'P.Sharma', 'A.B.Panda', 'V.K.Shahi'],
@@ -274,7 +274,7 @@ export const publications = {
       featured: false
     },
     {
-      id: 'pub-18',
+      id: 'pub-02',
       type: 'journal',
       title: 'Membrane distillation using low-grade energy for desalination: A review',
       authors: ['A.Yadav', 'P.K.Labhasetwar', 'V.K.Shahi'],
@@ -291,7 +291,7 @@ export const publications = {
       featured: true
     },
     {
-      id: 'pub-19',
+      id: 'pub-01',
       type: 'journal',
       title: 'Fabrication and optimization of tunable pore size poly(ethylene glycol) modified poly(vinylidene-co-hexafluoropropylene) membranes in vacuum membrane distillation for desalination',
       authors: ['A.Yadav', 'P.K.Labhasetwar', 'V.K.Shahi'],
