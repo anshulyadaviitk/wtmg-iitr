@@ -546,21 +546,20 @@ export const mastersStudents = [
 
 export const interns = [
 
-   
-    {
-    id: 'intern-34',
+{
+    id: 'intern-35',
     type: 'intern',
-    name: 'Ms. Aarushi Pathak',
-    photo: '/images/groupmembers/interns/aarushi.jpg',
+    name: 'Ms. Namrata Kushwaha',
+    photo: '/images/groupmembers/interns/namrata.jpg',
     position: 'Intern',
     College: 'Dr. Ambedkar Institute of Technology for Divyangjan',
     topic: 'Design and development of a prototype for capacitive deionization for mineralized water treatment system',
-    duration: 'August-October 2025 (Three months)',
-    email: 'aarushi@gmail.com'
+    duration: 'August 2025 (One month)',
+    email: 'namratakushwaha52@gmail.com'
   },
   
   {
-    id: 'intern-33',
+    id: 'intern-34',
     type: 'intern',
     name: 'Ms. Divyanshi',
     photo: '/images/groupmembers/interns/divyanshi.jpg',
@@ -572,7 +571,7 @@ export const interns = [
   },
   
     {
-    id: 'intern-32',
+    id: 'intern-33',
     type: 'intern',
     name: 'Ms. Aditi Shukla',
     photo: '/images/groupmembers/interns/aditi.jpg',
@@ -583,16 +582,28 @@ export const interns = [
     email: 'aditi.shukla@gmail.com'
   },
 
-    {
+      {
+    id: 'intern-32',
+    type: 'intern',
+    name: 'Mr. Ayush Tiwari',
+    photo: '/images/groupmembers/interns/ayush.jpg',
+    position: 'Intern',
+    College: 'Dr. Ambedkar Institute of Technology for Divyangjan',
+    topic: 'Remote sensing GIS',
+    duration: 'August-October 2025 (Three months)',
+    email: 'ayush@gmail.com'
+  },
+
+{
     id: 'intern-31',
     type: 'intern',
-    name: 'Ms. Namrata Kushwaha',
-    photo: '/images/groupmembers/interns/namrata.jpg',
+    name: 'Ms. Aarushi Pathak',
+    photo: '/images/groupmembers/interns/aarushi.jpg',
     position: 'Intern',
     College: 'Dr. Ambedkar Institute of Technology for Divyangjan',
     topic: 'Design and development of a prototype for capacitive deionization for mineralized water treatment system',
-    duration: 'August 2025 (One months)',
-    email: 'namrata@gmail.com'
+    duration: 'August-October 2025 (Three months)',
+    email: 'aarushi@gmail.com'
   },
   
   {
