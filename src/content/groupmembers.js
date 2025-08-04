@@ -107,7 +107,7 @@ export const pi = {
       description: ''
     },  
 
-        {
+  {
       title: 'Experimental and Numerical studies of heat and mass transfer in vacuum membrane distillation process',
       funding: '15 lakhs',
       duration: '2019-2021',
@@ -116,7 +116,7 @@ export const pi = {
       images:'images/logos/csir-logo.jpg',
       description: ''
     },  
-    +
+    
     {
       title: 'Development of low fouling tight ultrafiltration and loose nanofiltration membranes for the applications in fractionation and resource recovery',
       funding: '42.12 lakhs',
