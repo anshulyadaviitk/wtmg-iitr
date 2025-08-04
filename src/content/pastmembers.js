@@ -52,11 +52,11 @@ export const past = {
     id: 'intern-32',
     type: 'intern',
     name: 'Ms.  Deevanshi Agarwal',
-    photo: '/images/groupmembers/interns/deevanshi.jpg',
-    position: 'Intern',
     College: 'Sunder Deep college of Architecture and Planning',
-    topic: 'Integrated water architecture and urban infrastructure',
+    photo: '/images/groupmembers/interns/deevanshi.jpg',
     duration: 'July 2025 (One month)',
+    topic: 'Integrated water architecture and urban infrastructure',
+    
     email: 'NA'
   },
 
@@ -64,68 +64,62 @@ export const past = {
     id: 'intern-31',
     type: 'intern',
     name: 'Mr. Anand Kumar',
-    photo: '/images/groupmembers/interns/anand.jpg',
-    position: 'Intern',
     College: 'Sunder Deep college of Architecture and Planning',
-    topic: 'Integrated water architecture and urban infrastructure',
+    photo: '/images/groupmembers/interns/anand.jpg',
     duration: 'July 2025 (One month)',
+    topic: 'Integrated water architecture and urban infrastructure',
+
     email: 'anand.kr1708@gmail.com'
   },
-
 
    {
     id: 'intern-29',
     type: 'intern',
     name: 'Ms. Nancy Babel',
-    photo: '/images/groupmembers/interns/nancy.jpg',
-    position: 'Intern',
     College: 'Indian Institute of Technology (Banaras Hindu University), Varanasi',
-    topic: 'Application of AI and ML techniques in water and wastewatewr treatment',
+    photo: '/images/groupmembers/interns/nancy.jpg',
     duration: 'May–July 2025 (Two months)',
+    topic: 'Application of AI and ML techniques in water and wastewatewr treatment',
     email: 'nancybabel03@gmail.com'
   },
     {
     id: 'intern-28',
     type: 'intern',
     name: 'Mr. Adnan Hamid',
-    photo: '/images/groupmembers/interns/adnan.jpg',
-    position: 'Intern',
     College: 'Aligarh Muslim University',
-    topic: 'Development of a   Functionalized Polymer Membrane for Efficient Wastewater Remediation',
+    photo: '/images/groupmembers/interns/adnan.jpg',
     duration: 'June–July 2025 (Two months)',
+    topic: 'Development of a   Functionalized Polymer Membrane for Efficient Wastewater Remediation',
     email: 'ah4685639@gmail.com'
   },
   {
     id: 'intern-27',
-    type: 'intern',
+    type: 'Intern (SPARK Program, IIT Roorkee)',
     name: 'Mr. Adarsh Kumar Jha',
-    photo: '/images/groupmembers/interns/adarsh.jpeg',
-    position: 'Intern (SPARK Program, IIT Roorkee)',
     College: 'Indian Institute of Technology (Banaras Hindu University), Varanasi',
-    topic: 'Design and development of a prototype for zero liquid discharge wastewater treatment system',
+    photo: '/images/groupmembers/interns/adarsh.jpeg',
     duration: 'May–June 2025 (Two months)',
+    topic: 'Design and development of a prototype for zero liquid discharge wastewater treatment system',
     email: 'adarshkr.jha.mst22@itbhu.ac.in'
   },
   {
     id: 'intern-26',
     type: 'intern',
     name: 'Mr. Raj Keshari',
-    photo: '/images/groupmembers/interns/raj.jpeg',
-    position: 'Intern',
     College: 'Indian Institute of Engineering Science and Technology, Shibpur',
-    topic: 'Artificial Intelligence-Based Modeling and Optimization of Adsorption Processes for Water and Wastewater Treatment',
+    photo: '/images/groupmembers/interns/raj.jpeg',
     duration: 'May–June 2025 (Two months)',
+    topic: 'Artificial Intelligence-Based Modeling and Optimization of Adsorption Processes for Water and Wastewater Treatment',
     email: 'r2436533@gmail.com'
   },
   {
     id: 'intern-25',
     type: 'intern',
     name: 'Ms. Sanchita Garai',
-    photo: '/images/groupmembers/interns/sanchita.jpeg',
-    position: 'Intern',
     College: 'Indian Institute of Engineering Science and Technology, Shibpur',
-    topic: 'Computational fluid dynamics simulations of direct contact membrane distillation for desalination applications',
+    photo: '/images/groupmembers/interns/sanchita.jpeg',
     duration: 'May–June 2025 (Two months)',
+    topic: 'Computational fluid dynamics simulations of direct contact membrane distillation for desalination applications',
     email: '2022ceb024.sanchita@students.iiests.ac.in'
   },
   {
