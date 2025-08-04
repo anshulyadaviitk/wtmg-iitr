@@ -379,7 +379,9 @@ export const publications = {
   doi: '',
   featured: false
 },
-{ id: 'book-03',
+   
+{ 
+  id: 'book-03',
    title: 'Applications of two-dimensional nanomaterials for water and wastewater treatment',
    authors: ['A.Yadav', 'R. Yadav', 'P.K. Labhasetwar'],
    image: '/images/research/books/book3.jpg',
@@ -423,21 +425,32 @@ export const publications = {
 };
 
 export const patents = [
+ 
+  {
+  id: 'pat-06',
+  title: 'Dual-Channel Flow Electrodes Configuration for Simultaneous Desalination and Electrode Regeneration',
+  inventors: ['A. Yadav', 'S.S. Sahu'],
+  patentNumber: 'IN2025110XXXXX',
+  filingDate: '31–10–2025',
+  status: 'Under preparation',
+  link: 'https://ipindia.gov.in/patent-details'
+  },
+  
   {
   id: 'pat-05',
   title: 'An energy-efficient multi-stage modular membrane–crystallization system for zero liquid discharge in desalination and wastewater treatment',
   inventors: ['A. Yadav', 'A.K. Jha', 'H. Pathak', 'V. Kumar'],
   patentNumber: 'IN2025110XXXXX',
   filingDate: '31–07–2025',
-  status: 'Filed',
+  status: 'Under preparation',
   link: 'https://ipindia.gov.in/patent-details'
 },
   {
     id: 'pat-04',
     title: 'Multi-pass helical submerged membrane distillation module for treating desalination and wastewater and method thereof',
     inventors: ['A.Yadav', 'B. Krishna', 'Nikhil', 'P.K. Labhasetwar'],
-    patentNumber: 'IN2025110XXXXX',
-    filingDate: '5–08–2025',
+    patentNumber: 'IN202511070980',
+    filingDate: '15–08–2025',
     status: 'Filed',
     link: 'https://ipindia.gov.in/patent-details'
   },
