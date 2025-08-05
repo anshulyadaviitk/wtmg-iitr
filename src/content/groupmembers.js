@@ -562,7 +562,7 @@ export const interns = [
     id: 'intern-34',
     type: 'intern',
     name: 'Ms. Divyanshi',
-    photo: '/images/groupmembers/interns/divyanshi.jpg',
+    photo: '/images/pastmembers/interns/divyanshi.jpg',
     position: 'Intern',
     College: 'Dr. Ambedkar Institute of Technology for Divyangjan',
     topic: 'Design and development of a prototype for capacitive deionization for mineralized water treatment system',
