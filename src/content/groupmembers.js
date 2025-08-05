@@ -566,7 +566,7 @@ export const interns = [
     position: 'Intern',
     College: 'Dr. Ambedkar Institute of Technology for Divyangjan',
     topic: 'Design and development of a prototype for capacitive deionization for mineralized water treatment system',
-    duration: 'August 2025 (One months)',
+    duration: 'August 2025 (One month)',
     email: 'divyanshigtm123@gmail.com'
   },
   
@@ -578,11 +578,11 @@ export const interns = [
     position: 'Intern',
     College: 'Dr. Ambedkar Institute of Technology for Divyangjan',
     topic: 'Design and development of a prototype for capacitive deionization for mineralized water treatment system',
-    duration: 'August-October 2025 (Three months)',
-    email: 'aditi.shukla@gmail.com'
+    duration: 'August 2025 (One month)',
+    email: 'aditishukla790@gmail.com'
   },
 
-      {
+  {
     id: 'intern-32',
     type: 'intern',
     name: 'Mr. Ayush Tiwari',
@@ -590,11 +590,11 @@ export const interns = [
     position: 'Intern',
     College: 'Dr. Ambedkar Institute of Technology for Divyangjan',
     topic: 'Remote sensing GIS',
-    duration: 'August-October 2025 (Three months)',
-    email: 'ayush@gmail.com'
+    duration: 'August 2025 (One month)',
+    email: 'ayushtiwari1062@gmail.com'
   },
 
-{
+  {
     id: 'intern-31',
     type: 'intern',
     name: 'Ms. Aarushi Pathak',
@@ -602,8 +602,8 @@ export const interns = [
     position: 'Intern',
     College: 'Dr. Ambedkar Institute of Technology for Divyangjan',
     topic: 'Design and development of a prototype for capacitive deionization for mineralized water treatment system',
-    duration: 'August-October 2025 (Three months)',
-    email: 'aarushi@gmail.com'
+    duration: 'August 2025 (One month)',
+    email: 'aarushipathak1705@gmail.com'
   },
   
   {
@@ -619,4 +619,3 @@ export const interns = [
   },
  
 ];
-
