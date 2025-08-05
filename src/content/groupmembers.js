@@ -189,7 +189,7 @@ images:[
     '/images/events/event4.jpg'
 ],
    previousDegree: "Master of Technology from National Institute of Technology Jalandhar (2020)\nBachelor of Technology from Uttar Pradesh Technical University (2016)",
-    topic: 'Development of Membrane Materials for Enhanced Electrodialysis Performance in Water and Wastewater Treatment',
+    topic: '',
     duration: 'January 2025 – Present',
     email: '',
     contact: '',
@@ -261,7 +261,7 @@ images:[
     '/images/events/event4.jpg'
 ],
     previousDegree: "Master of Technology (M.Tech) degree from the Indian Institute of Technology, Guwahati (2024)\nBachelor of Technology from Uttarakhand Technical University, Dehradun (2020)",
-    topic: 'Development of a Solar-Powered Electrocoagulation–Membrane Hybrid System for Treatment of Agro-Based Pulp and Paper Industry Wastewater.',
+    topic: 'Multifunctional Ultrafiltration Membranes for Simultaneous Removal of Pathogens, Heavy Metals, and Organic Micropollutants: Synthesis, Characterization, and Application.',
     duration: "July 2025 – Present",
     email: 'vineetmunda12@gmail.com',
     contact: 'XXXX',
@@ -536,7 +536,7 @@ export const mastersStudents = [
       '/images/events/event4.jpg'
     ],
     previousDegree: 'Bachelor degree in water resources and irrigation engineering',
-    topic: 'Designing of low cost and efficient wastewater treatment technologies for small town',
+    topic: 'Design, Development, and Performance Evaluation of a Passive Tablet-Based Chlorination Device for Decentralized Water Disinfection',
     duration: 'July 2024 – Present',
     email: 'prisca_jm@wr.iitr.ac.in',
     coSupervisor: ''
