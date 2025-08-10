@@ -427,7 +427,7 @@ export const publications = {
 export const patents = [
  
   {
-  id: 'pat-06',
+  id: 'pat-07',
   title: 'Dual-Channel Flow Electrodes Configuration for Simultaneous Desalination and Electrode Regeneration',
   inventors: ['A. Yadav', 'S.S. Sahu'],
   patentNumber: 'IN2025110XXXXX',
@@ -437,17 +437,28 @@ export const patents = [
   },
   
   {
-  id: 'pat-05',
+  id: 'pat-06',
   title: 'An energy-efficient multi-stage modular membrane–crystallization system for zero liquid discharge in desalination and wastewater treatment',
   inventors: ['A. Yadav', 'A.K. Jha', 'H. Pathak', 'V. Kumar'],
   patentNumber: 'IN2025110XXXXX',
   filingDate: '31–07–2025',
   status: 'Under preparation',
   link: 'https://ipindia.gov.in/patent-details'
-},
+  },
+
+  {
+    id: 'pat-05',
+    title: 'System and Method for Predicting Unmeasured Water Quality Parameters Using Partial Physical Sensing and Machine Learning',
+    inventors: ['A.Yadav', 'E. Padhi', 'Y. Aragonda'],
+    patentNumber: 'IN202511080121',
+    filingDate: '30–09–2025',
+    status: 'Under preparation',
+    link: 'https://ipindia.gov.in/patent-details'
+  },
+  
   {
     id: 'pat-04',
-    title: 'Multi-pass helical submerged membrane distillation module for treating desalination and wastewater and method thereof',
+    title: 'Multi-pass helical submerged membrane distillation device for treating wastewater and method thereof',
     inventors: ['A.Yadav', 'B. Krishna', 'Nikhil', 'P.K. Labhasetwar'],
     patentNumber: 'IN202511070980',
     filingDate: '15–08–2025',
