@@ -161,6 +161,45 @@ export const pi = {
   ]
 };
 
+export const postdoc = [
+  {
+    id: 'postdoc-01',
+    type: 'PhD',
+    name: 'Mr. Nikhil',
+    photo: '/images/groupmembers/phd/nikhil.jpeg',
+    position: 'Postdoctoral Researcher',
+    peerReviewedPublications: [
+ 
+],
+patents: [
+  'N/A'
+],
+conferences: [
+  'N/A'
+],
+awards: [
+  'N/A'
+]
+,
+images:[
+  '/images/events/event1.jpg',
+    '/images/events/event2.jpg',
+    '/images/events/event3.jpg',
+    '/images/events/event4.jpg'
+],
+   previousDegree: "Master of Technology from National Institute of Technology Jalandhar (2020)\nBachelor of Technology from Uttar Pradesh Technical University (2016)",
+    topic: 'Development of Membrane Materials for Enhanced Electrodialysis Performance in Water and Wastewater Treatment',
+    duration: 'January 2025 – Present',
+    email: '',
+    contact: '',
+    coSupervisor: 'Dr. Prasanta K. Sahoo, National Institute of Hydrology, Roorkee',
+    links: {
+      linkedin: 'XXXX',
+      researchgate: 'XXXX',
+      scholar: 'XXXX'
+    }
+  },
+];
 
 export const phdScholars = [
   {
@@ -543,6 +582,44 @@ export const mastersStudents = [
   }
 ];
 
+export const project_student = [
+   {
+    id: 'project-04',
+    type: 'PhD',
+    name: 'Ms. Suman Supriya Sahu',
+    photo: '/images/groupmembers/interns/suman.jpg',
+    position: 'PhD Scholar',
+    peerReviewedPublications: [
+  'N/A'
+],
+patents: [
+  'N/A'
+],
+conferences: [
+  'N/A'
+],
+awards: [
+  'UGC NET JRF 2025'
+]
+,
+images:[
+  '/images/events/event1.jpg',
+    '/images/events/event2.jpg',
+    '/images/events/event3.jpg',
+    '/images/events/event4.jpg'
+],
+    previousDegree: "Integrated MSc in Environmental Science from Central University of Rajasthan (2024)",
+    topic: 'Development of a Solar-Powered Electrocoagulation–Membrane Hybrid System for Treatment of Agro-Based Pulp and Paper Industry Wastewater.',
+    duration: "January 2026 – Present",
+    email: 'sumansupriya274@gmail.com',
+    contact: 'XXXX',
+    links: {
+      linkedin: 'XXXX',
+      researchgate: 'XXXX',
+      scholar: 'XXXX'
+    }
+  }
+];
 
 export const interns = [
 
