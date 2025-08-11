@@ -283,41 +283,72 @@ export default function DrAnshulYadav() {
 
             {/* Content */}
             <div className="flex-1">
-              <div className="flex justify-between items-start mb-1">
-                <h3 className="text-base font-semibold text-gray-900 leading-snug">
-                  {project.title}
-                </h3>
-                <span className="text-xs font-medium bg-blue-100 text-blue-700 px-2 py-0.5 rounded-full ml-3">
-                  Ongoing
-                </span>
-              </div>
+  <div className="flex justify-between items-start mb-1">
+    <h3 className="text-base font-semibold text-gray-900 leading-snug">
+      {project.title}
+    </h3>
 
-              {/* Metadata */}
-              <p className="text-xs text-gray-500">
-                <span className="font-medium">Sponsoring Agency:</span> {project.sponsor}
-              </p>
-                <p className="text-xs text-gray-500">
-                <span className="font-medium">Role:</span> {project.role}
-              </p>
-              <p className="text-xs text-gray-500">
-                <span className="font-medium">Budget:</span> {project.funding}
-              </p>
-              <p className="text-xs text-gray-500">
-                <span className="font-medium">Duration:</span> {project.duration}
-              </p>
+    {/* Show "Ongoing" or "Completed" based on duration */}
+    {(() => {
+      const currentYear = new Date().getFullYear();
+      let endYear = null;
 
-              {/* Description */}
-              <p className="mt-2 text-sm text-gray-600 line-clamp-3">
-                {project.description}
-              </p>
-                {/* View Details Link */}
-          <a 
-  href="#" 
-  className="text-sm text-blue-600 hover:text-blue-800 font-medium ml-auto block"
->
-  View details →
-</a>
-            </div>
+      // Match formats like "2022–2025", "2023-24", "2021 to 2026"
+      const match = project.duration.match(/(\d{4})\D+(\d{2,4})/);
+      if (match) {
+        const parsedEnd =
+          match[2].length === 2
+            ? parseInt(match[1].slice(0, 2) + match[2], 10) // Convert "24" → "2024"
+            : parseInt(match[2], 10);
+        endYear = parsedEnd;
+      }
+
+      if (endYear) {
+        if (endYear >= currentYear) {
+          return (
+            <span className="text-xs font-medium bg-blue-100 text-blue-700 px-2 py-0.5 rounded-full ml-3">
+              Ongoing
+            </span>
+          );
+        } else {
+          return (
+            <span className="text-xs font-medium bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full ml-3">
+              Completed
+            </span>
+          );
+        }
+      }
+      return null;
+    })()}
+  </div>
+
+  {/* Metadata */}
+  <p className="text-xs text-gray-500">
+    <span className="font-medium">Sponsoring Agency:</span> {project.sponsor}
+  </p>
+  <p className="text-xs text-gray-500">
+    <span className="font-medium">Role:</span> {project.role}
+  </p>
+  <p className="text-xs text-gray-500">
+    <span className="font-medium">Budget:</span> {project.funding}
+  </p>
+  <p className="text-xs text-gray-500">
+    <span className="font-medium">Duration:</span> {project.duration}
+  </p>
+
+  {/* Description */}
+  <p className="mt-2 text-sm text-gray-600 line-clamp-3">
+    {project.description}
+  </p>
+
+  {/* View Details Link */}
+  <a
+    href="#"
+    className="text-sm text-blue-600 hover:text-blue-800 font-medium ml-auto block"
+  >
+    View details →
+  </a>
+</div>
           </div>
         </div>
       ))}
