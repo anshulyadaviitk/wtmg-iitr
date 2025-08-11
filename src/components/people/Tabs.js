@@ -6,8 +6,10 @@ export default function PeopleTabs() {
   
   const tabs = [
   /*  { name: 'Principal Investigator', path: '/people/PI' },*/
+  { name: 'PostDoc', path: '/people/postdoc' },
     { name: 'PhD Scholars', path: '/people/phd' },
     { name: 'Master Students', path: '/people/masters' },
+    { name: 'Project Students', path: '/people/project_student' }, 
     { name: 'Interns', path: '/people/interns' },
   ];
 
