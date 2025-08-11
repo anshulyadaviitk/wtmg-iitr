@@ -61,6 +61,11 @@ export default function PersonCard({ person, className = '' }) {
             <span className="font-medium">Nationality:</span> {person.nationality}
           </p>
         )}
+{person.funding && (
+          <p className="text-sm mt-1">
+            <span className="font-medium">Funding:</span> {person.funding}
+          </p>
+        )}
         {person.coSupervisor && (
           <p className="text-sm mt-1">
             <span className="font-medium">Co-Supervisor:</span> {person.coSupervisor}
