@@ -17,7 +17,7 @@ export default function PhdPage() {
         
         <SectionTitle
           title="Project Students"
-          subtitle="Current doctoral candidates in our group"
+          subtitle="Current project candidates in our group"
           className="mb-8"
         />
 
@@ -35,4 +35,5 @@ export default function PhdPage() {
       </div>
     </Layout>
   );
+
 }
