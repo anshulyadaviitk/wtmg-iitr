@@ -208,6 +208,7 @@ export const phdScholars = [
     name: 'Mr. Nikhil',
     photo: '/images/groupmembers/phd/nikhil.jpeg',
     position: 'PhD Scholar',
+    funding:'N/A',
     peerReviewedPublications: [
  
 ],
@@ -244,6 +245,7 @@ images:[
     name: 'Mr. Yaswanth Aragonda',
     photo: '/images/groupmembers/phd/yaswanth.jpeg',
     position: 'PhD Scholar',
+    funding:'N/A',
     peerReviewedPublications: [
 ],
 patents: [
@@ -280,6 +282,7 @@ images:[
     name: 'Mr. Vineet Kumar',
     photo: '/images/groupmembers/phd/vineet.jpeg',
     position: 'PhD Scholar',
+    funding:'N/A',
     peerReviewedPublications: [
   'N/A'
 ],
