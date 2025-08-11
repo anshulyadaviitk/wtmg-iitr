@@ -322,6 +322,7 @@ images:[
     name: 'Ms. Suman Supriya Sahu',
     photo: '/images/groupmembers/interns/suman.jpg',
     position: 'PhD Scholar',
+    funding:'N/A',
     peerReviewedPublications: [
   'N/A'
 ],
@@ -593,6 +594,7 @@ export const project_student = [
     name: 'Ms. Suman Supriya Sahu',
     photo: '/images/groupmembers/interns/suman.jpg',
     position: 'Research Assistant',
+      funding:'N/A',
     peerReviewedPublications: [
   'N/A'
 ],
