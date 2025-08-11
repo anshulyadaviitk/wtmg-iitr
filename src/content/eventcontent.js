@@ -1,7 +1,7 @@
 export const events = {
   upcoming: [
     {
-      title: "Fundamentals of CFD Modelling for Water and Wastewater Treatment using ANSYS",
+      title: "Simulation-Driven Design for Water & Wastewater Treatment Processes",
       date: "21–22 August, 2025",
       time: "9:00 AM - 5:00 PM",
       location: "Seminar Hall, WRDM, IIT Roorkee",
