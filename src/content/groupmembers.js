@@ -233,6 +233,7 @@ images:[
     duration: 'January 2025 – Present',
     email: '',
     contact: '',
+     coSupervisor: 'Dr. Prasanta K. Sahoo, National Institute of Hydrology, Roorkee',
     links: {
       linkedin: 'XXXX',
       researchgate: 'XXXX',
@@ -341,7 +342,7 @@ images:[
     '/images/events/event4.jpg'
 ],
     previousDegree: "Integrated MSc in Environmental Science from Central University of Rajasthan (2024)",
-    topic: 'Development of a Solar-Powered Electrocoagulation–Membrane Hybrid System for Treatment of Agro-Based Pulp and Paper Industry Wastewater.',
+    topic: 'Design and Fabrication of Hierarchical Hybrid Nanostructured Electrodes for High-Performance Capacitive Deionization.',
     duration: "January 2026 – Present",
     email: 'sumansupriya274@gmail.com',
     contact: 'XXXX',
@@ -591,7 +592,7 @@ export const project_student = [
     type: 'PhD',
     name: 'Ms. Suman Supriya Sahu',
     photo: '/images/groupmembers/interns/suman.jpg',
-    position: 'PhD Scholar',
+    position: 'Research Assistant',
     peerReviewedPublications: [
   'N/A'
 ],
@@ -612,8 +613,8 @@ images:[
     '/images/events/event4.jpg'
 ],
     previousDegree: "Integrated MSc in Environmental Science from Central University of Rajasthan (2024)",
-    topic: 'Development of a Solar-Powered Electrocoagulation–Membrane Hybrid System for Treatment of Agro-Based Pulp and Paper Industry Wastewater.',
-    duration: "January 2026 – Present",
+    topic: 'Design and Fabrication of Hierarchical Hybrid Nanostructured Electrodes for High-Performance Capacitive Deionization.',
+    duration: "August 2025 – Present",
     email: 'sumansupriya274@gmail.com',
     contact: 'XXXX',
     links: {
