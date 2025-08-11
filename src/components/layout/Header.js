@@ -98,8 +98,10 @@ export default function Header() {
      path: '#',
       submenu: [
         { name: 'PI', path: '/PI' },
+        { name: 'PostDoc', path: '/people/postdoc' },
         { name: 'PhD Scholars', path: '/people/phd' },
         { name: 'Masters Students', path: '/people/masters' },
+        { name: 'Project Students', path: '/people/project_student' },
         { name: 'Interns', path: '/people/interns' },
       ]
     },
@@ -128,6 +130,7 @@ export default function Header() {
       { name: 'Openings ', path: '/lab/opening' },
       ]
     },
+    { name: 'Teaching', path: '/teaching' },
     {name: 'More',
     path: '#',
     submenu: [
