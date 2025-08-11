@@ -259,6 +259,12 @@ export default function PeopleView() {
       <p>{person.topic}</p>
     </div>
   )}
+   {person.funding && (
+    <div>
+      <h3 className="font-medium text-gray-500">Funding</h3>
+      <p>{person.funding}</p>
+    </div>
+  )}
 </div>
 <div className="w-full flex justify-start items-start text-left">
   {person.researchArea && (
