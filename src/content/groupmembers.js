@@ -208,7 +208,7 @@ export const phdScholars = [
     name: 'Mr. Nikhil',
     photo: '/images/groupmembers/phd/nikhil.jpeg',
     position: 'PhD Scholar',
-    funding:'N/A',
+    funding:'MHRD fellowship',
     peerReviewedPublications: [
  
 ],
@@ -246,7 +246,7 @@ images:[
     name: 'Mr. Yaswanth Aragonda',
     photo: '/images/groupmembers/phd/yaswanth.jpeg',
     position: 'PhD Scholar',
-    funding:'N/A',
+    funding:'MHRD fellowship',
     peerReviewedPublications: [
 ],
 patents: [
@@ -283,7 +283,7 @@ images:[
     name: 'Mr. Vineet Kumar',
     photo: '/images/groupmembers/phd/vineet.jpeg',
     position: 'PhD Scholar',
-    funding:'N/A',
+    funding:'MHRD fellowship',
     peerReviewedPublications: [
   'N/A'
 ],
@@ -322,7 +322,7 @@ images:[
     name: 'Ms. Suman Supriya Sahu',
     photo: '/images/groupmembers/interns/suman.jpg',
     position: 'PhD Scholar',
-    funding:'N/A',
+    funding:'UGC NET',
     peerReviewedPublications: [
   'N/A'
 ],
@@ -343,7 +343,7 @@ images:[
     '/images/events/event4.jpg'
 ],
     previousDegree: "Integrated MSc in Environmental Science from Central University of Rajasthan (2024)",
-    topic: 'Design and Fabrication of Hierarchical Hybrid Nanostructured Electrodes for High-Performance Capacitive Deionization.',
+    topic: 'Membrane-Enhanced Flow-Electrode Capacitive Deionization with Hierarchical Hybrid Nanostructured Electrodes for Continuous High-Salinity Brine Desalination.',
     duration: "January 2026 – Present",
     email: 'sumansupriya274@gmail.com',
     contact: 'XXXX',
@@ -589,8 +589,8 @@ export const mastersStudents = [
 
 export const project_student = [
    {
-    id: 'project-04',
-    type: 'PhD',
+    id: 'project-01',
+    type: 'Research Assistant',
     name: 'Ms. Suman Supriya Sahu',
     photo: '/images/groupmembers/interns/suman.jpg',
     position: 'Research Assistant',
@@ -615,7 +615,7 @@ images:[
     '/images/events/event4.jpg'
 ],
     previousDegree: "Integrated MSc in Environmental Science from Central University of Rajasthan (2024)",
-    topic: 'Design and Fabrication of Hierarchical Hybrid Nanostructured Electrodes for High-Performance Capacitive Deionization.',
+    topic: 'Design and Fabrication of Capacitive Deionization system for wastewater treatment.',
     duration: "August 2025 – Present",
     email: 'sumansupriya274@gmail.com',
     contact: 'XXXX',
@@ -630,7 +630,7 @@ images:[
 export const interns = [
 
 {
-    id: 'intern-35',
+    id: 'intern-34',
     type: 'intern',
     name: 'Ms. Namrata Kushwaha',
     photo: '/images/groupmembers/interns/namrata.jpg',
@@ -642,7 +642,7 @@ export const interns = [
   },
   
   {
-    id: 'intern-34',
+    id: 'intern-33',
     type: 'intern',
     name: 'Ms. Divyanshi',
     photo: '/images/pastmembers/interns/divyanshi.jpg',
@@ -653,18 +653,6 @@ export const interns = [
     email: 'divyanshigtm123@gmail.com'
   },
   
-    {
-    id: 'intern-33',
-    type: 'intern',
-    name: 'Ms. Aditi Shukla',
-    photo: '/images/pastmembers/interns/aditi.jpg',
-    position: 'Intern',
-    College: 'Dr. Ambedkar Institute of Technology for Divyangjan',
-    topic: 'Design and development of a prototype for capacitive deionization for mineralized water treatment system',
-    duration: 'August 2025 (One month)',
-    email: 'aditishukla790@gmail.com'
-  },
-
   {
     id: 'intern-32',
     type: 'intern',
@@ -680,8 +668,8 @@ export const interns = [
   {
     id: 'intern-31',
     type: 'intern',
-    name: 'Ms. Aarushi Pathak',
-    photo: '/images/pastmembers/interns/aarushi.jpg',
+    name: 'Ms. Aayush Srivastava',
+    photo: '/images/pastmembers/interns/aayush.jpg',
     position: 'Intern',
     College: 'Dr. Ambedkar Institute of Technology for Divyangjan',
     topic: 'Design and development of a prototype for capacitive deionization for mineralized water treatment system',
