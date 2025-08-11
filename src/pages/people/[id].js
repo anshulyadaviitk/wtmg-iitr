@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router';
 import Head from 'next/head';
 import Image from 'next/image';
-import {/* pi, */phdScholars, mastersStudents, interns } from '@/content/groupmembers';
+import {/* pi, */postdoc,phdScholars, mastersStudents,project_student, interns } from '@/content/groupmembers';
 import Layout from '@/components/layout/Layout';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -11,8 +11,10 @@ import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 
 const allPeople = [
   /*pi,*/
+  ...postdoc,
   ...phdScholars,
   ...mastersStudents,
+   ...project_student,
   ...interns,
 ];
 
