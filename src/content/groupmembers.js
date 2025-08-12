@@ -667,7 +667,7 @@ export const interns = [
   {
     id: 'intern-31',
     type: 'intern',
-    name: 'Ms. Aayush Srivastava',
+    name: 'Mr. Aayush Srivastava',
     photo: '/images/pastmembers/interns/aayush-aitd.jpg',
     position: 'Intern',
     College: 'Dr. Ambedkar Institute of Technology for Divyangjan',
