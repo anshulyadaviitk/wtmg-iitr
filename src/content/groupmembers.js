@@ -629,6 +629,17 @@ images:[
 export const interns = [
 
 {
+    id: 'intern-35',
+    type: 'intern',
+    name: 'Mr. Aditya Sharma',
+    photo: '/images/groupmembers/interns/aditya.jpg',
+    position: 'Intern',
+    College: 'Amity University',
+    topic: 'Design and development of a dashboard for water quality monitoring over India',
+    duration: 'August-Spetember 2025 (Two months)',
+    email: 'adityasharma271004@gmail.com'
+  },
+  {
     id: 'intern-34',
     type: 'intern',
     name: 'Ms. Namrata Kushwaha',
@@ -639,7 +650,6 @@ export const interns = [
     duration: 'August 2025 (One month)',
     email: 'namratakushwaha52@gmail.com'
   },
-  
   {
     id: 'intern-33',
     type: 'intern',
