@@ -10,19 +10,10 @@ export const instruments = [
   //   link: 'https://en.wikipedia.org/wiki/Plasma_cleaner',
   // },
   // {
-  //   name: 'Electrospinner - PICO, Chennai',
-  //   image: '/images/instruments/inst-4.PNG',
-  //   link: 'https://en.wikipedia.org/wiki/Electrospinning',
-  // },
   // {
   //   name: 'Electrokinetic Analyzer - SurPASS 3, Anton Paar',
   //   image: '/images/instruments/inst-5.jpeg',
   //   link: 'https://www.anton-paar.com/in-en/products/details/zeta-potential-analyzer-surpass-3/',
-  // },
-  // {
-  //   name: 'Viscometer - ViscoQC 100L, Anton Paar',
-  //   image: '/images/instruments/inst-6.jpeg',
-  //   link: 'https://www.anton-paar.com/in-en/products/details/rotational-viscometer-viscoqc-100/',
   // },
   // {
   //   name: 'Micro Balance - Mettler Toledo',
@@ -55,9 +46,19 @@ export const instruments = [
   //   link: 'https://en.wikipedia.org/wiki/Doctor_blade',
   // }, 
   {
+    name: 'Membrane Testing Skids',
+    image: '/images/instruments/inst-35.jpg',
+    link: 'https://www.environmental-expert.com/products/analog-1812-membrane-test-skid-542132',
+  },
+  {
     name: '3D Polymer Printer',
-    image: '/images/instruments/inst-13.jpg',
+    image: '/images/instruments/inst-12.jpg',
     link: 'https://www.amazon.in/gp/product/B07BR3F9N6',
+  },
+    {
+    name: 'Polymer extruder',
+    image: '/images/instruments/inst-13.jpg',
+    link: 'https://artme-3d.shop/',
   },
   {
     name: 'Digital Ultrasonic Cleaner',
@@ -75,17 +76,17 @@ export const instruments = [
     link: 'https://www.biolinscientific.com/attension/optical-tensiometers/theta-lite',
   },
   {
-    name: 'Viscometer',
+    name: 'Digital viscosity meter',
     image: '/images/instruments/inst-17.PNG',
     link: 'https://www.industrybuying.com/lab-measuring-instrument-labtronics-LAB.LAB.524157305',
   },
   {
-    name: 'Workstation',
+    name: 'Desktop workstation',
     image: '/images/instruments/inst-18.PNG',
     link: 'https://www.dell.com/en-in/shop/precision-3660-tower-workstation/spd/precision-3660-workstation',
   },
   {
-    name: 'Electrospinning Unit',
+    name: 'Electrospinning unit',
     image: '/images/instruments/inst-4.PNG',
     link: 'https://en.wikipedia.org/wiki/Electrospinning',
   },
@@ -95,32 +96,32 @@ export const instruments = [
     link: 'https://www.industrybuying.com/muffle-furnace-nsaw-LAB.FUR.69140363',
   },
   {
-    name: 'Muffle Furnace',
+    name: 'Muffle Furnaces',
     image: '/images/instruments/inst-20.PNG',
     link: 'https://www.industrybuying.com/muffle-furnace-nsaw-LAB.FUR.69140363',
   },
   {
-    name: 'Hot Air Oven',
+    name: 'Hot Air Ovens',
     image: '/images/instruments/inst-21.PNG',
     link: 'https://www.industrybuying.com/lab-ovens-wkm-LAB.LAB.120412767',
   },
   {
-    name: 'Weighing Balance',
+    name: 'Weighing Balances',
     image: '/images/instruments/inst-22.jpg',
     link: 'https://www.sigmaaldrich.com/IN/en/product/sigma/oh30429812',
   },
   {
-    name: 'Digital Overhead Stirrer',
+    name: 'Digital Overhead Stirrers',
     image: '/images/instruments/inst-23.jpg',
     link: 'https://www.sigmaaldrich.com/IN/en/product/aldrich/z766933',
   },
   {
-    name: 'Chiller',
+    name: 'Chillers',
     image: '/images/instruments/inst-24.jpg',
     link: 'https://www.beinglab-usa.com/lab-equipment/product/recirculating-chiller-42',
   },
   {
-    name: 'Digital Hot Plate Magnetic Stirrer',
+    name: 'Digital Hot Plate Magnetic Stirrers',
     image: '/images/instruments/inst-25.PNG',
     link: 'https://www.abdoslifesciences.com/product/hot-plate-swirltop-digital-led-magnetic-stirrer-hot-plate/',
   },
@@ -168,10 +169,5 @@ export const instruments = [
     name: 'Water Purification System',
     image: '/images/instruments/inst-34.jpg',
     link: 'https://www.sigmaaldrich.com/IN/en/product/mm/zsq200u0t0',
-  },
-  {
-    name: 'Membrane Testing Skid',
-    image: '/images/instruments/inst-35.jpg',
-    link: 'https://www.environmental-expert.com/products/analog-1812-membrane-test-skid-542132',
   },
 ];
