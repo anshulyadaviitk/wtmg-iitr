@@ -51,6 +51,11 @@ export const instruments = [
     link: 'https://www.environmental-expert.com/products/analog-1812-membrane-test-skid-542132',
   },
   {
+    name: 'Microscope',
+    image: '/images/instruments/inst-12.jpg',
+    link: 'https://www.amazon.in/gp/product/B07BR3F9N6',
+  },
+  {
     name: '3D Polymer Printer',
     image: '/images/instruments/inst-12.jpg',
     link: 'https://www.amazon.in/gp/product/B07BR3F9N6',
