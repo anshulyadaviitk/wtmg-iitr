@@ -137,6 +137,15 @@ export const pi = {
       description: 'transferred when leaving CSIR'
     },
     
+    {
+      title: 'Experimental and numerical studies for optimization of inline non-electric chlorinator device',
+      funding: '1.77 lakhs',
+      duration: '01.09.2025-10.09.2025',
+      sponsor:'VP Eco Trade',
+      role: 'PI',
+      images:'images/logos/vpecotrade.png',
+      description: 'Consultancy Project'
+    },  
     
     {
       title: 'Development of hydrophobic membranes for desalination and resource recovery using membrane distillation',
