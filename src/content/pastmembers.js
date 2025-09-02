@@ -49,6 +49,30 @@ export const past = {
   ], interns: [
 
   {
+    id: 'intern-34',
+    type: 'intern',
+    name: 'Ms. Pratiksha',
+    photo: '/images/groupmembers/interns/pratiksha.jpg',
+    position: 'Intern',
+    College: 'Graphic Era Deemed To Be University, Dehradun',
+    topic: 'Design and development of a prototype for zero liquid discharge wastewater treatment system',
+    duration: 'July–December 2025 (Six months)',
+    email: 'pratiksha.0059@gmail.com'
+  },
+     
+  {
+    id: 'intern-33',
+    type: 'intern',
+    name: 'Ms. Namrata Kushwaha',
+    photo: '/images/groupmembers/interns/namrata.jpg',
+    position: 'Intern',
+    College: 'Dr. Ambedkar Institute of Technology for Divyangjan',
+    topic: 'Design and development of a prototype for capacitive deionization for mineralized water treatment system',
+    duration: 'August 2025 (One month)',
+    email: 'namratakushwaha52@gmail.com'
+  },
+     
+  {
     id: 'intern-32',
     type: 'intern',
     name: 'Ms.  Deevanshi Agarwal',
@@ -60,15 +84,26 @@ export const past = {
     email: 'NA'
   },
 
-   {
+  {
     id: 'intern-31',
+    type: 'intern',
+    name: 'Mr. Ayush Tiwari',
+    photo: '/images/pastmembers/interns/ayush.jpg',
+    position: 'Intern',
+    College: 'Dr. Ambedkar Institute of Technology for Divyangjan',
+    topic: 'Remote sensing GIS',
+    duration: 'August 2025 (One month)',
+    email: 'ayushtiwari1062@gmail.com'
+  },
+     
+   {
+    id: 'intern-30',
     type: 'intern',
     name: 'Mr. Anand Kumar',
     College: 'Sunder Deep college of Architecture and Planning',
     photo: '/images/groupmembers/interns/anand.jpg',
     duration: 'July 2025 (One month)',
     topic: 'Integrated water architecture and urban infrastructure',
-
     email: 'anand.kr1708@gmail.com'
   },
 
