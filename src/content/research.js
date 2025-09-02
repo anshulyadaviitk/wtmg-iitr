@@ -425,25 +425,25 @@ export const publications = {
 };
 
 export const patents = [
- {
-  id: 'pat-08',
-  title: 'Dual-Channel Flow Electrodes Configuration for Simultaneous Desalination and Electrode Regeneration',
-  inventors: ['A. Yadav', 'S.S. Sahu', 'H. Pathak'],
-  patentNumber: 'IN2025110XXXXX',
-  filingDate: '31–10–2025',
-  status: 'Under preparation',
-  link: 'https://ipindia.gov.in/patent-details'
-  },
+// {
+//  id: 'pat-08',
+//  title: 'Dual-Channel Flow Electrodes Configuration for Simultaneous Desalination and Electrode Regeneration',
+//  inventors: ['A. Yadav', 'S.S. Sahu', 'H. Pathak'],
+//  patentNumber: 'IN2025110XXXXX',
+//  filingDate: '31–10–2025',
+//  status: 'Under preparation',
+//  link: 'https://ipindia.gov.in/patent-details'
+ // },
   
-  {
-  id: 'pat-07',
-  title: 'An energy-efficient multi-stage modular membrane–crystallization system for zero liquid discharge in desalination and wastewater treatment',
-  inventors: ['A. Yadav', 'A.K. Jha', 'H. Pathak', 'V. Kumar'],
-  patentNumber: 'IN2025110XXXXX',
-  filingDate: '31–10–2025',
-  status: 'Under preparation',
-  link: 'https://ipindia.gov.in/patent-details'
-  },
+//  {
+//  id: 'pat-07',
+//  title: 'An energy-efficient multi-stage modular membrane–crystallization system for zero liquid discharge in desalination and wastewater treatment',
+//  inventors: ['A. Yadav', 'A.K. Jha', 'H. Pathak', 'V. Kumar'],
+ // patentNumber: 'IN2025110XXXXX',
+//  filingDate: '31–10–2025',
+// status: 'Under preparation',
+//  link: 'https://ipindia.gov.in/patent-details'
+//  },
 
    {
   id: 'pat-06',
