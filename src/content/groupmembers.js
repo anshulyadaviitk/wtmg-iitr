@@ -638,7 +638,7 @@ images:[
 export const interns = [
 
 {
-    id: 'intern-35',
+    id: 'intern-37',
     type: 'intern',
     name: 'Mr. Aditya Sharma',
     photo: '/images/groupmembers/interns/aditya.jpg',
@@ -648,19 +648,9 @@ export const interns = [
     duration: 'August-Spetember 2025 (Two months)',
     email: 'adityasharma271004@gmail.com'
   },
+
   {
-    id: 'intern-34',
-    type: 'intern',
-    name: 'Ms. Namrata Kushwaha',
-    photo: '/images/groupmembers/interns/namrata.jpg',
-    position: 'Intern',
-    College: 'Dr. Ambedkar Institute of Technology for Divyangjan',
-    topic: 'Design and development of a prototype for capacitive deionization for mineralized water treatment system',
-    duration: 'August 2025 (One month)',
-    email: 'namratakushwaha52@gmail.com'
-  },
-  {
-    id: 'intern-33',
+    id: 'intern-36',
     type: 'intern',
     name: 'Ms. Divyanshi',
     photo: '/images/pastmembers/interns/divyanshi.jpg',
@@ -672,19 +662,7 @@ export const interns = [
   },
   
   {
-    id: 'intern-32',
-    type: 'intern',
-    name: 'Mr. Ayush Tiwari',
-    photo: '/images/pastmembers/interns/ayush.jpg',
-    position: 'Intern',
-    College: 'Dr. Ambedkar Institute of Technology for Divyangjan',
-    topic: 'Remote sensing GIS',
-    duration: 'August 2025 (One month)',
-    email: 'ayushtiwari1062@gmail.com'
-  },
-
-  {
-    id: 'intern-31',
+    id: 'intern-35',
     type: 'intern',
     name: 'Mr. Aayush Srivastava',
     photo: '/images/pastmembers/interns/aayush-aitd.jpg',
@@ -694,17 +672,5 @@ export const interns = [
     duration: 'August 2025 (One month)',
     email: 'aayushsri1507@gmail.com'
   },
-  
-  {
-    id: 'intern-30',
-    type: 'intern',
-    name: 'Ms. Pratiksha',
-    photo: '/images/groupmembers/interns/pratiksha.jpg',
-    position: 'Intern',
-    College: 'Graphic Era Deemed To Be University, Dehradun',
-    topic: 'Design and development of a prototype for zero liquid discharge wastewater treatment system',
-    duration: 'July–December 2025 (Six months)',
-    email: 'pratiksha.0059@gmail.com'
-  },
- 
+   
 ];
