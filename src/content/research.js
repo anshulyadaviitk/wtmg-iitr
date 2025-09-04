@@ -324,52 +324,52 @@ export const publications = {
   ],
  books: [
    
-{
-  id: 'book-07',
-  title: 'Archaeopedia',
-  authors: ['H. Pathak', 'A.Yadav'],
-  image: '/images/research/books/book7.png',
-  publisher: 'Tata McGraw-Hill',
-  year: 2026,
-  link: '',
-  isbn: '',
-  eisbn: '',
-  doi: '',
-  featured: false
-},
+//{
+//  id: 'book-07',
+//  title: 'Archaeopedia',
+ // authors: ['H. Pathak', 'A.Yadav'],
+//  image: '/images/research/books/book7.png',
+//  publisher: 'Tata McGraw-Hill',
+//  year: 2026,
+//  link: '',
+//  isbn: '',
+//  eisbn: '',
+//  doi: '',
+//  featured: false
+//},
 
-{
-  id: 'book-06',
-  title: 'Boron nitride nanomaterials-based adsorbents for water treatment',
-  authors: ['A.Yadav','N. Sinha'],
-  image: '/images/research/books/book6.png',
-  publisher: 'International Water Association Publishing',
-  year: 2026,
-  link: '',
-  isbn: '',
-  eisbn: '',
-  doi: '',
-  featured: false
-},
+//{
+//  id: 'book-06',
+//  title: 'Boron nitride nanomaterials-based adsorbents for water treatment',
+//  authors: ['A.Yadav','N. Sinha'],
+//  image: '/images/research/books/book6.png',
+//  publisher: 'International Water Association Publishing',
+//  year: 2026,
+//  link: '',
+//  isbn: '',
+//  eisbn: '',
+//  doi: '',
+//  featured: false
+//},
    
-{
-  id: 'book-05',
-  title: 'Integrated Water Architecture and Urban Infrastructure in the Sapta Puris of India',
-  authors: ['H. Pathak', 'A.Yadav'],
-  image: '/images/research/books/book5.png',
-  publisher: 'Apple Academic Publishers, CRC Press',
-  year: 2026,
-  link: '',
-  isbn: '',
-  eisbn: '',
-  doi: '',
-  featured: false
-},
+//{
+//  id: 'book-05',
+//  title: 'Integrated Water Architecture and Urban Infrastructure in the Sapta Puris of India',
+//  authors: ['H. Pathak', 'A.Yadav'],
+//  image: '/images/research/books/book5.png',
+//  publisher: 'Apple Academic Publishers, CRC Press',
+//  year: 2026,
+//  link: '',
+//  isbn: '',
+//  eisbn: '',
+//  doi: '',
+//  featured: false
+//},
    
 {
   id: 'book-04',
   title: 'Computational techniques for simulating and optimizing membrane processes for (waste)water treatment',
-  authors: ['A.Yadav', 'P.K. Labhasetwar'],
+  authors: ['A.Yadav', 'R.V. Patel', 'P.K. Labhasetwar'],
   image: '/images/research/books/book4.png',
   publisher: 'International Water Association Publishing',
   year: 2026,
