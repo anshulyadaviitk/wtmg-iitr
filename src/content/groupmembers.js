@@ -238,15 +238,14 @@ images:[
     '/images/events/event4.jpg'
 ],
    previousDegree: "Master of Technology from National Institute of Technology Jalandhar (2020)\nBachelor of Technology from Uttar Pradesh Technical University (2016)",
-    topic: '',
+    topic: 'Investigation of Hybrid Nanostructured Membranes for Membrane Distillation-Based Treatment of Emerging Contaminants',
     duration: 'January 2025 – Present',
     email: '',
     contact: '',
-     coSupervisor: 'Dr. Prasanta K. Sahoo, National Institute of Hydrology, Roorkee',
     links: {
-      linkedin: 'XXXX',
-      researchgate: 'XXXX',
-      scholar: 'XXXX'
+    linkedin: 'XXXX',
+    researchgate: 'XXXX',
+    scholar: 'XXXX'
     }
   },
   {
@@ -313,7 +312,7 @@ images:[
     '/images/events/event4.jpg'
 ],
     previousDegree: "Master of Technology (M.Tech) degree from the Indian Institute of Technology, Guwahati (2024)\nBachelor of Technology from Uttarakhand Technical University, Dehradun (2020)",
-    topic: 'Multifunctional Ultrafiltration Membranes for Simultaneous Removal of Pathogens, Heavy Metals, and Organic Micropollutants: Synthesis, Characterization, and Application.',
+    topic: 'Multifunctional Ultrafiltration Membranes for Simultaneous Removal of Pathogens, Heavy Metals, and Organic Micropollutants: Synthesis, Characterization, and Application',
     duration: "July 2025 – Present",
     email: 'vineetmunda12@gmail.com',
     contact: 'XXXX',
@@ -352,7 +351,7 @@ images:[
     '/images/events/event4.jpg'
 ],
     previousDegree: "Integrated MSc in Environmental Science from Central University of Rajasthan (2024)",
-    topic: 'Membrane-Enhanced Flow-Electrode Capacitive Deionization with Hierarchical Hybrid Nanostructured Electrodes for Continuous High-Salinity Brine Desalination.',
+    topic: 'Membrane-Enhanced Flow-Electrode Capacitive Deionization with Hierarchical Hybrid Nanostructured Electrodes for Continuous High-Salinity Brine Desalination',
     duration: "January 2026 – Present",
     email: 'sumansupriya274@gmail.com',
     contact: 'XXXX',
@@ -636,30 +635,6 @@ images:[
 ];
 
 export const interns = [
-
-{
-    id: 'intern-37',
-    type: 'intern',
-    name: 'Mr. Aditya Sharma',
-    photo: '/images/groupmembers/interns/aditya.jpg',
-    position: 'Intern',
-    College: 'Amity University',
-    topic: 'Design and development of a dashboard for water quality monitoring over India',
-    duration: 'August-Spetember 2025 (Two months)',
-    email: 'adityasharma271004@gmail.com'
-  },
-
-  {
-    id: 'intern-36',
-    type: 'intern',
-    name: 'Ms. Divyanshi',
-    photo: '/images/pastmembers/interns/divyanshi.jpg',
-    position: 'Intern',
-    College: 'Dr. Ambedkar Institute of Technology for Divyangjan',
-    topic: 'Design and development of a prototype for capacitive deionization for mineralized water treatment system',
-    duration: 'August 2025 (One month)',
-    email: 'divyanshigtm123@gmail.com'
-  },
   
   {
     id: 'intern-35',
@@ -669,7 +644,7 @@ export const interns = [
     position: 'Intern',
     College: 'Dr. Ambedkar Institute of Technology for Divyangjan',
     topic: 'Design and development of a prototype for capacitive deionization for mineralized water treatment system',
-    duration: 'August 2025 (One month)',
+    duration: 'August-September 2025 (Two months)',
     email: 'aayushsri1507@gmail.com'
   },
    
