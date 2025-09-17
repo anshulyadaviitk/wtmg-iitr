@@ -551,7 +551,7 @@ export const mastersStudents = [
     name: 'Mr. Nsanzurwimo Malachie',
     photo: '/images/groupmembers/mtech/nsanzurwimo.jpeg',
     position: 'Master of Technology in Drinking Water Sanitation',
-    nationality: 'Tanzania',
+    nationality: 'Burundi',
     researchArea: '',
     peerReviewedPublications: ['N/A'],
     patents: ['N/A'],
