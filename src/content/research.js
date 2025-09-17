@@ -404,7 +404,7 @@ export const publications = {
   link: '',
   isbn: '',
   eisbn: '',
-  doi: '',
+  doi: 'https://doi.org/10.2166/9781789063943',
   featured: false
 },
 
@@ -418,7 +418,7 @@ export const publications = {
     link: 'https://iwaponline.com/ebooks/book/867/Membrane-Based-Point-of-Use-Drinking-Water',
     isbn: '9781789062717',
     eisbn: '9781789062724',
-    doi: '',
+    doi: 'https://doi.org/10.2166/9781789062724',
     featured: true
 },
 ]
@@ -445,11 +445,21 @@ export const patents = [
 //  link: 'https://ipindia.gov.in/patent-details'
 //  },
 
-   {
+  {
+  id: 'pat-07',
+  title: 'A device for iron removal and method thereof',
+  inventors: ['A. Yadav', 'V. Bhoyar', 'P. Bhoyar', 'P.K. Labhasetwar', 'S.S. Sahu', 'S. Umathe', 'V. Kumar'],
+  patentNumber: 'IN202511080XXX',
+  filingDate: '15–11–2025',
+  status: 'Under preparation',
+  link: 'https://ipindia.gov.in/patent-details'
+  },
+  
+  {
   id: 'pat-06',
   title: 'Non-electric inline chlorination device for water disinfection and method thereof',
-  inventors: ['A. Yadav', 'V. Bhoyar', 'P. Bhoyar', 'P.K. Labhasetwar', 'S.S. Sahu', 'H. Pathak', 'A. Gajbhiye'],
-  patentNumber: 'IN2025110XXXXX',
+  inventors: ['A. Yadav', 'V. Bhoyar', 'P. Bhoyar', 'P.K. Labhasetwar', 'S.S. Sahu', 'H. Pathak', 'S. Umathe', 'A. Gajbhiye', 'P. James'],
+  patentNumber: 'IN202511080XXX',
   filingDate: '15–10–2025',
   status: 'Under preparation',
   link: 'https://ipindia.gov.in/patent-details'
