@@ -49,6 +49,30 @@ export const past = {
   ], interns: [
 
   {
+    id: 'intern-36',
+    type: 'intern',
+    name: 'Mr. Aditya Sharma',
+    photo: '/images/groupmembers/interns/aditya.jpg',
+    position: 'Intern',
+    College: 'Amity University',
+    topic: 'Design and development of a dashboard for water quality monitoring over India',
+    duration: 'August 2025 (One month)',
+    email: 'adityasharma271004@gmail.com'
+  },
+
+  {
+    id: 'intern-35',
+    type: 'intern',
+    name: 'Ms. Divyanshi',
+    photo: '/images/pastmembers/interns/divyanshi.jpg',
+    position: 'Intern',
+    College: 'Dr. Ambedkar Institute of Technology for Divyangjan',
+    topic: 'Design and development of a prototype for capacitive deionization for mineralized water treatment system',
+    duration: 'August 2025 (One month)',
+    email: 'divyanshigtm123@gmail.com'
+  },
+     
+  {
     id: 'intern-34',
     type: 'intern',
     name: 'Ms. Pratiksha',
