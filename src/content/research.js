@@ -479,8 +479,8 @@ export const patents = [
     id: 'pat-04',
     title: 'A multi-pass helical submerged membrane distillation module for desalination wastewater treating and method thereof',
     inventors: ['A.Yadav', 'B. Krishna', 'Nikhil', 'P.K. Labhasetwar'],
-    patentNumber: 'IN202511070980',
-    filingDate: '30–09–2025',
+    patentNumber: 'IN202511089125',
+    filingDate: '18–09–2025',
     status: 'Filed',
     link: 'https://ipindia.gov.in/patent-details'
   },
