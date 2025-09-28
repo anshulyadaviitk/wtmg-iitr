@@ -361,6 +361,44 @@ images:[
       scholar: 'XXXX'
     }
   }
+
+    {
+    id: 'phd-05',
+    type: 'PhD',
+    name: 'Mr. Nillotpal Lakhar',
+    photo: '/images/groupmembers/phd/nilotpal.jpeg',
+    position: 'PhD Scholar',
+    funding:'MHRD fellowship',
+    peerReviewedPublications: [
+],
+patents: [
+  
+],
+conferences: [
+  '10th International Ground Water Conference (IGWC 2025), National Institute of Hydrology, Roorkee 2025',
+],
+awards: [
+ 
+]
+,
+images:[
+  '/images/events/event1.jpg',
+    '/images/events/event2.jpg',
+    '/images/events/event3.jpg',
+    '/images/events/event4.jpg'
+],
+    previousDegree: "Master of Technology in Remote Sensing and Geographic Information Systems from National Institute of Technology Warangal (2025)\nBachelor of Architecture from Sri Ramaswamy Memorial (SRM) Institute of Science and Technology",
+    topic: 'Dynamic pollutant monitoring in rivers using multi-source remote sensing data and automated validation',
+    duration: 'January 2026 – Present',
+    email: 'nilotpallahkar123@gmail.com',
+    contact: 'XXXX',
+    coSupervisor: ' ',
+    links: {
+      linkedin: 'XXXX',
+      researchgate: 'XXXX',
+      scholar: 'XXXX'
+    }
+  },
 ];
 
 export const mastersStudents = [
