@@ -2,6 +2,15 @@ export const awards = {
   faculty: [
     {
       id: 'awd-01',
+      title: 'INSA Visiting Scientist Fellowhsip',
+      organization: 'Indian National Science Academy',
+      year: 2025,
+      description: 'Awarded INSA Visiting Scientist Fellowhsip 2025',
+      image: '/images/awards/page_1.jpg'
+    },
+    
+    {
+      id: 'awd-02',
       title: 'Article among top 10% highly cited',
       organization: 'Royal Society of Chemistry Journals',
       year: 2023,
@@ -127,14 +136,21 @@ export const awards = {
   ],
 
   students: [
-    // Add student awards in this format:
-    // {
-    //   id: 'stu-01',
-    //   recipient: 'Student Name',
-    //   title: 'Best Poster Award',
-    //   paperTitle: 'Title of Paper or Poster',
-    //   year: 2024
-    // }
+    Add student awards in this format:
+    {
+       id: 'stu-01',
+       recipient: 'Nikhil',
+       title: 'Best Presentation Award',
+       paperTitle: 'Title of Paper or Poster',
+       year: 2025
+     },
+    {
+       id: 'stu-01',
+       recipient: 'Bal Krishan',
+       title: 'Best Poster Award',
+       paperTitle: 'Title of Paper or Poster',
+       year: 2025
+     },
   ],
   group: [
     // Reserved for future group-level recognitions
