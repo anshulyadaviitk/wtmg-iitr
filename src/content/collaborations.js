@@ -49,17 +49,17 @@ export const National = [
   }
 ];
 
-export const Industry = [
-  {
-    name: "Cloudastra",
-    logo: "/images/collaborations/logo_international/czestochowa_poland.jpg",
-  },
+//export const Industry = [
+  //{
+    //name: "Cloudastra",
+    //logo: "/images/collaborations/logo_international/czestochowa_poland.jpg",
+ // },
 
-    {
-    name: "VP Eco Trade LLP",
-    logo: "/images/collaborations/logo_international/czestochowa_poland.jpg",
-  },
-];
+   // {
+    //name: "VP Eco Trade LLP",
+    //logo: "/images/collaborations/logo_international/czestochowa_poland.jpg",
+  //},
+//];
 
 export const International = [
   {
