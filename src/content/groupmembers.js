@@ -366,7 +366,7 @@ images:[
     id: 'phd-05',
     type: 'PhD',
     name: 'Mr. Nillotpal Lakhar',
-    photo: '/images/groupmembers/phd/nilotpal.jpeg',
+    photo: '/images/groupmembers/phd/nilotpal.jpg',
     position: 'PhD Scholar',
     funding:'MHRD fellowship',
     peerReviewedPublications: [
@@ -388,7 +388,7 @@ images:[
     '/images/events/event4.jpg'
 ],
     previousDegree: "Master of Technology in Remote Sensing and Geographic Information Systems from National Institute of Technology Warangal (2025)\nBachelor of Architecture from Sri Ramaswamy Memorial (SRM) Institute of Science and Technology",
-    topic: 'Dynamic pollutant monitoring in rivers using multi-source remote sensing data and automated validation',
+    topic: 'Urban Flood Monitoring and Modeling Using GIS and Remote Sensing and Planning Adaptive Architectural and Urban Design Measures for Flood Resilience',
     duration: 'January 2026 – Present',
     email: 'nilotpallahkar123@gmail.com',
     contact: 'XXXX',
