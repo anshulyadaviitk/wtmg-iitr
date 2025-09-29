@@ -50,6 +50,7 @@ export default function Collaborations() {
 
         {/* Sections */}
         <Section title="National" data={National} />
+        <Section title="Industry" data={Industry} />
         <Section title="International" data={International} />
       </div>
     </Layout>
