@@ -360,7 +360,7 @@ images:[
       researchgate: 'XXXX',
       scholar: 'XXXX'
     }
-  }
+  },
 
     {
     id: 'phd-05',
