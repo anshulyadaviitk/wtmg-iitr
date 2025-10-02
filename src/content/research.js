@@ -315,6 +315,110 @@ export const publications = {
 
 
 
+ {
+  id: 'pub-112',
+  type: 'journal',
+  title: 'Effect of SiC Reinforcement and Its Variation on the Mechanical Characteristics of AZ91 Composites',
+  authors: ['A. Kumar', 'S. Kumar', 'N.K. Mukhopadhyaya', 'A. Yadav', 'J. Winczek'],
+  journal: 'Materials',
+  year: 2020,
+  volume: '13',
+  pages: '4913',
+  citescore: '6.4',
+  impact_factor: '3.2',
+  quartile: 'Q2',
+  image: '/images/research/journal/materials.jpg',
+  link: 'https://doi.org/10.3390/ma13214913',
+  publisher: 'MDPI',
+  featured: false
+},
+{
+  id: 'pub-113',
+  type: 'journal',
+  title: 'Physical and Mechanical Behaviour of Sugarcane Bagasse Fibre-Reinforced Epoxy Bio-Composites',
+  authors: ['L. Prasad', 'S. Kumar', 'R.V. Patel', 'A. Yadav', 'V. Kumar', 'J. Winczek'],
+  journal: 'Materials',
+  year: 2020,
+  volume: '13',
+  pages: '5387',
+  citescore: '6.4',
+  impact_factor: '3.2',
+  quartile: 'Q2',
+  image: '/images/research/journal/materials.jpg',
+  link: 'https://doi.org/10.3390/ma13235387',
+  publisher: 'MDPI',
+  featured: false
+},
+{
+  id: 'pub-114',
+  type: 'journal',
+  title: 'Gold nanoparticles promoted formation and biological properties of injectable hydrogels',
+  authors: ['N. Bhingaradiya', 'A.K.S. Chandel', 'A. Biswas', 'A. Kumar', 'A. Yadav', 'P. Maiti', 'S. Jewrajka'],
+  journal: 'Biomacromolecules',
+  year: 2020,
+  volume: '21',
+  pages: '3782-3794',
+  citescore: '9.2',
+  impact_factor: '6.988',
+  quartile: 'Q1',
+  image: '/images/research/journal/biomacromolecules.jpg',
+  link: 'https://doi.org/10.1021/acs.biomac.0c00889',
+  publisher: 'American Chemical Society',
+  featured: false
+},
+{
+  id: 'pub-115',
+  type: 'journal',
+  title: 'A novel fixed-grid interface-tracking algorithm for rapid solidification of supercooled liquid metal',
+  authors: ['V. Patel', 'A. Yadav', 'S. Sahoo', 'D. Thatoi', 'J. Winczek'],
+  journal: 'Numerical Heat Transfer, Part A: Applications',
+  year: 2020,
+  volume: '78',
+  pages: '306-320',
+  citescore: '',
+  impact_factor: '3.5',
+  quartile: 'Q2',
+  image: '/images/research/journal/numerical_heat_transfer.jpg',
+  link: 'https://doi.org/10.1080/10407782.2020.1791542',
+  publisher: 'Taylor & Francis',
+  featured: false
+},
+{
+  id: 'pub-116',
+  type: 'journal',
+  title: 'Electron beam processing of sensors relevant Vacoflux-49 alloy: Experimental studies of thermal zones and microstructure',
+  authors: ['P. Kumar', 'A. Yadav', 'A. Kumar'],
+  journal: 'Archives of Metallurgy and Materials',
+  year: 2020,
+  volume: '65',
+  pages: '1147-1156',
+  citescore: '',
+  impact_factor: '',
+  quartile: '',
+  image: '/images/research/journal/archives_of_metallurgy.jpg',
+  link: 'https://doi.org/10.24425/amm.2020.133232',
+  publisher: 'Polish Academy of Sciences / Institute of Metallurgy and Materials Science',
+  featured: false
+},
+{
+  id: 'pub-117',
+  type: 'journal',
+  title: 'Optimization of process parameters during WEDM of EN-42 spring steel',
+  authors: ['L. Prasad', 'M. Upreti', 'A. Yadav', 'R.V. Patel', 'V. Kumar', 'A. Kumar'],
+  journal: 'SN Applied Sciences',
+  year: 2020,
+  volume: '2',
+  pages: '947',
+  citescore: '',
+  impact_factor: '',
+  quartile: '',
+  image: '/images/research/journal/sn_applied_sciences.jpg',
+  link: 'https://doi.org/10.1007/s42452-020-2650-2',
+  publisher: 'Springer Nature',
+  featured: false
+}
+
+
     {
   id: 'pub-118',
   type: 'journal',
@@ -324,12 +428,12 @@ export const publications = {
   year: 2019,
   volume: '50',
   pages: '250-259',
-  citescore: '',        // not found
-  impact_factor: '',    // not found
-  quartile: '',          // not found
+  citescore: '',
+  impact_factor: '',
+  quartile: '',
   image: '/images/research/journal/acta_periodica_technologica.jpg',
   link: 'https://doi.org/10.2298/APT1950250P',
-  publisher: 'DOI Ser­bia / Acta Periodica Technologica',
+  publisher: 'University of Novi Sad, Faculty of Technology',
   featured: false
 },
 {
@@ -341,9 +445,9 @@ export const publications = {
   year: 2019,
   volume: '1',
   pages: '257',
-  citescore: '',        // not found
-  impact_factor: '',    // not found
-  quartile: '',          // not found
+  citescore: '2.4',
+  impact_factor: '',
+  quartile: 'Q3',
   image: '/images/research/journal/sn_applied_sciences.jpg',
   link: 'https://doi.org/10.1007/s42452-019-0260-7',
   publisher: 'Springer Nature',
@@ -358,12 +462,12 @@ export const publications = {
   year: 2019,
   volume: '392',
   pages: '218-227',
-  citescore: '',        // not found
-  impact_factor: '',    // not found
-  quartile: '',          // not found
+  citescore: '0.9',
+  impact_factor: '',
+  quartile: 'Q4',
   image: '/images/research/journal/defect_diffusion_forum.jpg',
   link: 'https://doi.org/10.4028/www.scientific.net/DDF.392.218',
-  publisher: 'Trans Tech Publications / Scientific.Net',
+  publisher: 'Trans Tech Publications',
   featured: false
 },
 {
@@ -374,10 +478,10 @@ export const publications = {
   journal: 'Journal of Materials Processing Technology',
   year: 2017,
   volume: '248',
-  pages: '262-274',     // note: found “262-274” in source :contentReference[oaicite:0]{index=0}
-  citescore: '',        // not found
-  impact_factor: '',    // not found
-  quartile: '',          // not found
+  pages: '262-274',
+  citescore: '13.6',
+  impact_factor: '6.2',
+  quartile: 'Q1',
   image: '/images/research/journal/j_mat_protec.jpg',
   link: 'https://doi.org/10.1016/j.jmatprotec.2017.05.021',
   publisher: 'Elsevier',
@@ -392,14 +496,15 @@ export const publications = {
   year: 2017,
   volume: '239',
   pages: '52-65',
-  citescore: '',        // not found
-  impact_factor: '',    // not found
-  quartile: '',          // not found
+  citescore: '13.6',
+  impact_factor: '6.2',
+  quartile: 'Q1',
   image: '/images/research/journal/j_mat_protec.jpg',
   link: 'https://doi.org/10.1016/j.jmatprotec.2016.08.010',
   publisher: 'Elsevier',
   featured: false
-},
+}
+
 
 ],
   conferences: [
