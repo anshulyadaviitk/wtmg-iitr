@@ -46,7 +46,7 @@ export const National = [
   {
     name: "GSFC University, Vadodara",
     logo: "/images/collaborations/logo_national/gsfc_gujarat.png",
-  },
+  }
 ];
 
 export const International = [
