@@ -49,6 +49,13 @@ export const National = [
   }
 ];
 
+export const Industry = [
+  {
+    name: "Czestochowa University of Technology, Poland",
+    logo: "/images/collaborations/logo_international/czestochowa_poland.jpg",
+  },
+];
+
 export const International = [
   {
     name: "Czestochowa University of Technology, Poland",
