@@ -1,6 +1,5 @@
 export const awards = {
   faculty: [
-
     {
       id: 'awd-01',
       title: 'Article among top 10% highly cited',
@@ -128,20 +127,19 @@ export const awards = {
   ],
 
   students: [
-    Add student awards in this format:
-    {
+     {
        id: 'stu-01',
        recipient: 'Nikhil',
        title: 'Best Presentation Award',
        paperTitle: 'Title of Paper or Poster',
-       year: 2025
+       year: 2025,
      },
     {
        id: 'stu-01',
        recipient: 'Bal Krishan',
        title: 'Best Poster Award',
        paperTitle: 'Title of Paper or Poster',
-       year: 2025
+       year: 2025,
      },
   ],
   group: [
