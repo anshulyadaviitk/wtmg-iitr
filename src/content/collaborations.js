@@ -5,11 +5,11 @@ export const National = [
   },
   {
     name: "Indian Institute of Technology, Guwahati",
-    logo: "/images/collaborations/logo_national/iit_guwahati.png",
+    logo: "/images/collaborations/logo_national/iit_guwahati.svg",
   },
   {
     name: "National Institute of Hydrology, Roorkee",
-    logo: "/images/collaborations/logo_national/nih_roorkee.jpeg",
+    logo: "/images/collaborations/logo_national/nih_roorkee.jpg",
   },
   {
     name: "Indian Institute of Technology, Kanpur",
@@ -52,7 +52,7 @@ export const National = [
 export const Industry = [
   {
     name: "Cloudastra Technologies",
-    logo: "/images/collaborations/logo_international/clouastra.jpg",
+    logo: "/images/collaborations/logo_international/cloudastra.jpg",
   },
     {
     name: "VP Eco Trade",
