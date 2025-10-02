@@ -35,6 +35,10 @@ export const National = [
     name: "CSIR-Central Salt and Marine Chemicals Research Institute, Bhavnagar",
     logo: "/images/collaborations/logo_national/csir_csmcri.png",
   },
+    {
+    name: "CSIR-National Environmental Engineering Research Institute, Nagpur",
+    logo: "/images/collaborations/logo_national/csir_neeri.png",
+  },
   {
     name: "Indian Institute of Technology, Madras",
     logo: "/images/collaborations/logo_national/iit_madras.png",
