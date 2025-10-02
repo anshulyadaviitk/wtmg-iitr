@@ -308,6 +308,99 @@ export const publications = {
       featured: false
     },
 
+
+
+
+
+
+
+
+    {
+  id: 'pub-118',
+  type: 'journal',
+  title: 'Properties of functionally gradient composites reinforced with waste natural fillers',
+  authors: ['L. Prasad', 'G. Singh', 'A. Yadav', 'V. Kumar', 'A. Kumar'],
+  journal: 'Acta Periodica Technologica',
+  year: 2019,
+  volume: '50',
+  pages: '250-259',
+  citescore: '',        // not found
+  impact_factor: '',    // not found
+  quartile: '',          // not found
+  image: '/images/research/journal/acta_periodica_technologica.jpg',
+  link: 'https://doi.org/10.2298/APT1950250P',
+  publisher: 'DOI Ser­bia / Acta Periodica Technologica',
+  featured: false
+},
+{
+  id: 'pub-119',
+  type: 'journal',
+  title: 'Heat transfer augmentation in automobile radiator using Al₂O₃–water based nanofluid',
+  authors: ['P. Chaurasia', 'A. Kumar', 'A. Yadav', 'P.K. Kumar', 'V. Kumar', 'L. Prasad'],
+  journal: 'SN Applied Sciences',
+  year: 2019,
+  volume: '1',
+  pages: '257',
+  citescore: '',        // not found
+  impact_factor: '',    // not found
+  quartile: '',          // not found
+  image: '/images/research/journal/sn_applied_sciences.jpg',
+  link: 'https://doi.org/10.1007/s42452-019-0260-7',
+  publisher: 'Springer Nature',
+  featured: false
+},
+{
+  id: 'pub-120',
+  type: 'journal',
+  title: 'Numerical study of temperature distributions and solidification pattern in the weld pool of arc welded plate',
+  authors: ['A. Yadav', 'A. Kumar', 'P. Gupta', 'D.K. Sinha'],
+  journal: 'Defect and Diffusion Forum',
+  year: 2019,
+  volume: '392',
+  pages: '218-227',
+  citescore: '',        // not found
+  impact_factor: '',    // not found
+  quartile: '',          // not found
+  image: '/images/research/journal/defect_diffusion_forum.jpg',
+  link: 'https://doi.org/10.4028/www.scientific.net/DDF.392.218',
+  publisher: 'Trans Tech Publications / Scientific.Net',
+  featured: false
+},
+{
+  id: 'pub-121',
+  type: 'journal',
+  title: 'Experimental and numerical study of thermal field and weld bead characteristics in submerged arc welded plate',
+  authors: ['A. Yadav', 'A. Ghosh', 'A. Kumar'],
+  journal: 'Journal of Materials Processing Technology',
+  year: 2017,
+  volume: '248',
+  pages: '262-274',     // note: found “262-274” in source :contentReference[oaicite:0]{index=0}
+  citescore: '',        // not found
+  impact_factor: '',    // not found
+  quartile: '',          // not found
+  image: '/images/research/journal/j_mat_protec.jpg',
+  link: 'https://doi.org/10.1016/j.jmatprotec.2017.05.021',
+  publisher: 'Elsevier',
+  featured: false
+},
+{
+  id: 'pub-122',
+  type: 'journal',
+  title: 'Modelling and experimental validation of moving tilted volumetric heat source in gas metal arc welding process',
+  authors: ['A. Ghosh', 'A. Yadav', 'A. Kumar'],
+  journal: 'Journal of Materials Processing Technology',
+  year: 2017,
+  volume: '239',
+  pages: '52-65',
+  citescore: '',        // not found
+  impact_factor: '',    // not found
+  quartile: '',          // not found
+  image: '/images/research/journal/j_mat_protec.jpg',
+  link: 'https://doi.org/10.1016/j.jmatprotec.2016.08.010',
+  publisher: 'Elsevier',
+  featured: false
+},
+
 ],
   conferences: [
     {
