@@ -416,7 +416,7 @@ export const publications = {
   link: 'https://doi.org/10.1007/s42452-020-2650-2',
   publisher: 'Springer Nature',
   featured: false
-}
+},
 
 
     {
@@ -503,7 +503,7 @@ export const publications = {
   link: 'https://doi.org/10.1016/j.jmatprotec.2016.08.010',
   publisher: 'Elsevier',
   featured: false
-}
+},
 
 
 ],
