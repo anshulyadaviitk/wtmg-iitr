@@ -1,5 +1,5 @@
 import React from "react";
-import { National, International } from "../content/collaborations";
+import { National, Industry, International } from "../content/collaborations";
 import Head from 'next/head';
 import Layout from '@/components/layout/Layout';
 
@@ -50,6 +50,7 @@ export default function Collaborations() {
 
         {/* Sections */}
         <Section title="National" data={National} />
+        <Section title="Industry" data={Industry} />
         <Section title="International" data={International} />
       </div>
     </Layout>
