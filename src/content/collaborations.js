@@ -1,7 +1,7 @@
 export const National = [
   {
     name: "Indian Institute of Science, Bengaluru",
-    logo: "/images/collaborations/logo_national/iisc_bangalore.jpg",
+    logo: "/images/collaborations/logo_national/iisc.jpg",
   },
   {
     name: "Indian Institute of Technology, Guwahati",
