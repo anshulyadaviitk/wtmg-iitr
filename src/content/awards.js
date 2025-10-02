@@ -1,16 +1,8 @@
 export const awards = {
   faculty: [
+
     {
       id: 'awd-01',
-      title: 'INSA Visiting Scientist Fellowhsip',
-      organization: 'Indian National Science Academy',
-      year: 2025,
-      description: 'Awarded INSA Visiting Scientist Fellowhsip 2025',
-      image: '/images/awards/page_1.jpg'
-    },
-    
-    {
-      id: 'awd-02',
       title: 'Article among top 10% highly cited',
       organization: 'Royal Society of Chemistry Journals',
       year: 2023,
