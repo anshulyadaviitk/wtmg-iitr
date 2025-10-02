@@ -51,8 +51,12 @@ export const National = [
 
 export const Industry = [
   {
-    name: "Czestochowa University of Technology, Poland",
-    logo: "/images/collaborations/logo_international/czestochowa_poland.jpg",
+    name: "Cloudastra Technologies",
+    logo: "/images/collaborations/logo_international/clouastra.jpg",
+  },
+    {
+    name: "VP Eco Trade",
+    logo: "/images/collaborations/logo_international/vpecotrade.jpg",
   },
 ];
 
