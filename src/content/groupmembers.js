@@ -531,7 +531,7 @@ export const mastersStudents = [
       '/images/events/event4.jpg'
     ],
     previousDegree: 'Bachelor of planning (2024) from School of Planning and Architecture, Bhopal',
-    topic: 'Integration of vertical wall for treatment of sewerage from STP;\nGraywater treatment using hydrophobic plants',
+    topic: 'Understanding Water and Ion Transport through Functionalized Two-Dimensional Membranes using Molecular Dynamics and Experimental Techniques',
     duration: 'July 2024 – Present',
     email: 'aiswarya.priya.p@gmail.com',
     coSupervisor: ''
