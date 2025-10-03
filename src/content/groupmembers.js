@@ -363,6 +363,7 @@ images:[
   },
 
     {
+      
     id: 'phd-05',
     type: 'PhD',
     name: 'Mr. Nillotpal Lakhar',
@@ -601,7 +602,7 @@ export const mastersStudents = [
       '/images/events/event3.jpg',
       '/images/events/event4.jpg'
     ],
-    previousDegree: 'Bachelor of Technology from Uttar Pradesh Technical University (2024)',
+    previousDegree: 'Bachelor of Technology',
     topic: 'Decentralized wastewater treatment systems for rural communities: a feasibility and sustainability assessment',
     duration: 'July 2024 – Present',
     email: 'nsanzurwimo_m@wr.iitr.ac.in',
