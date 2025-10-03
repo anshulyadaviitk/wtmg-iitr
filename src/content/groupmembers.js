@@ -510,7 +510,7 @@ export const mastersStudents = [
     topic: 'Design of planted and unplanted dry bed fecal sludge treatment plant. Case study Didia Ward, Shinyanga, Tanzania',
     duration: 'July 2024 – Present',
     email: 'abas_am@wr.iitr.ac.in',
-    coSupervisor: ''
+    coSupervisor: 'Dr. Samuel Godfrey, UNICEF Sudan Chief of WASH'
   },
   {
     id: 'mtech-05',
@@ -534,7 +534,7 @@ export const mastersStudents = [
     topic: 'Understanding Water and Ion Transport through Functionalized Two-Dimensional Membranes using Molecular Dynamics and Experimental Techniques',
     duration: 'July 2024 – Present',
     email: 'aiswarya.priya.p@gmail.com',
-    coSupervisor: ''
+    coSupervisor: 'Dr. Prasanta K. Sahoo, National Institute of Hydrology, Roorkee'
   },
   {
     id: 'mtech-06',
@@ -558,7 +558,7 @@ export const mastersStudents = [
     topic: 'Zero liquid discharge and resource recovery for industrial tannery wastewater using a hybrid reverse osmosis–membrane distillation treatment process',
     duration: 'July 2024 – Present',
     email: 'XXXXXXXXXX',
-    coSupervisor: ''
+    coSupervisor: 'Dr. Prasanta K. Sahoo, National Institute of Hydrology, Roorkee'
   },
   {
     id: 'mtech-07',
@@ -579,10 +579,10 @@ export const mastersStudents = [
       '/images/events/event4.jpg'
     ],
     previousDegree: 'Bachelor of Science in Environmental Science University from Open University of Tanzania',
-    topic: 'Water quality assessment across irrigation schemes: a case study of wetland agriculture impacts in Ruvuma River Basin, Tanzania',
+    topic: 'Machine Learning Framework for Assessing and Predicting Water Quality in the Ruvuma River Basin, Tanzania',
     duration: 'July 2024 – Present',
     email: 'issah_m@wr.iitr.ac',
-    coSupervisor: ''
+    coSupervisor: 'Dr. Samuel Godfrey, UNICEF Sudan Chief of WASH'
   },
   {
     id: 'mtech-08',
@@ -602,11 +602,11 @@ export const mastersStudents = [
       '/images/events/event3.jpg',
       '/images/events/event4.jpg'
     ],
-    previousDegree: 'Bachelor of Technology',
+    previousDegree: 'Bachelor of Technology in Civil Engineering (2024)',
     topic: 'Decentralized wastewater treatment systems for rural communities: a feasibility and sustainability assessment',
     duration: 'July 2024 – Present',
     email: 'nsanzurwimo_m@wr.iitr.ac.in',
-    coSupervisor: ''
+    coSupervisor: 'Dr. Samuel Godfrey, UNICEF Sudan Chief of WASH'
   },
   {
     id: 'mtech-09',
@@ -630,7 +630,7 @@ export const mastersStudents = [
     topic: 'Design, Development, and Performance Evaluation of a Passive Tablet-Based Chlorination Device for Decentralized Water Disinfection',
     duration: 'July 2024 – Present',
     email: 'prisca_jm@wr.iitr.ac.in',
-    coSupervisor: ''
+    coSupervisor: 'Dr. Samuel Godfrey, UNICEF Sudan Chief of WASH'
   }
 ];
 
