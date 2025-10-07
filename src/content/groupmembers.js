@@ -510,7 +510,6 @@ export const mastersStudents = [
     topic: 'Design of planted and unplanted dry bed fecal sludge treatment plant. Case study Didia Ward, Shinyanga, Tanzania',
     duration: 'July 2024 – Present',
     email: 'abas_am@wr.iitr.ac.in',
-    coSupervisor: 'Dr. Samuel Godfrey, UNICEF Sudan Chief of WASH'
   },
   {
     id: 'mtech-05',
@@ -582,7 +581,6 @@ export const mastersStudents = [
     topic: 'Machine Learning Framework for Assessing and Predicting Water Quality in the Ruvuma River Basin, Tanzania',
     duration: 'July 2024 – Present',
     email: 'issah_m@wr.iitr.ac',
-    coSupervisor: 'Dr. Samuel Godfrey, UNICEF Sudan Chief of WASH'
   },
   {
     id: 'mtech-08',
