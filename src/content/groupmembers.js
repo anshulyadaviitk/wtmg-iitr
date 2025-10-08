@@ -545,6 +545,7 @@ export const mastersStudents = [
     researchArea: '',
     peerReviewedPublications: ['N/A'],
     patents: [
+      export const patents = [
   {
     id: 'pat-01',
     title: 'A self-cleaning solar enabled smart device for real time surface water health monitoring',
@@ -564,7 +565,7 @@ export const mastersStudents = [
     link: 'https://ipindia.gov.in/patent-details'
   },            
                          
-              
+         ]     
             ],
     conferences: ['N/A'],
     awards: ['N/A'],
