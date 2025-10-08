@@ -544,27 +544,7 @@ export const mastersStudents = [
     nationality: 'Indian',
     researchArea: '',
     peerReviewedPublications: ['N/A'],
-    patents: [
-  {
-    id: 'pat-01',
-    title: 'A self-cleaning solar enabled smart device for real time surface water health monitoring',
-    inventors: ['A.Yadav', 'E. Padhi', 'B. Krishna', 'Nikhil'],
-    patentNumber: 'IN202511026994',
-    filingDate: '24–03–2025',
-    status: 'Published',
-    link: 'https://ipindia.gov.in/patent-details'
-  },
-  {
-    id: 'pat-04',
-    title: 'A multi-pass helical submerged membrane distillation module for desalination wastewater treating and method thereof',
-    inventors: ['A.Yadav', 'B. Krishna', 'Nikhil', 'P.K. Labhasetwar'],
-    patentNumber: 'IN202511089125',
-    filingDate: '18–09–2025',
-    status: 'Filed',
-    link: 'https://ipindia.gov.in/patent-details'
-  },            
-                          
-            ],
+    patents: [ 'N/A'],
     conferences: ['N/A'],
     awards: ['N/A'],
     images: [
