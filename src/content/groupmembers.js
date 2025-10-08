@@ -221,9 +221,9 @@ export const phdScholars = [
     peerReviewedPublications: [
  
 ],
-patents: [
-  'N/A'
-],
+patents: ['IN202511026994: A self-cleaning solar enabled smart device for real time surface water health monitoring',
+          'IN202511089125: A multi-pass helical submerged membrane distillation module for desalination wastewater treating and method thereof', 
+             ],
 conferences: [
   'N/A'
 ],
@@ -462,7 +462,7 @@ export const mastersStudents = [
     topic: 'Aquatic Architecture for Sustainable Water Management by exploring the potential of Nature-based solutions and innovative design',
     duration: 'July 2024 – Present',
     email: 'architectharshpathak@gmail.com',
-    coSupervisor: 'Prof Tanaya Sarma, IIT Roorkee'
+    coSupervisor: 'Prof Tanaya Sarmah, IIT Roorkee'
   },
   {
     id: 'mtech-03',
@@ -507,7 +507,7 @@ export const mastersStudents = [
       '/images/events/event4.jpg'
     ],
     previousDegree: 'Bachelor of Science in Environmental Science University from Open University of Tanzania',
-    topic: 'Design of planted and unplanted dry bed fecal sludge treatment plant. Case study Didia Ward, Shinyanga, Tanzania',
+    topic: 'Design of planted and unplanted dry bed fecal sludge treatment plant: Case study Didia Ward, Shinyanga, Tanzania',
     duration: 'July 2024 – Present',
     email: 'abas_am@wr.iitr.ac.in',
   },
@@ -521,7 +521,8 @@ export const mastersStudents = [
     researchArea: '',
     peerReviewedPublications: ['N/A'],
     patents: ['N/A'],
-    conferences: ['N/A'],
+    conferences: ['Certificate Course on Advances in Membrane Science and Separation Technologies, 28 July–02 August, 2025, IIT Roorkee, India',
+                 'World  Conference on Hybrid Materials: Micro  and  Nano Length Scales (WCHM 2026)  January 24, 25 and 26, 2026 at Mahatma Gandhi University, Kottayam, Kerala, India'],
     awards: ['N/A'],
     images: [
       '/images/events/event1.jpg',
@@ -544,21 +545,26 @@ export const mastersStudents = [
     nationality: 'Indian',
     researchArea: '',
     peerReviewedPublications: ['N/A'],
-    patents: [ 'N/A'],
-    conferences: ['N/A'],
-    awards: ['N/A'],
+    patents: ['IN202511026994: A self-cleaning solar enabled smart device for real time surface water health monitoring',
+              'IN202511089125: A multi-pass helical submerged membrane distillation module for desalination wastewater treating and method thereof', 
+             ],
+    conferences: ['Certificate Course on Advances in Membrane Science and Separation Technologies, 28 July–02 August, 2025, IIT Roorkee, India',
+                 'World  Conference on Hybrid Materials: Micro  and  Nano Length Scales (WCHM 2026) January 24, 25 and 26, 2026 at Mahatma Gandhi University, Kottayam, Kerala, India'],
+    awards: ['Best Poster award, WRDM Research Scholars Day 2024'],
     images: [
       '/images/events/event1.jpg',
       '/images/events/event2.jpg',
       '/images/events/event3.jpg',
       '/images/events/event4.jpg'
     ],
-    previousDegree: 'Bachelor of Technology from Uttar Pradesh Technical University (2024)',
+    previousDegree: 'Bachelor of Technology from Indian Institute of Technology Roorkee (2020)',
     topic: 'Zero liquid discharge and resource recovery for industrial tannery wastewater using a hybrid reverse osmosis–membrane distillation treatment process',
     duration: 'July 2024 – Present',
     email: 'XXXXXXXXXX',
     coSupervisor: 'Dr. Prasanta K. Sahoo, National Institute of Hydrology, Roorkee'
   },
+
+  
   {
     id: 'mtech-07',
     type: 'MTech',
@@ -582,6 +588,8 @@ export const mastersStudents = [
     duration: 'July 2024 – Present',
     email: 'issah_m@wr.iitr.ac',
   },
+
+  
   {
     id: 'mtech-08',
     type: 'MTech',
@@ -606,6 +614,8 @@ export const mastersStudents = [
     email: 'nsanzurwimo_m@wr.iitr.ac.in',
     coSupervisor: 'Dr. Samuel Godfrey, UNICEF Sudan Chief of WASH'
   },
+
+  
   {
     id: 'mtech-09',
     type: 'MTech',
@@ -615,7 +625,7 @@ export const mastersStudents = [
     nationality: 'Tanzania',
     researchArea: '',
     peerReviewedPublications: ['N/A'],
-    patents: ['N/A'],
+    patents: ['Non-electric inline chlorination device for water disinfection and method thereof'],
     conferences: ['N/A'],
     awards: ['N/A'],
     images: [
@@ -643,7 +653,7 @@ export const project_student = [
   'N/A'
 ],
 patents: [
-  'N/A'
+  'Non-electric inline chlorination device for water disinfection and method thereof'
 ],
 conferences: [
   'N/A'
@@ -660,7 +670,7 @@ images:[
 ],
     previousDegree: "Integrated MSc in Environmental Science from Central University of Rajasthan (2024)",
     topic: 'Design and Fabrication of Capacitive Deionization system for wastewater treatment.',
-    duration: "August 2025 – Present",
+    duration: "August 2025 – November 2025",
     email: 'sumansupriya274@gmail.com',
     contact: 'XXXX',
     links: {
