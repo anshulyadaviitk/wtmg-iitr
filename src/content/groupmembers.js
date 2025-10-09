@@ -510,6 +510,7 @@ export const mastersStudents = [
     topic: 'Design of planted and unplanted dry bed fecal sludge treatment plant: Case study Didia Ward, Shinyanga, Tanzania',
     duration: 'July 2024 – Present',
     email: 'abas_am@wr.iitr.ac.in',
+    coSupervisor: 'Dr. Pawan Labhasetwar, IIT Madras'
   },
   {
     id: 'mtech-05',
@@ -587,6 +588,7 @@ export const mastersStudents = [
     topic: 'Machine Learning Framework for Assessing and Predicting Water Quality in the Ruvuma River Basin, Tanzania',
     duration: 'July 2024 – Present',
     email: 'issah_m@wr.iitr.ac',
+    coSupervisor: 'Dr. Pawan Labhasetwar, IIT Madras'
   },
 
   
@@ -612,7 +614,7 @@ export const mastersStudents = [
     topic: 'Decentralized wastewater treatment systems for rural communities: a feasibility and sustainability assessment',
     duration: 'July 2024 – Present',
     email: 'nsanzurwimo_m@wr.iitr.ac.in',
-    coSupervisor: 'Dr. Samuel Godfrey, UNICEF Sudan Chief of WASH'
+    coSupervisor: 'Dr. Samuel Godfrey, WASH Chief UNICEF, Sudan'
   },
 
   
@@ -638,7 +640,7 @@ export const mastersStudents = [
     topic: 'Design, Development, and Performance Evaluation of a Passive Tablet-Based Chlorination Device for Decentralized Water Disinfection',
     duration: 'July 2024 – Present',
     email: 'prisca_jm@wr.iitr.ac.in',
-    coSupervisor: 'Dr. Samuel Godfrey, UNICEF Sudan Chief of WASH'
+    coSupervisor: 'Dr. Samuel Godfrey, WASH Chief,UNICEF, Sudan'
   }
 ];
 
