@@ -5,8 +5,8 @@ import Layout from '@/components/layout/Layout';
 
 const courses = [
   {
-    title: "Wastewater Treatment Engineering",
-    duration: "2023–2025",
+    title: "Water and Wastewater Engineering",
+    duration: "Spring 2025",
     status: "auto", // auto means status determined by duration
     description: "Advanced course covering design, modeling, and optimization of wastewater treatment systems.",
     resources: [
@@ -113,3 +113,4 @@ export default function TeachingPage() {
     </div>
   </Layout>);
 }
+
