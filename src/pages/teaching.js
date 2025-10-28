@@ -46,14 +46,14 @@ const courses = [
   },
   {
     title: "Wastewater and Fecal Sludge Managament",
-    duration: "Spring 2026",
+    duration: "2026",
     status: "auto",
     description: "A seminar series focusing on the latest developments in water treatment technologies.",
     resources: [],
   },
   {
     title: "Application of Computational Fluid Dynamics for Water and Wastewater Treatment",
-    duration: "Spring 2026",
+    duration: "2026",
     status: "auto",
     description: "A seminar series focusing on the latest developments in water treatment technologies.",
     resources: [],
@@ -141,5 +141,6 @@ export default function TeachingPage() {
     </div>
   </Layout>);
 }
+
 
 
