@@ -15,17 +15,45 @@ const courses = [
     ],
   },
   {
-    title: "Environmental Fluid Mechanics",
-    duration: "2020–2022",
+    title: "Wastewater and Fecal Sludge Managament",
+    duration: "Spring 2025",
     status: "auto",
     description: "Covers the fundamental and applied aspects of fluid flow in environmental systems.",
     resources: [
       { name: "Syllabus", link: "/resources/fluid-mechanics-syllabus.pdf" },
+      { name: "Lecture Slides", link: "/resources/wastewater-slides.zip" },
+    ],
+  },
+    {
+    title: "Wastewater Engineering",
+    duration: "Autumn 2025",
+    status: "auto", // auto means status determined by duration
+    description: "Advanced course covering design, modeling, and optimization of wastewater treatment systems.",
+    resources: [
+      { name: "Course Syllabus", link: "/resources/wastewater-syllabus.pdf" },
+      { name: "Lecture Slides", link: "/resources/wastewater-slides.zip" },
     ],
   },
   {
-    title: "Current Research Seminar",
-    duration: "2024–2026",
+    title: "Circular Water Economy",
+    duration: "Autumn 2025",
+    status: "auto",
+    description: "Covers the fundamental and applied aspects of fluid flow in environmental systems.",
+    resources: [
+      { name: "Syllabus", link: "/resources/fluid-mechanics-syllabus.pdf" },
+      { name: "Lecture Slides", link: "/resources/wastewater-slides.zip" },
+    ],
+  },
+  {
+    title: "Wastewater and Fecal Sludge Managament",
+    duration: "Spring 2026",
+    status: "auto",
+    description: "A seminar series focusing on the latest developments in water treatment technologies.",
+    resources: [],
+  },
+  {
+    title: "Application of Computational Fluid Dynamics for Water and Wastewater Treatment",
+    duration: "Spring 2026",
     status: "auto",
     description: "A seminar series focusing on the latest developments in water treatment technologies.",
     resources: [],
@@ -113,4 +141,5 @@ export default function TeachingPage() {
     </div>
   </Layout>);
 }
+
 
