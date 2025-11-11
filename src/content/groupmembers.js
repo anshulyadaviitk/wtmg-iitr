@@ -324,45 +324,7 @@ images:[
     }
   },
 
-    {
-    id: 'phd-04',
-    type: 'PhD',
-    name: 'Ms. Suman Supriya Sahu',
-    photo: '/images/groupmembers/interns/suman.jpg',
-    position: 'PhD Scholar',
-    funding:'UGC NET',
-    peerReviewedPublications: [
-  'N/A'
-],
-patents: [
-  'N/A'
-],
-conferences: [
-  'N/A'
-],
-awards: [
-  'UGC NET JRF 2025'
-]
-,
-images:[
-  '/images/events/event1.jpg',
-    '/images/events/event2.jpg',
-    '/images/events/event3.jpg',
-    '/images/events/event4.jpg'
-],
-    previousDegree: "Integrated MSc in Environmental Science from Central University of Rajasthan (2024)",
-    topic: 'Membrane-Enhanced Flow-Electrode Capacitive Deionization with Hierarchical Hybrid Nanostructured Electrodes for Continuous High-Salinity Brine Desalination',
-    duration: "January 2026 – Present",
-    email: 'sumansupriya274@gmail.com',
-    contact: 'XXXX',
-    links: {
-      linkedin: 'XXXX',
-      researchgate: 'XXXX',
-      scholar: 'XXXX'
-    }
-  },
-
-    {
+{
       
     id: 'phd-05',
     type: 'PhD',
