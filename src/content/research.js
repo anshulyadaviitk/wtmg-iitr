@@ -2134,26 +2134,26 @@ export const publications = {
 //  featured: false
 //},
 
-{
-  id: 'book-06',
-  title: 'Boron nitride nanomaterials-based adsorbents for water treatment',
-  authors: ['A.Yadav','N. Sinha'],
-  image: '/images/research/books/book6.png',
-  publisher: 'International Water Association Publishing (Proposal submitted)',
-  year: 2026,
-  link: '',
-  isbn: '',
-  eisbn: '',
-  doi: '',
-  featured: false
-},
+//{
+//  id: 'book-06',
+//  title: 'Boron nitride nanomaterials-based adsorbents for water treatment',
+//  authors: ['A.Yadav','N. Sinha'],
+//  image: '/images/research/books/book6.png',
+//  publisher: 'International Water Association Publishing (Proposal submitted)',
+//  year: 2026,
+//  link: '',
+//  isbn: '',
+//  eisbn: '',
+//  doi: '',
+//  featured: false
+//},
    
 {
   id: 'book-05',
   title: 'Integrated Water Architecture and Urban Infrastructure in the Sapta Puris of India',
   authors: ['H. Pathak', 'A.Yadav'],
   image: '/images/research/books/book5.png',
-  publisher: 'Apple Academic Publishers, CRC Press (Proposal submitted)',
+  publisher: 'NOVA Publishers',
   year: 2026,
   link: '',
   isbn: '',
@@ -2167,7 +2167,7 @@ export const publications = {
   title: 'Computational techniques for simulating and optimizing membrane processes for (waste)water treatment',
   authors: ['A.Yadav', 'R.V. Patel', 'P.K. Labhasetwar'],
   image: '/images/research/books/book4.png',
-  publisher: 'International Water Association Publishing (Proposal submitted)',
+  publisher: 'International Water Association Publishing',
   year: 2026,
   link: '',
   isbn: '',
@@ -2221,15 +2221,6 @@ export const publications = {
 };
 
 export const patents = [
-// {
-//  id: 'pat-08',
-//  title: 'Dual-Channel Flow Electrodes Configuration for Simultaneous Desalination and Electrode Regeneration',
-//  inventors: ['A. Yadav', 'S.S. Sahu', 'H. Pathak'],
-//  patentNumber: 'IN2025110XXXXX',
-//  filingDate: '31–10–2025',
-//  status: 'Under preparation',
-//  link: 'https://ipindia.gov.in/patent-details'
- // },
   
 //  {
 //  id: 'pat-07',
@@ -2241,23 +2232,23 @@ export const patents = [
 //  link: 'https://ipindia.gov.in/patent-details'
 //  },
 
-  {
-  id: 'pat-07',
-  title: 'A device for iron removal and method thereof',
-  inventors: ['A. Yadav', 'V. Bhoyar', 'P. Bhoyar', 'P.K. Labhasetwar', 'S.S. Sahu', 'S. Umathe', 'V. Kumar'],
-  patentNumber: 'IN202511080XXX',
-  filingDate: '15–11–2025',
-  status: 'Under preparation',
-  link: 'https://ipindia.gov.in/patent-details'
-  },
+//  {
+//  id: 'pat-07',
+//  title: 'A device for iron removal and method thereof',
+//  inventors: ['A. Yadav', 'V. Bhoyar', 'P. Bhoyar', 'P.K. Labhasetwar', 'S.S. Sahu', 'S. Umathe', 'V. Kumar'],
+//  patentNumber: 'IN202511080XXX',
+//  filingDate: '15–11–2025',
+//  status: 'Under preparation',
+//  link: 'https://ipindia.gov.in/patent-details'
+//  },
   
   {
   id: 'pat-06',
-  title: 'Non-electric inline chlorination device for water disinfection and method thereof',
-  inventors: ['A. Yadav', 'V. Bhoyar', 'P. Bhoyar', 'P.K. Labhasetwar', 'S.S. Sahu', 'H. Pathak', 'S. Umathe', 'A. Gajbhiye', 'P. James'],
+  title: 'Non-electric inline chlorine dosing device for water disinfection and method thereof',
+  inventors: ['A. Yadav', 'V. Bhoyar', 'P. Bhoyar', 'P.K. Labhasetwar', 'B. Krishan', 'H. Pathak', 'S. Umathe', 'A. Gajbhiye'],
   patentNumber: 'IN202511080XXX',
   filingDate: '15–10–2025',
-  status: 'Under preparation',
+  status: 'Under evaluation in IPR cell, IITR',
   link: 'https://ipindia.gov.in/patent-details'
   },
   
@@ -2267,7 +2258,7 @@ export const patents = [
     inventors: ['A.Yadav', 'E. Padhi', 'Y. Aragonda'],
     patentNumber: 'IN202511080121',
     filingDate: '30–09–2025',
-    status: 'Under preparation',
+    status: 'Under evaluation in IPR cell, IITR',
     link: 'https://ipindia.gov.in/patent-details'
   },
   
@@ -2277,7 +2268,7 @@ export const patents = [
     inventors: ['A.Yadav', 'B. Krishna', 'Nikhil', 'P.K. Labhasetwar'],
     patentNumber: 'IN202511089125',
     filingDate: '18–09–2025',
-    status: 'Filed',
+    status: 'Published',
     link: 'https://ipindia.gov.in/patent-details'
   },
   {
@@ -2333,10 +2324,10 @@ export const invitedTalks = [
   {
     id: 'talk-03',
     title: 'Computational Fluid Dynamics for Engineering Applications',
-    event: 'Guest Lecture at Raja Ram Institute of Management and Technology',
+    event: 'Guest Lecture at RR Institute of Management and Technology',
     speaker: 'Dr. A. Yadav',
     date: 2022,
-    location: 'Raja Ram Institute of Management and Technology, Lucknow',
+    location: 'RR Institute of Management and Technology, Lucknow',
     abstract: 'Introduced applications of computational fluid dynamics in solving complex engineering problems, especially in water treatment.'
   },
   {
@@ -2354,7 +2345,7 @@ export const invitedTalks = [
     event: 'Faculty Development Program on Green Energy Technology and Waste Management',
     speaker: 'Dr. A. Yadav',
     date: 2023,
-    location: 'Jayaram Institute of Technology, Nagaur',
+    location: 'Jhulelal Institute of Technology, Nagpur',
     abstract: 'Focused on practical applications of membrane distillation in green energy and waste reduction contexts.'
   },
   {
@@ -2363,25 +2354,124 @@ export const invitedTalks = [
     event: 'International Conference on Recent Advances in Science, Technology, Humanities and Management',
     speaker: 'Dr. A. Yadav',
     date: 2023,
-    location: 'International Conference on Recent Advances in Science, Technology, Humanities and Management (ICRASTHM)',
+    location: 'KETs V. G. Vaze College of Arts, Science and Commerce, Mumbai, India'
     abstract: 'Delivered insights on evolving techniques in saline and wastewater distillation technologies.'
   },
   {
     id: 'talk-07',
     title: 'Optimization of Fouling Resistant Membranes for High Flux',
-    event: 'International Conference on Membranes and Water',
+    event: 'International Workshop and Conference on Membrane Assisted Water Purification Processes (ICMW - 2023)',
     speaker: 'Dr. A. Yadav',
     date: 2023,
-    location: 'International Conference on Membranes and Water (ICMW 2023)',
+    location: 'Mahatma Gandhi University,Kottayam, India',
     abstract: 'Explained the optimization techniques for high-performance anti-fouling membranes.'
   },
   {
     id: 'talk-08',
     title: 'Computational Fluid Dynamics and Molecular Modelling for Engineering Applications',
-    event: 'Guest Lecture at Raja Ram Institute of Management and Technology',
+    event: 'Guest Lecture at RR Institute of Management and Technology',
     speaker: 'Dr. A. Yadav',
     date: 2022,
-    location: 'Raja Ram Institute of Management and Technology, Lucknow',
+    location: 'RR Institute of Management and Technology, Lucknow',
     abstract: 'Demonstrated use of computational fluid dynamics and molecular modeling in environmental and water engineering applications.'
-  }
+  },
+  {
+    id: 'talk-09',
+    title: 'Computational Fluid Dynamics and Molecular Modelling for Engineering Applications',
+    event: 'Guest Lecture at RR Institute of Management and Technology',
+    speaker: 'Dr. A. Yadav',
+    date: 2022,
+    location: 'RR Institute of Management and Technology, Lucknow',
+    abstract: 'Demonstrated use of computational fluid dynamics and molecular modeling in environmental and water engineering applications.'
+  },
+  {
+    id: 'talk-10',
+    title: 'Computational Fluid Dynamics and Molecular Modelling for Engineering Applications',
+    event: 'Guest Lecture at RR Institute of Management and Technology',
+    speaker: 'Dr. A. Yadav',
+    date: 2022,
+    location: 'RR Institute of Management and Technology, Lucknow',
+    abstract: 'Demonstrated use of computational fluid dynamics and molecular modeling in environmental and water engineering applications.'
+  }, 
+    {
+    id: 'talk-11',
+    title: 'Computational Fluid Dynamics and Molecular Modelling for Engineering Applications',
+    event: 'Guest Lecture at RR Institute of Management and Technology',
+    speaker: 'Dr. A. Yadav',
+    date: 2022,
+    location: 'RR Institute of Management and Technology, Lucknow',
+    abstract: 'Demonstrated use of computational fluid dynamics and molecular modeling in environmental and water engineering applications.'
+  },
+  {
+    id: 'talk-12',
+    title: 'Computational Fluid Dynamics and Molecular Modelling for Engineering Applications',
+    event: 'Guest Lecture at RR Institute of Management and Technology',
+    speaker: 'Dr. A. Yadav',
+    date: 2022,
+    location: 'RR Institute of Management and Technology, Lucknow',
+    abstract: 'Demonstrated use of computational fluid dynamics and molecular modeling in environmental and water engineering applications.'
+  },
+    {
+    id: 'talk-13',
+    title: 'Computational Fluid Dynamics and Molecular Modelling for Engineering Applications',
+    event: 'Guest Lecture at RR Institute of Management and Technology',
+    speaker: 'Dr. A. Yadav',
+    date: 2022,
+    location: 'RR Institute of Management and Technology, Lucknow',
+    abstract: 'Demonstrated use of computational fluid dynamics and molecular modeling in environmental and water engineering applications.'
+  },
+  {
+    id: 'talk-14',
+    title: 'Computational Fluid Dynamics and Molecular Modelling for Engineering Applications',
+    event: 'Guest Lecture at RR Institute of Management and Technology',
+    speaker: 'Dr. A. Yadav',
+    date: 2022,
+    location: 'RR Institute of Management and Technology, Lucknow',
+    abstract: 'Demonstrated use of computational fluid dynamics and molecular modeling in environmental and water engineering applications.'
+  },
+  {
+    id: 'talk-15',
+    title: 'Computational Fluid Dynamics and Molecular Modelling for Engineering Applications',
+    event: 'Guest Lecture at RR Institute of Management and Technology',
+    speaker: 'Dr. A. Yadav',
+    date: 2022,
+    location: 'RR Institute of Management and Technology, Lucknow',
+    abstract: 'Demonstrated use of computational fluid dynamics and molecular modeling in environmental and water engineering applications.'
+  }, 
+    {
+    id: 'talk-16',
+    title: 'Computational Fluid Dynamics and Molecular Modelling for Engineering Applications',
+    event: 'Guest Lecture at RR Institute of Management and Technology',
+    speaker: 'Dr. A. Yadav',
+    date: 2022,
+    location: 'RR Institute of Management and Technology, Lucknow',
+    abstract: 'Demonstrated use of computational fluid dynamics and molecular modeling in environmental and water engineering applications.'
+  },
+  {
+    id: 'talk-17',
+    title: 'Computational Fluid Dynamics and Molecular Modelling for Engineering Applications',
+    event: 'Guest Lecture at RR Institute of Management and Technology',
+    speaker: 'Dr. A. Yadav',
+    date: 2022,
+    location: 'RR Institute of Management and Technology, Lucknow',
+    abstract: 'Demonstrated use of computational fluid dynamics and molecular modeling in environmental and water engineering applications.'
+  },
+  {
+    id: 'talk-18',
+    title: 'Computational Fluid Dynamics and Molecular Modelling for Engineering Applications',
+    event: 'Guest Lecture at RR Institute of Management and Technology',
+    speaker: 'Dr. A. Yadav',
+    date: 2022,
+    location: 'RR Institute of Management and Technology, Lucknow',
+    abstract: 'Demonstrated use of computational fluid dynamics and molecular modeling in environmental and water engineering applications.'
+  },
+  {
+    id: 'talk-19',
+    title: 'Computational Fluid Dynamics and Molecular Modelling for Engineering Applications',
+    event: 'Guest Lecture at RR Institute of Management and Technology',
+    speaker: 'Dr. A. Yadav',
+    date: 2022,
+    location: 'RR Institute of Management and Technology, Lucknow',
+    abstract: 'Demonstrated use of computational fluid dynamics and molecular modeling in environmental and water engineering applications.'
+  },
 ];
