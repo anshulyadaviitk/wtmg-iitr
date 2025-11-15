@@ -2353,7 +2353,7 @@ export const invitedTalks = [
     event: 'International Conference on Recent Advances in Science, Technology, Humanities and Management',
     speaker: 'Dr. A. Yadav',
     date: 2023,
-    location: 'KETs V. G. Vaze College of Arts, Science and Commerce, Mumbai, India'
+    location: 'KETs V. G. Vaze College of Arts, Science and Commerce, Mumbai, India',
     abstract: 'Delivered insights on evolving techniques in saline and wastewater distillation technologies.'
   },
   {
