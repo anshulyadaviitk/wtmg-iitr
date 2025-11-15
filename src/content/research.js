@@ -2217,7 +2217,7 @@ export const publications = {
     doi: 'https://doi.org/10.2166/9781789062724',
     featured: true
 },
-];
+   };
 
 export const patents = [
   
