@@ -2319,6 +2319,7 @@ export const invitedTalks = [
     title: 'Fabrication of Fouling Resistant Membranes for High Flux Distillation',
     event: 'Technical Talk at Siksha \'O\' Anusandhan University',
     speaker: 'Dr. A. Yadav',
+    images:['/images/research/invited_talk/IT1(1).JPG','/images/research/invited_talk/IT1(2).JPG','/images/research/invited_talk/IT1(3).JPG','/images/research/invited_talk/IT1(4).JPG','/images/research/invited_talk/IT1(5).JPG'],
     date: 2022,
     location: 'Siksha \'O\' Anusandhan University, Odisha',
     abstract: 'Explored fabrication methods for advanced membranes used in distillation systems.'
@@ -2328,6 +2329,7 @@ export const invitedTalks = [
     title: 'Computational Fluid Dynamics for Engineering Applications',
     event: 'Guest Lecture at RR Institute of Management and Technology',
     speaker: 'Dr. A. Yadav',
+    images:['/images/research/invited_talk/IT1(1).JPG','/images/research/invited_talk/IT1(2).JPG','/images/research/invited_talk/IT1(3).JPG','/images/research/invited_talk/IT1(4).JPG','/images/research/invited_talk/IT1(5).JPG'],
     date: 2022,
     location: 'RR Institute of Management and Technology, Lucknow',
     abstract: 'Introduced applications of computational fluid dynamics in solving complex engineering problems, especially in water treatment.'
@@ -2337,6 +2339,7 @@ export const invitedTalks = [
     title: 'Membrane Distillation for High Saline Water and Wastewater Treatment: Recent Trends and Applications',
     event: 'Technical Seminar at Harcourt Butler Technical University',
     speaker: 'Dr. A. Yadav',
+    images:['/images/research/invited_talk/IT1(1).JPG','/images/research/invited_talk/IT1(2).JPG','/images/research/invited_talk/IT1(3).JPG','/images/research/invited_talk/IT1(4).JPG','/images/research/invited_talk/IT1(5).JPG'],
     date: 2023,
     location: 'Harcourt Butler Technical University, Kanpur',
     abstract: 'Discussed current trends and implementation strategies for membrane distillation in saline water treatment.'
@@ -2346,6 +2349,7 @@ export const invitedTalks = [
     title: 'Membrane Distillation Process for High Saline Water and Wastewater Treatment',
     event: 'Faculty Development Program on Green Energy Technology and Waste Management',
     speaker: 'Dr. A. Yadav',
+    images:['/images/research/invited_talk/IT1(1).JPG','/images/research/invited_talk/IT1(2).JPG','/images/research/invited_talk/IT1(3).JPG','/images/research/invited_talk/IT1(4).JPG','/images/research/invited_talk/IT1(5).JPG'],
     date: 2023,
     location: 'Jhulelal Institute of Technology, Nagpur',
     abstract: 'Focused on practical applications of membrane distillation in green energy and waste reduction contexts.'
@@ -2355,6 +2359,7 @@ export const invitedTalks = [
     title: 'Membrane Distillation for High Saline Water and Wastewater Treatment: Recent Trends and Applications',
     event: 'International Conference on Recent Advances in Science, Technology, Humanities and Management',
     speaker: 'Dr. A. Yadav',
+    images:['/images/research/invited_talk/IT1(1).JPG','/images/research/invited_talk/IT1(2).JPG','/images/research/invited_talk/IT1(3).JPG','/images/research/invited_talk/IT1(4).JPG','/images/research/invited_talk/IT1(5).JPG'],
     date: 2023,
     location: 'KETs V. G. Vaze College of Arts, Science and Commerce, Mumbai, India',
     abstract: 'Delivered insights on evolving techniques in saline and wastewater distillation technologies.'
@@ -2364,6 +2369,7 @@ export const invitedTalks = [
     title: 'Optimization of Fouling Resistant Membranes for High Flux',
     event: 'International Workshop and Conference on Membrane Assisted Water Purification Processes (ICMW - 2023)',
     speaker: 'Dr. A. Yadav',
+    images:['/images/research/invited_talk/IT1(1).JPG','/images/research/invited_talk/IT1(2).JPG','/images/research/invited_talk/IT1(3).JPG','/images/research/invited_talk/IT1(4).JPG','/images/research/invited_talk/IT1(5).JPG'],
     date: 2023,
     location: 'Mahatma Gandhi University,Kottayam, India',
     abstract: 'Explained the optimization techniques for high-performance anti-fouling membranes.'
@@ -2373,6 +2379,7 @@ export const invitedTalks = [
     title: 'Computational Fluid Dynamics and Molecular Modelling for Engineering Applications',
     event: 'Guest Lecture at RR Institute of Management and Technology',
     speaker: 'Dr. A. Yadav',
+    images:['/images/research/invited_talk/IT1(1).JPG','/images/research/invited_talk/IT1(2).JPG','/images/research/invited_talk/IT1(3).JPG','/images/research/invited_talk/IT1(4).JPG','/images/research/invited_talk/IT1(5).JPG'],
     date: 2022,
     location: 'RR Institute of Management and Technology, Lucknow',
     abstract: 'Demonstrated use of computational fluid dynamics and molecular modeling in environmental and water engineering applications.'
@@ -2382,6 +2389,7 @@ export const invitedTalks = [
     title: 'Computational Fluid Dynamics and Molecular Modelling for Engineering Applications',
     event: 'Guest Lecture at RR Institute of Management and Technology',
     speaker: 'Dr. A. Yadav',
+    images:['/images/research/invited_talk/IT1(1).JPG','/images/research/invited_talk/IT1(2).JPG','/images/research/invited_talk/IT1(3).JPG','/images/research/invited_talk/IT1(4).JPG','/images/research/invited_talk/IT1(5).JPG'],
     date: 2022,
     location: 'RR Institute of Management and Technology, Lucknow',
     abstract: 'Demonstrated use of computational fluid dynamics and molecular modeling in environmental and water engineering applications.'
@@ -2391,6 +2399,7 @@ export const invitedTalks = [
     title: 'Computational Fluid Dynamics and Molecular Modelling for Engineering Applications',
     event: 'Guest Lecture at RR Institute of Management and Technology',
     speaker: 'Dr. A. Yadav',
+    images:['/images/research/invited_talk/IT1(1).JPG','/images/research/invited_talk/IT1(2).JPG','/images/research/invited_talk/IT1(3).JPG','/images/research/invited_talk/IT1(4).JPG','/images/research/invited_talk/IT1(5).JPG'],
     date: 2022,
     location: 'RR Institute of Management and Technology, Lucknow',
     abstract: 'Demonstrated use of computational fluid dynamics and molecular modeling in environmental and water engineering applications.'
@@ -2400,6 +2409,7 @@ export const invitedTalks = [
     title: 'Computational Fluid Dynamics and Molecular Modelling for Engineering Applications',
     event: 'Guest Lecture at RR Institute of Management and Technology',
     speaker: 'Dr. A. Yadav',
+    images:['/images/research/invited_talk/IT1(1).JPG','/images/research/invited_talk/IT1(2).JPG','/images/research/invited_talk/IT1(3).JPG','/images/research/invited_talk/IT1(4).JPG','/images/research/invited_talk/IT1(5).JPG'],
     date: 2022,
     location: 'RR Institute of Management and Technology, Lucknow',
     abstract: 'Demonstrated use of computational fluid dynamics and molecular modeling in environmental and water engineering applications.'
@@ -2409,6 +2419,7 @@ export const invitedTalks = [
     title: 'Computational Fluid Dynamics and Molecular Modelling for Engineering Applications',
     event: 'Guest Lecture at RR Institute of Management and Technology',
     speaker: 'Dr. A. Yadav',
+    images:['/images/research/invited_talk/IT1(1).JPG','/images/research/invited_talk/IT1(2).JPG','/images/research/invited_talk/IT1(3).JPG','/images/research/invited_talk/IT1(4).JPG','/images/research/invited_talk/IT1(5).JPG'],
     date: 2022,
     location: 'RR Institute of Management and Technology, Lucknow',
     abstract: 'Demonstrated use of computational fluid dynamics and molecular modeling in environmental and water engineering applications.'
@@ -2418,6 +2429,7 @@ export const invitedTalks = [
     title: 'Computational Fluid Dynamics and Molecular Modelling for Engineering Applications',
     event: 'Guest Lecture at RR Institute of Management and Technology',
     speaker: 'Dr. A. Yadav',
+    images:['/images/research/invited_talk/IT1(1).JPG','/images/research/invited_talk/IT1(2).JPG','/images/research/invited_talk/IT1(3).JPG','/images/research/invited_talk/IT1(4).JPG','/images/research/invited_talk/IT1(5).JPG'],
     date: 2022,
     location: 'RR Institute of Management and Technology, Lucknow',
     abstract: 'Demonstrated use of computational fluid dynamics and molecular modeling in environmental and water engineering applications.'
@@ -2427,6 +2439,7 @@ export const invitedTalks = [
     title: 'Computational Fluid Dynamics and Molecular Modelling for Engineering Applications',
     event: 'Guest Lecture at RR Institute of Management and Technology',
     speaker: 'Dr. A. Yadav',
+    images:['/images/research/invited_talk/IT1(1).JPG','/images/research/invited_talk/IT1(2).JPG','/images/research/invited_talk/IT1(3).JPG','/images/research/invited_talk/IT1(4).JPG','/images/research/invited_talk/IT1(5).JPG'],
     date: 2022,
     location: 'RR Institute of Management and Technology, Lucknow',
     abstract: 'Demonstrated use of computational fluid dynamics and molecular modeling in environmental and water engineering applications.'
@@ -2436,6 +2449,7 @@ export const invitedTalks = [
     title: 'Computational Fluid Dynamics and Molecular Modelling for Engineering Applications',
     event: 'Guest Lecture at RR Institute of Management and Technology',
     speaker: 'Dr. A. Yadav',
+    images:['/images/research/invited_talk/IT1(1).JPG','/images/research/invited_talk/IT1(2).JPG','/images/research/invited_talk/IT1(3).JPG','/images/research/invited_talk/IT1(4).JPG','/images/research/invited_talk/IT1(5).JPG'],
     date: 2022,
     location: 'RR Institute of Management and Technology, Lucknow',
     abstract: 'Demonstrated use of computational fluid dynamics and molecular modeling in environmental and water engineering applications.'
@@ -2445,6 +2459,7 @@ export const invitedTalks = [
     title: 'Computational Fluid Dynamics and Molecular Modelling for Engineering Applications',
     event: 'Guest Lecture at RR Institute of Management and Technology',
     speaker: 'Dr. A. Yadav',
+    images:['/images/research/invited_talk/IT1(1).JPG','/images/research/invited_talk/IT1(2).JPG','/images/research/invited_talk/IT1(3).JPG','/images/research/invited_talk/IT1(4).JPG','/images/research/invited_talk/IT1(5).JPG'],
     date: 2022,
     location: 'RR Institute of Management and Technology, Lucknow',
     abstract: 'Demonstrated use of computational fluid dynamics and molecular modeling in environmental and water engineering applications.'
@@ -2454,6 +2469,7 @@ export const invitedTalks = [
     title: 'Computational Fluid Dynamics and Molecular Modelling for Engineering Applications',
     event: 'Guest Lecture at RR Institute of Management and Technology',
     speaker: 'Dr. A. Yadav',
+    images:['/images/research/invited_talk/IT1(1).JPG','/images/research/invited_talk/IT1(2).JPG','/images/research/invited_talk/IT1(3).JPG','/images/research/invited_talk/IT1(4).JPG','/images/research/invited_talk/IT1(5).JPG'],
     date: 2022,
     location: 'RR Institute of Management and Technology, Lucknow',
     abstract: 'Demonstrated use of computational fluid dynamics and molecular modeling in environmental and water engineering applications.'
@@ -2463,6 +2479,7 @@ export const invitedTalks = [
     title: 'Computational Fluid Dynamics and Molecular Modelling for Engineering Applications',
     event: 'Guest Lecture at RR Institute of Management and Technology',
     speaker: 'Dr. A. Yadav',
+    images:['/images/research/invited_talk/IT1(1).JPG','/images/research/invited_talk/IT1(2).JPG','/images/research/invited_talk/IT1(3).JPG','/images/research/invited_talk/IT1(4).JPG','/images/research/invited_talk/IT1(5).JPG'],
     date: 2022,
     location: 'RR Institute of Management and Technology, Lucknow',
     abstract: 'Demonstrated use of computational fluid dynamics and molecular modeling in environmental and water engineering applications.'
@@ -2472,6 +2489,7 @@ export const invitedTalks = [
     title: 'Computational Fluid Dynamics and Molecular Modelling for Engineering Applications',
     event: 'Guest Lecture at RR Institute of Management and Technology',
     speaker: 'Dr. A. Yadav',
+    images:['/images/research/invited_talk/IT1(1).JPG','/images/research/invited_talk/IT1(2).JPG','/images/research/invited_talk/IT1(3).JPG','/images/research/invited_talk/IT1(4).JPG','/images/research/invited_talk/IT1(5).JPG'],
     date: 2022,
     location: 'RR Institute of Management and Technology, Lucknow',
     abstract: 'Demonstrated use of computational fluid dynamics and molecular modeling in environmental and water engineering applications.'
