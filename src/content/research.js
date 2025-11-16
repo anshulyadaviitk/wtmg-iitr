@@ -2221,3 +2221,83 @@ export const publications = {
 ],
 };
 
+export const patents = [
+  
+//  {
+//  id: 'pat-07',
+//  title: 'An energy-efficient multi-stage modular membrane–crystallization system for zero liquid discharge in desalination and wastewater treatment',
+//  inventors: ['A. Yadav', 'A.K. Jha', 'H. Pathak', 'V. Kumar'],
+ // patentNumber: 'IN2025110XXXXX',
+//  filingDate: '31–10–2025',
+// status: 'Under preparation',
+//  link: 'https://ipindia.gov.in/patent-details'
+//  },
+
+//  {
+//  id: 'pat-07',
+//  title: 'A device for iron removal and method thereof',
+//  inventors: ['A. Yadav', 'V. Bhoyar', 'P. Bhoyar', 'P.K. Labhasetwar', 'S.S. Sahu', 'S. Umathe', 'V. Kumar'],
+//  patentNumber: 'IN202511080XXX',
+//  filingDate: '15–11–2025',
+//  status: 'Under preparation',
+//  link: 'https://ipindia.gov.in/patent-details'
+//  },
+  
+  {
+  id: 'pat-06',
+  title: 'Non-electric inline chlorine dosing device for water disinfection and method thereof',
+  inventors: ['A. Yadav', 'V. Bhoyar', 'P. Bhoyar', 'P.K. Labhasetwar', 'B. Krishan', 'H. Pathak', 'S. Umathe', 'A. Gajbhiye'],
+  patentNumber: 'IN202511080XXX',
+  filingDate: '15–10–2025',
+  status: 'Under evaluation in IPR cell, IITR',
+  link: 'https://ipindia.gov.in/patent-details'
+  },
+  
+  {
+    id: 'pat-05',
+    title: 'System for predicting unmeasured water quality parameters using partial physical sensing and machine learning and method thereof',
+    inventors: ['A.Yadav', 'E. Padhi', 'Y. Aragonda'],
+    patentNumber: 'IN202511080121',
+    filingDate: '30–09–2025',
+    status: 'Under evaluation in IPR cell, IITR',
+    link: 'https://ipindia.gov.in/patent-details'
+  },
+  
+  {
+    id: 'pat-04',
+    title: 'A multi-pass helical submerged membrane distillation module for desalination wastewater treating and method thereof',
+    inventors: ['A.Yadav', 'B. Krishna', 'Nikhil', 'P.K. Labhasetwar'],
+    patentNumber: 'IN202511089125',
+    filingDate: '18–09–2025',
+    status: 'Published',
+    link: 'https://ipindia.gov.in/patent-details'
+  },
+  {
+    id: 'pat-03',
+    title: 'Membrane distillation device integrated with fluid flow spacers for treating wastewater and method thereof',
+    inventors: ['A.Yadav', 'A. Kumar', 'C.P. Singh', 'R.V. Patel'],
+    patentNumber: 'IN202511070380',
+    filingDate: '24–07–2025',
+    status: 'Filed',
+    link: 'https://ipindia.gov.in/patent-details'
+  },
+  {
+    id: 'pat-02',
+    title: 'A self-cleaning solar enabled smart device for real time surface water health monitoring',
+    inventors: ['A.Yadav', 'E. Padhi', 'B. Krishna', 'Nikhil'],
+    patentNumber: 'IN202511026994',
+    filingDate: '24–03–2025',
+    status: 'Published',
+    link: 'https://ipindia.gov.in/patent-details'
+  },
+  {
+    id: 'pat-01',
+    title: 'Multi-pass concentric tubular module for membrane distillation',
+    inventors: ['A.Yadav', 'R.V.P. Patel', 'B.M. Baladaniya', 'V.K. Shahi', 'P.K. Labhasetwar'],
+    patentNumber: 'IN202411067163',
+    filingDate: '05–09–2024',
+    status: 'Filed',
+    link: 'https://ipindia.gov.in/patent-details'
+  },
+];
+
