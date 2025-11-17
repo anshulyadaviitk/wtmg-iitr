@@ -575,17 +575,5 @@ export const project_student = [
 ];
 
 export const interns = [
-  
-  {
-    id: 'intern-35',
-    type: 'intern',
-    name: 'Mr. Aayush Srivastava',
-    photo: '/images/pastmembers/interns/aayush-aitd.jpg',
-    position: 'Intern',
-    College: 'Dr. Ambedkar Institute of Technology for Divyangjan',
-    topic: 'Design and development of a prototype for capacitive deionization for mineralized water treatment system',
-    duration: 'August-September 2025 (Two months)',
-    email: 'aayushsri1507@gmail.com'
-  },
    
 ];
