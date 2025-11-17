@@ -41,7 +41,7 @@ export const past = {
   duration: 'July 2024 – June 2025',
   education: 'BTech: VIT (2021)',
   topic: 'Development of Membrane Materials for Enhanced Electrodialysis Performance in Water and Wastewater Treatment',
-  currentStatus: 'Sub-Engineer, Ministry of Water Supply, Nepal',
+  currentStatus: 'Assistant Technical Offficer, Ministry of Water Supply, Nepal',
   email: '' // Fill in the email if available
 },
 
