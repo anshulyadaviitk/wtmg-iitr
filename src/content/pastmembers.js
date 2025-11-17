@@ -45,8 +45,49 @@ export const past = {
   email: '' // Fill in the email if available
 },
 
-    // Add more mtech alumni
-  ], interns: [
+ 
+  ], 
+  
+  project: [
+{
+    id: 'project-01',
+    type: 'Research Assistant',
+    name: 'Ms. Suman Supriya Sahu',
+    photo: '/images/groupmembers/interns/suman.jpg',
+    position: 'Research Assistant',
+    peerReviewedPublications: [
+  'N/A'
+],
+patents: [
+  'N/A'
+],
+conferences: [
+  'N/A'
+],
+awards: [
+  'UGC NET JRF 2025'
+]
+,
+images:[
+  '/images/events/event1.jpg',
+    '/images/events/event2.jpg',
+    '/images/events/event3.jpg',
+    '/images/events/event4.jpg'
+],
+    previousDegree: "Integrated MSc in Environmental Science from Central University of Rajasthan (2024)",
+    topic: 'Design and Fabrication of Capacitive Deionization system for wastewater treatment.',
+    duration: "August 2025 – November 2025",
+    email: 'sumansupriya274@gmail.com',
+    contact: 'XXXX',
+    links: {
+      linkedin: 'XXXX',
+      researchgate: 'XXXX',
+      scholar: 'XXXX'
+    }
+  }
+ 
+  ], 
+  interns: [
 
   {
     id: 'intern-36',
