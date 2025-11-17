@@ -617,7 +617,7 @@ export const project_student = [
   'N/A'
 ],
 patents: [
-  'Non-electric inline chlorination device for water disinfection and method thereof'
+  'N/A'
 ],
 conferences: [
   'N/A'
