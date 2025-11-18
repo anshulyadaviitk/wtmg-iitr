@@ -71,6 +71,24 @@ export default function PastMembersPage() {
             </div>
           </section>
 
+          {/* Project Alumni Section */}
+          <section id="project" className="scroll-mt-20">
+            <div className="bg-white rounded-lg shadow-sm p-6">
+              <h2 className="text-2xl md:text-3xl font-bold mb-6 text-gray-800 border-b pb-2">
+                Master&apos;s Alumni
+              </h2>
+              <div className="space-y-6">
+                {past.project.map(member => (
+                  <PastMemberCard 
+                    key={member.id} 
+                    member={member} 
+                    className="hover:shadow-md transition-shadow duration-300"
+                  />
+                ))}
+              </div>
+            </div>
+          </section>
+
           {/* Former Interns Section */}
           <section id="interns" className="scroll-mt-20">
             <div className="bg-white rounded-lg shadow-sm p-6">
