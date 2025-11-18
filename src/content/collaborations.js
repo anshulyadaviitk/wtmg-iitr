@@ -69,4 +69,8 @@ export const International = [
     name: "Czestochowa University of Technology, Poland",
     logo: "/images/collaborations/logo_international/czestochowa_poland.jpg",
   },
+  {
+    name: "UNICEF",
+    logo: "/images/collaborations/logo_international/UNICEF.png",
+  },
 ];
