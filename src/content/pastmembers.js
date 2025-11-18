@@ -77,6 +77,7 @@ images:[
     previousDegree: "Integrated MSc in Environmental Science from Central University of Rajasthan (2024)",
     topic: 'Design and Fabrication of Capacitive Deionization system for wastewater treatment.',
     duration: "August 2025 – November 2025",
+    currentStatus: 'PhD, IIT Bombay',
     email: 'sumansupriya274@gmail.com',
     contact: 'XXXX',
     links: {
