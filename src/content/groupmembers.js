@@ -354,7 +354,7 @@ export const mastersStudents = [
     previousDegree: "Bachelor of Technology in Civil Engineering from xxxxxx (2025)",
     topic: 'Computational fluid dynamics-based numerical simulation and digital twin development for AI-driven optimal thermal mixing in a T-pipe system',
     duration: 'July 2025 – Present',
-    email: 'XXXXXXXXXX',
+    email: 'abhishek_r@wr.iitr.ac.in',
   },
 
     {
@@ -382,11 +382,10 @@ export const mastersStudents = [
     previousDegree: "Bachelor of Technology in Civil Engineering from National Institute of Technology Silchar (2024)",
     topic: 'Development of a computational fluid dynamics-enabled digital twin for real-time monitoring and optimization of a membrane distillation process',
     duration: 'July 2025 – Present',
-    email: 'XXXXXXXXXX',
+    email: 'abhinaw_k@wr.iitr.ac.in',
   },
   
-  
-{
+  {
     id: 'mtech-09',
     type: 'MTech',
     name: 'Mr. Abhishek Kumar Sinha',
@@ -471,6 +470,7 @@ export const mastersStudents = [
     email: 'XXXXXXXXXX',
     coSupervisor: 'Dr. Prasanta K. Sahoo, National Institute of Hydrology, Roorkee'
   },
+  
   {
     id: 'mtech-06',
     type: 'MTech',
@@ -495,6 +495,7 @@ export const mastersStudents = [
     email: 'abas_am@wr.iitr.ac.in',
     coSupervisor: 'Dr. Pawan Labhasetwar, IIT Madras'
   },
+  
   {
     id: 'mtech-05',
     type: 'MTech',
@@ -547,7 +548,6 @@ export const mastersStudents = [
     email: 'XXXXXXXXXX',
     coSupervisor: 'Dr. Prasanta K. Sahoo, National Institute of Hydrology, Roorkee'
   },
-
   
   {
     id: 'mtech-03',
@@ -574,7 +574,6 @@ export const mastersStudents = [
     coSupervisor: 'Dr. Pawan Labhasetwar, IIT Madras'
   },
 
-  
   {
     id: 'mtech-02',
     type: 'MTech',
@@ -599,7 +598,6 @@ export const mastersStudents = [
     email: 'nsanzurwimo_m@wr.iitr.ac.in',
     coSupervisor: 'Dr. Samuel Godfrey, WASH Chief UNICEF, Sudan'
   },
-
   
   {
     id: 'mtech-01',
