@@ -332,6 +332,63 @@ export const mastersStudents = [
   {
     id: 'mtech-01',
     type: 'MTech',
+    name: 'Mr. Abhishek Raj',
+    photo: '/images/groupmembers/mtech/abhishek_raj.jpeg',
+    position: 'Master of Technology in Water Resources Development',
+    nationality: 'Indian',
+    researchArea: '',
+    peerReviewedPublications: ['N/A'
+    ],
+    patents: ['N/A'
+    ],
+    conferences: ['N/A'
+    ],
+    awards: ['N/A'
+    ],
+    images: [
+      '/images/events/event1.jpg',
+      '/images/events/event2.jpg',
+      '/images/events/event3.jpg',
+      '/images/events/event4.jpg'
+    ],
+    previousDegree: "Bachelor of Technology in Civil Engineering from xxxxxx (2025)",
+    topic: 'Computational fluid dynamics-based numerical simulation and digital twin development for AI-driven optimal thermal mixing in a T-pipe system',
+    duration: 'July 2025 – Present',
+    email: 'XXXXXXXXXX',
+  },
+
+    {
+    id: 'mtech-10',
+    type: 'MTech',
+    name: 'Mr. Abhinaw Kumar',
+    photo: '/images/groupmembers/mtech/abhinaw_kumar.jpeg',
+    position: 'Master of Technology in Water Resources Development',
+    nationality: 'Indian',
+    researchArea: '',
+    peerReviewedPublications: ['N/A'
+    ],
+    patents: ['N/A'
+    ],
+    conferences: ['N/A'
+    ],
+    awards: ['N/A'
+    ],
+    images: [
+      '/images/events/event1.jpg',
+      '/images/events/event2.jpg',
+      '/images/events/event3.jpg',
+      '/images/events/event4.jpg'
+    ],
+    previousDegree: "Bachelor of Technology in Civil Engineering from National Institute of Technology Silchar (2024)",
+    topic: 'Development of a computational fluid dynamics-enabled digital twin for real-time monitoring and optimization of a membrane distillation process',
+    duration: 'July 2025 – Present',
+    email: 'XXXXXXXXXX',
+  },
+  
+  
+{
+    id: 'mtech-09',
+    type: 'MTech',
     name: 'Mr. Abhishek Kumar Sinha',
     photo: '/images/groupmembers/mtech/abhishek.jpeg',
     position: 'Master of Technology in Water Resources Development',
@@ -359,7 +416,7 @@ export const mastersStudents = [
   },
   
   {
-    id: 'mtech-02',
+    id: 'mtech-08',
     type: 'MTech',
     name: 'Ar. Harsh Pathak',
     photo: '/images/groupmembers/mtech/harshpathak.jpg',
@@ -385,13 +442,13 @@ export const mastersStudents = [
       '/images/events/event4.jpg'
     ],
     previousDegree: "Bachelor's in Architecture from Dr. A.P.J. Abdul Kalam Technical University",
-    topic: 'Aquatic Architecture for Sustainable Water Management by exploring the potential of Nature-based solutions and innovative design',
+    topic: 'Development of an Integrated Drinking Water and Sanitation Index for Pilgrim Sites in India: A Case Study of the Panchkoshi Yatra Marg, Varanasi',
     duration: 'July 2024 – Present',
     email: 'architectharshpathak@gmail.com',
     coSupervisor: 'Prof Tanaya Sarmah, IIT Roorkee'
   },
   {
-    id: 'mtech-03',
+    id: 'mtech-07',
     type: 'MTech',
     name: 'Mr. Shivam Tiwari',
     photo: '/images/groupmembers/mtech/shivam.jpeg',
@@ -415,7 +472,7 @@ export const mastersStudents = [
     coSupervisor: 'Dr. Prasanta K. Sahoo, National Institute of Hydrology, Roorkee'
   },
   {
-    id: 'mtech-04',
+    id: 'mtech-06',
     type: 'MTech',
     name: 'Mr. Abas Amri Makada',
     photo: '/images/groupmembers/mtech/abbas.jpeg',
@@ -464,7 +521,7 @@ export const mastersStudents = [
     coSupervisor: 'Dr. Prasanta K. Sahoo, National Institute of Hydrology, Roorkee'
   },
   {
-    id: 'mtech-06',
+    id: 'mtech-04',
     type: 'MTech',
     name: 'Mr. Bal Krishan',
     photo: '/images/groupmembers/mtech/balkrishan.jpeg',
@@ -493,7 +550,7 @@ export const mastersStudents = [
 
   
   {
-    id: 'mtech-07',
+    id: 'mtech-03',
     type: 'MTech',
     name: 'Mr. Issah Mtono',
     photo: '/images/groupmembers/mtech/issah.jpeg',
@@ -519,7 +576,7 @@ export const mastersStudents = [
 
   
   {
-    id: 'mtech-08',
+    id: 'mtech-02',
     type: 'MTech',
     name: 'Mr. Nsanzurwimo Malachie',
     photo: '/images/groupmembers/mtech/nsanzurwimo.jpeg',
@@ -537,7 +594,7 @@ export const mastersStudents = [
       '/images/events/event4.jpg'
     ],
     previousDegree: 'Bachelor of Technology in Civil Engineering (2024)',
-    topic: 'Decentralized wastewater treatment systems for rural communities: a feasibility and sustainability assessment',
+    topic: 'Decentralized wastewater treatment systems for rural communities: A feasibility and sustainability assessment',
     duration: 'July 2024 – Present',
     email: 'nsanzurwimo_m@wr.iitr.ac.in',
     coSupervisor: 'Dr. Samuel Godfrey, WASH Chief UNICEF, Sudan'
@@ -545,7 +602,7 @@ export const mastersStudents = [
 
   
   {
-    id: 'mtech-09',
+    id: 'mtech-01',
     type: 'MTech',
     name: 'Ms. Prisca James',
     photo: '/images/groupmembers/mtech/jamesprisca.jpeg',
