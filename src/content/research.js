@@ -2278,7 +2278,7 @@ export const patents = [
     inventors: ['A.Yadav', 'A. Kumar', 'C.P. Singh', 'R.V. Patel'],
     patentNumber: 'IN202511070380',
     filingDate: '24–07–2025',
-    status: 'Filed',
+    status: 'Published',
     link: 'https://ipindia.gov.in/patent-details'
   },
   {
@@ -2486,6 +2486,36 @@ export const invitedTalks = [
   },
   {
     id: 'talk-19',
+    title: 'Computational Fluid Dynamics and Molecular Modelling for Engineering Applications',
+    event: 'Guest Lecture at RR Institute of Management and Technology',
+    speaker: 'Dr. A. Yadav',
+    images:['/images/research/invited_talk/IT1(1).JPG','/images/research/invited_talk/IT1(2).JPG','/images/research/invited_talk/IT1(3).JPG','/images/research/invited_talk/IT1(4).JPG','/images/research/invited_talk/IT1(5).JPG'],
+    date: 2022,
+    location: 'RR Institute of Management and Technology, Lucknow',
+    abstract: 'Demonstrated use of computational fluid dynamics and molecular modeling in environmental and water engineering applications.'
+  },
+    {
+    id: 'talk-20',
+    title: 'Computational Fluid Dynamics and Molecular Modelling for Engineering Applications',
+    event: 'Guest Lecture at RR Institute of Management and Technology',
+    speaker: 'Dr. A. Yadav',
+    images:['/images/research/invited_talk/IT1(1).JPG','/images/research/invited_talk/IT1(2).JPG','/images/research/invited_talk/IT1(3).JPG','/images/research/invited_talk/IT1(4).JPG','/images/research/invited_talk/IT1(5).JPG'],
+    date: 2022,
+    location: 'RR Institute of Management and Technology, Lucknow',
+    abstract: 'Demonstrated use of computational fluid dynamics and molecular modeling in environmental and water engineering applications.'
+  },
+    {
+    id: 'talk-21',
+    title: 'Computational Fluid Dynamics and Molecular Modelling for Engineering Applications',
+    event: 'Guest Lecture at RR Institute of Management and Technology',
+    speaker: 'Dr. A. Yadav',
+    images:['/images/research/invited_talk/IT1(1).JPG','/images/research/invited_talk/IT1(2).JPG','/images/research/invited_talk/IT1(3).JPG','/images/research/invited_talk/IT1(4).JPG','/images/research/invited_talk/IT1(5).JPG'],
+    date: 2022,
+    location: 'RR Institute of Management and Technology, Lucknow',
+    abstract: 'Demonstrated use of computational fluid dynamics and molecular modeling in environmental and water engineering applications.'
+  },
+    {
+    id: 'talk-22',
     title: 'Computational Fluid Dynamics and Molecular Modelling for Engineering Applications',
     event: 'Guest Lecture at RR Institute of Management and Technology',
     speaker: 'Dr. A. Yadav',
