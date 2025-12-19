@@ -330,7 +330,7 @@ images:[
 
 export const mastersStudents = [
   {
-    id: 'mtech-01',
+    id: 'mtech-11',
     type: 'MTech',
     name: 'Mr. Abhishek Raj',
     photo: '/images/groupmembers/mtech/abhishek_raj.jpeg',
@@ -389,7 +389,7 @@ export const mastersStudents = [
     id: 'mtech-09',
     type: 'MTech',
     name: 'Mr. Abhishek Kumar Sinha',
-    photo: '/images/groupmembers/mtech/abhishek.jpeg',
+    photo: '/images/groupmembers/mtech/abhishek_sinha.jpeg',
     position: 'Master of Technology in Water Resources Development',
     nationality: 'Indian',
     researchArea: '',
@@ -418,7 +418,7 @@ export const mastersStudents = [
     id: 'mtech-08',
     type: 'MTech',
     name: 'Ar. Harsh Pathak',
-    photo: '/images/groupmembers/mtech/harshpathak.jpg',
+    photo: '/images/groupmembers/mtech/harsh_pathak.jpg',
     position: 'Master of Technology in Drinking Water and Sanitation',
     nationality: 'Indian',
     researchArea: 'Architecture, Water Management, Underwater Architecture.',
