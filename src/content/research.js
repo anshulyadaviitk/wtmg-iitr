@@ -2121,33 +2121,33 @@ export const publications = {
   
  books: [
    
-//{
-//  id: 'book-07',
-//  title: 'Archaeopedia',
- // authors: ['H. Pathak', 'A.Yadav'],
-//  image: '/images/research/books/book7.png',
-//  publisher: 'Tata McGraw-Hill',
-//  year: 2026,
-//  link: '',
-//  isbn: '',
-//  eisbn: '',
-//  doi: '',
-//  featured: false
-//},
+{
+ id: 'book-07',
+ title: 'Archaeopedia',
+ authors: ['H. Pathak', 'A.Yadav'],
+ image: '/images/research/books/book7.png',
+ publisher: 'Tata McGraw-Hill',
+ year: 2026,
+ link: '',
+ isbn: '',
+ eisbn: '',
+ doi: '',
+ featured: false
+},
 
-//{
-//  id: 'book-06',
-//  title: 'Boron nitride nanomaterials-based adsorbents for water treatment',
-//  authors: ['A.Yadav','N. Sinha'],
-//  image: '/images/research/books/book6.png',
-//  publisher: 'International Water Association Publishing (Proposal submitted)',
-//  year: 2026,
-//  link: '',
-//  isbn: '',
-//  eisbn: '',
-//  doi: '',
-//  featured: false
-//},
+{
+ id: 'book-06',
+ title: 'Boron nitride nanomaterials-based adsorbents for water treatment',
+ authors: ['A.Yadav','N. Sinha'],
+ image: '/images/research/books/book6.png',
+ publisher: 'Apple Academic Publishers, CRC Press',
+ year: 2026,
+ link: '',
+ isbn: '',
+ eisbn: '',
+ doi: '',
+ featured: false
+},
    
 {
   id: 'book-05',

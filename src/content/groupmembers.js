@@ -40,6 +40,12 @@ export const pi = {
       to: 'till date'
     },
     {
+      position: 'INSA Visiting Scientist',
+      institute: 'Indian Institute of Technology Kanpur',
+      from: 'Dec 2025',
+      to: 'Jan 2026'
+    },
+    {
       position: 'Scientist',
       institute: 'CSIR-Central Salt and Marine Chemicals Research Institute, Bhavnagar',
       from: 'Apr 2019',
@@ -140,13 +146,23 @@ export const pi = {
     {
       title: 'Experimental and numerical studies for optimization of inline non-electric chlorinator device',
       funding: '1.77 lakhs',
-      duration: '01.09.2025-10.09.2025',
+      duration: '01.09.2025-30.09.2025',
       sponsor:'VP Eco Trade',
       role: 'PI',
       images:'images/logos/vpecotrade.png',
       description: 'Consultancy Project'
     },  
     
+        {
+      title: 'Technical Evaluation and Feasibility Assessment of SARAL FRP Packaged Sewage Treatment Plant',
+      funding: '0.59 lakhs',
+      duration: '01.01.2026-31.01.2026',
+      sponsor:'VP Eco Trade',
+      role: 'PI',
+      images:'images/logos/vpecotrade.png',
+      description: 'Consultancy Project'
+    },  
+
     {
       title: 'Development of hydrophobic membranes for desalination and resource recovery using membrane distillation',
       funding: '20 lakhs',
@@ -167,6 +183,15 @@ export const pi = {
       description: ''
     },    
     
+       {
+      title: 'Assessment of Environmental FIows in the Ghagra and Gomti River Basins',
+      funding: '30 lakhs',
+      duration: '2026-2031',
+      sponsor:'Anusandhan National Research Foundation (ANRF)',
+      role: 'PI',
+      images:'images/logos/anrf-logo.webp',
+      description: ''
+    },  
   ]
 };
 
