@@ -360,7 +360,7 @@ export const mastersStudents = [
     {
     id: 'mtech-10',
     type: 'MTech',
-    name: 'Mr. Abhinaw Kumar',
+    name: 'Mr. Abhinav',
     photo: '/images/groupmembers/mtech/abhinaw_kumar.jpeg',
     position: 'Master of Technology in Water Resources Development',
     nationality: 'Indian',
