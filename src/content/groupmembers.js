@@ -77,6 +77,7 @@ export const pi = {
     }
   ],
   awards: [
+    'INSA Visiting Scientist Fellowship (2025)',
     'Article among top 10% of highly cited work in Royal Society of Chemistry Journals (2023)',
     'Young Scientist award by International Society for Energy, Environment and Sustainability (2023)',
     'Among top 2% Scientist in world in the subject Materials (2022)',
@@ -140,12 +141,11 @@ export const pi = {
       sponsor:'Bureu of Indian Standards (BIS)',
       role: 'PI',
       images:'images/logos/bis-logo.svg',
-      description: 'transferred when leaving CSIR'
+      description: ''
     },
     
     {
       title: 'Experimental and numerical studies for optimization of inline non-electric chlorinator device',
-      funding: '1.77 lakhs',
       duration: '01.09.2025-30.09.2025',
       sponsor:'VP Eco Trade',
       role: 'PI',
@@ -155,7 +155,6 @@ export const pi = {
     
         {
       title: 'Technical Evaluation and Feasibility Assessment of SARAL FRP Packaged Sewage Treatment Plant',
-      funding: '0.59 lakhs',
       duration: '01.01.2026-31.01.2026',
       sponsor:'VP Eco Trade',
       role: 'PI',
@@ -183,8 +182,8 @@ export const pi = {
       description: ''
     },    
     
-       {
-      title: 'Assessment of Environmental FIows in the Ghagra and Gomti River Basins',
+    {
+      title: 'Social Impact on Ganga River Water Quality: A Remote Sensing and Machine Learning Approach',
       funding: '30 lakhs',
       duration: '2026-2031',
       sponsor:'Anusandhan National Research Foundation (ANRF)',
@@ -537,9 +536,37 @@ export const mastersStudents = [
     email: 'nsanzurwimo_m@wr.iitr.ac.in',
     coSupervisor: 'Dr. Samuel Godfrey, WASH Chief UNICEF, Sudan'
   },
-  
   {
     id: 'mtech-08',
+    type: 'MTech',
+    name: 'Mr. Prateek Jaiswal',
+    photo: '/images/groupmembers/mtech/prateek_jaiswal.jpeg',
+    position: 'Master of Technology in Biochemical Engineering',
+    nationality: 'Indian',
+    researchArea: '',
+    peerReviewedPublications: ['N/A'
+    ],
+    patents: ['N/A'
+    ],
+    conferences: ['N/A'
+    ],
+    awards: ['N/A'
+    ],
+    images: [
+      '/images/events/event1.jpg',
+      '/images/events/event2.jpg',
+      '/images/events/event3.jpg',
+      '/images/events/event4.jpg'
+    ],
+    previousDegree: "Master of Science in Botany, CSJM University, Kanpur (2024)",
+    topic: 'Experimental and CFD Modeling of Phase Change and Solute Transport During Freeze Desalination of Aqueous Salt Solution',
+    duration: 'July 2024 – Present',
+    email: '240201004@hbtu.ac.in ',
+    Supervisor: 'Prof Lalit Kumar, HBTU Kanpur',
+    coSupervisor: 'Prof Anshul Yadav, IIT Roorkee'
+  },
+  {
+    id: 'mtech-09',
     type: 'MTech',
     name: 'Ms. Prisca James',
     photo: '/images/groupmembers/mtech/prisca_james.jpeg',
@@ -563,7 +590,7 @@ export const mastersStudents = [
     coSupervisor: 'Dr. Samuel Godfrey, WASH Chief,UNICEF, Sudan'
   },
   {
-    id: 'mtech-09',
+    id: 'mtech-10',
     type: 'MTech',
     name: 'Mr. Shivam Tiwari',
     photo: '/images/groupmembers/mtech/shivam_tiwari.jpeg',
@@ -586,8 +613,8 @@ export const mastersStudents = [
     email: 'XXXXXXXXXX',
     coSupervisor: 'Dr. Prasanta K. Sahoo, National Institute of Hydrology, Roorkee'
   },
-  {
-    id: 'mtech-10',
+  /* {
+    id: 'mtech-11',
     type: 'MTech',
     name: 'Mr. Aabbci J. S. Roodia',
     photo: '/images/groupmembers/mtech/aabci_roodia.jpg',
@@ -701,7 +728,7 @@ export const mastersStudents = [
     id: 'mtech-14',
     type: 'MTech',
     name: 'Mr. Festo Nicholaus Mnosi',
-    photo: '/images/groupmembers/mtech/festo_nicholaus.jpg',
+    photo: '/images/groupmembers/mtech/festo_nicholaus.jpeg',
     position: 'Master of Technology in Drinking Water and Sanitation',
     nationality: 'Tanzania',
     researchArea: '',
@@ -916,35 +943,7 @@ export const mastersStudents = [
     duration: 'July 2025 – Present',
     email: 'niyorugira_g@wr.iitr.ac.in',
   },
-  {
-    id: 'mtech-22',
-    type: 'MTech',
-    name: 'Mr. Prateek Jaiswal',
-    photo: '/images/groupmembers/mtech/prateek_jaiswal.jpeg',
-    position: 'Master of Technology in Biochemical Engineering',
-    nationality: 'Indian',
-    researchArea: '',
-    peerReviewedPublications: ['N/A'
-    ],
-    patents: ['N/A'
-    ],
-    conferences: ['N/A'
-    ],
-    awards: ['N/A'
-    ],
-    images: [
-      '/images/events/event1.jpg',
-      '/images/events/event2.jpg',
-      '/images/events/event3.jpg',
-      '/images/events/event4.jpg'
-    ],
-    previousDegree: "Master of Science in Botany, CSJM University, Kanpur (2024)",
-    topic: 'Experimental and CFD Modeling of Phase Change and Solute Transport During Freeze Desalination of Aqueous Salt Solution',
-    duration: 'July 2024 – Present',
-    email: '240201004@hbtu.ac.in ',
-    Supervisor: 'Prof Lalit Kumar, HBTU Kanpur',
-    coSupervisor: 'Prof Anshul Yadav, IIT Roorkee'
-  },
+  
   {
     id: 'mtech-23',
     type: 'MTech',
@@ -981,7 +980,7 @@ export const mastersStudents = [
     name: 'Mr. Recentiago Martinez',
     photo: '/images/groupmembers/mtech/recentiago_martinez.jpeg',
     position: 'Master of Technology in Water Resources Development',
-    nationality: 'NA',
+    nationality: 'Zambia',
     researchArea: '',
     peerReviewedPublications: ['N/A'
     ],
@@ -997,7 +996,7 @@ export const mastersStudents = [
       '/images/events/event3.jpg',
       '/images/events/event4.jpg'
     ],
-    previousDegree: "Bachelor of Technology in NA",
+    previousDegree: "Bachelor of Technology in Civil Engineering (2025) Marwadi university, Rajkot",
     topic: 'NA',
     duration: 'July 2025 – Present',
     email: 'recentiago_m@wr.iitr.ac.in',
@@ -1084,7 +1083,7 @@ export const mastersStudents = [
     topic: 'Performance Based Assessment of Existing Weir Type Headworks Under Extreme Flow Condition Using HEC-RAS GIS',
     duration: 'July 2025 – Present',
     email: 'veyo_p@wr.iitr.ac.in',
-  },
+  }, */
 ];
 
 export const project_student = [
