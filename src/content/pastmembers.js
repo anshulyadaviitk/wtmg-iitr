@@ -91,7 +91,7 @@ images:[
   interns: [
   
   {
-    id: 'intern-37',
+    id: 'intern-36',
     type: 'intern',
     name: 'Mr. Aayush Srivastava',
     photo: '/images/pastmembers/interns/aayush-aitd.jpg',
@@ -102,7 +102,7 @@ images:[
     email: 'aayushsri1507@gmail.com'
   },
   {
-    id: 'intern-36',
+    id: 'intern-35',
     type: 'intern',
     name: 'Mr. Aditya Sharma',
     photo: '/images/groupmembers/interns/aditya.jpg',
@@ -114,7 +114,7 @@ images:[
   },
 
   {
-    id: 'intern-35',
+    id: 'intern-34',
     type: 'intern',
     name: 'Ms. Divyanshi',
     photo: '/images/pastmembers/interns/divyanshi.jpg',
@@ -123,18 +123,6 @@ images:[
     topic: 'Design and development of a prototype for capacitive deionization for mineralized water treatment system',
     duration: 'August 2025 (One month)',
     email: 'divyanshigtm123@gmail.com'
-  },
-     
-  {
-    id: 'intern-34',
-    type: 'intern',
-    name: 'Ms. Pratiksha',
-    photo: '/images/groupmembers/interns/pratiksha.jpg',
-    position: 'Intern',
-    College: 'Graphic Era Deemed To Be University, Dehradun',
-    topic: 'Design and development of a prototype for zero liquid discharge wastewater treatment system',
-    duration: 'July–December 2025 (Six months)',
-    email: 'pratiksha.0059@gmail.com'
   },
      
   {

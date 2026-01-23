@@ -1107,7 +1107,7 @@ export const interns = [
     id: 'intern-38',
     type: 'intern',
     name: 'Ms. Priya',
-    photo: '/images/groupmembers/interns/pratiksha.jpeg',
+    photo: '/images/groupmembers/interns/priya.jpeg',
     position: 'Intern',
     College: 'Shri Dev Suman Uttrakhand University, Gopeshwar',
     topic: 'Water treatment and Management',
