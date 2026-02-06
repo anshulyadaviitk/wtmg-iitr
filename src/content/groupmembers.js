@@ -298,7 +298,7 @@ images:[
     '/images/events/event3.jpg',
     '/images/events/event4.jpg'
 ],
-     previousDegree: "Master of Technology in Remote Sensing and Geographic Information Systems from National Institute of Technology Warangal (2025)\nBachelor of Technology from Vellore Institute of Technology",
+    previousDegree: "Master of Technology in Remote Sensing and Geographic Information Systems from National Institute of Technology Warangal (2025)\nBachelor of Technology from Vellore Institute of Technology",
     topic: 'Dynamic pollutant monitoring in rivers using multi-source remote sensing data and automated validation',
     duration: 'July 2025 – Present',
     email: ' yaswantharagonda@gmail.com',
@@ -672,10 +672,10 @@ export const mastersStudents = [
   {
     id: 'mtech-13',
     type: 'MTech',
-    name: 'Ms. Gloria Nampija',
-    photo: '/images/groupmembers/mtech/gloria_nampija.jpg',
+    name: 'Mr. Festo Nicholaus Mnosi',
+    photo: '/images/groupmembers/mtech/festo_nicholaus.jpeg',
     position: 'Master of Technology in Drinking Water and Sanitation',
-    nationality: 'Uganda',
+    nationality: 'Tanzania',
     researchArea: '',
     peerReviewedPublications: ['N/A'
     ],
@@ -691,13 +691,67 @@ export const mastersStudents = [
       '/images/events/event3.jpg',
       '/images/events/event4.jpg'
     ],
-    previousDegree: "Bachelor of Science in Biosystems Engineering from Gulu University, Uganda (2023)",
-    topic: 'Comparative assessment of Solids Separation Technologies for Pre-Treatment in Onsite Sanitation Systems',
+    previousDegree: "Bachelor degree in Water Resources and Irrigation engineering",
+    topic: 'Evaluation of the community participation in the management of water supply projects in Ulanga District Tanzania',
     duration: 'July 2025 – Present',
-    email: 'gloria_n@wr.iitr.ac.in',
+    email: '',
+  },
+{
+    id: 'mtech-14',
+    type: 'MTech',
+    name: 'Mr. Hamisi Yasini Hamisi',
+    photo: '/images/groupmembers/mtech/hamisi_yasini.jpg',
+    position: 'Master of Technology in Drinking Water and Sanitation',
+    nationality: '',
+    researchArea: '',
+    peerReviewedPublications: ['N/A'
+    ],
+    patents: ['N/A'
+    ],
+    conferences: ['N/A'
+    ],
+    awards: ['N/A'
+    ],
+    images: [
+      '/images/events/event1.jpg',
+      '/images/events/event2.jpg',
+      '/images/events/event3.jpg',
+      '/images/events/event4.jpg'
+    ],
+    previousDegree: "",
+    topic: 'Design and development of nanocomposite membranes for water treatment using electrodioization',
+    duration: 'July 2025 – Present',
+    email: '',
+  },
+{
+    id: 'mtech-15',
+    type: 'MTech',
+    name: 'Mr. Humed Mohammed Ebrahim',
+    photo: '/images/groupmembers/mtech/humed_mohammed.jpeg',
+    position: 'Master of Technology in Drinking Water and Sanitation',
+    nationality: 'Tanzania',
+    researchArea: '',
+    peerReviewedPublications: ['N/A'
+    ],
+    patents: ['N/A'
+    ],
+    conferences: ['N/A'
+    ],
+    awards: ['N/A'
+    ],
+    images: [
+      '/images/events/event1.jpg',
+      '/images/events/event2.jpg',
+      '/images/events/event3.jpg',
+      '/images/events/event4.jpg'
+    ],
+    previousDegree: "Bachelor of Technology in Civil Engineering (2023)",
+    topic: 'Performance Based Assessment of Existing Weir Type Headworks Under Extreme Flow Condition Using HEC-RAS GIS',
+    duration: 'July 2025 – Present',
+    email: 'humed_m@wr.iitr.ac.in',
   },
   {
-    id: 'mtech-14',
+    id: 'mtech-16',
     type: 'MTech',
     name: 'Ms. Kalash Dwivedi',
     photo: '/images/groupmembers/mtech/kalash_dwivedi.jpg',
@@ -718,18 +772,45 @@ export const mastersStudents = [
       '/images/events/event3.jpg',
       '/images/events/event4.jpg'
     ],
-    previousDegree: "",
+    previousDegree: "Bachelor of Technology in Civil Engineering from National Institute of Technology Jaipur",
     topic: '',
     duration: 'July 2025 – Present',
     email: 'kalash_d@wr.iitr.ac.in',
     coSupervisor: 'Prof. Manoj Kumar, University of Delhi, Delhi'
   },
 {
-    id: 'mtech-15',
+    id: 'mtech-17',
+    type: 'MTech',
+    name: 'Ms. Nampija Gloria',
+    photo: '/images/groupmembers/mtech/gloria_nampija.jpg',
+    position: 'Master of Technology in Drinking Water and Sanitation',
+    nationality: 'Uganda',
+    researchArea: '',
+    peerReviewedPublications: ['N/A'
+    ],
+    patents: ['N/A'
+    ],
+    conferences: ['N/A'
+    ],
+    awards: ['N/A'
+    ],
+    images: [
+      '/images/events/event1.jpg',
+      '/images/events/event2.jpg',
+      '/images/events/event3.jpg',
+      '/images/events/event4.jpg'
+    ],
+    previousDegree: "Bachelor of Science in Biosystems Engineering from Gulu University, Uganda (2023)",
+       topic: 'Design and development of nanocomposite membranes for wastewater treatment using capacitive deionization',
+    duration: 'July 2025 – Present',
+    email: 'gloria_n@wr.iitr.ac.in',
+  },
+{
+    id: 'mtech-18',
     type: 'MTech',
     name: 'Mr. Niraj Podar',
     photo: '/images/groupmembers/mtech/niraj_podar.jpeg',
-    position: 'Master of Technology in Drinking Water and Sanitation',
+    position: 'Master of Technology in Water Resource Development',
     nationality: 'Nepali',
     researchArea: '',
     peerReviewedPublications: ['N/A'
@@ -747,13 +828,40 @@ export const mastersStudents = [
       '/images/events/event4.jpg'
     ],
     previousDegree: "Bachelor of Technology in Civil Engineering (2023)",
-    topic: 'Performance Based Assessment of Existing Weir Type Headworks Under Extreme Flow Condition Using HEC-RAS GIS',
+    topic: 'Performance Based Assessment of Existing Weir Type Headworks Under Extreme Flow Condition Using HEC-RAS, GIS and flood mapping',
     duration: 'July 2025 – Present',
     email: 'niraj_p@wr.iitr.ac.in',
     coSupervisor: 'Prof. Mohammed Mujahid, Aligarh Muslim University, Aligarh'
   },
+{
+    id: 'mtech-19',
+    type: 'MTech',
+    name: 'Mr. Niyorugira Georges',
+    photo: '/images/groupmembers/mtech/niyorugira_georges.jpeg',
+    position: 'Master of Technology in Drinking Water and Sanitation',
+    nationality: 'Burundi',
+    researchArea: '',
+    peerReviewedPublications: ['N/A'
+    ],
+    patents: ['N/A'
+    ],
+    conferences: ['N/A'
+    ],
+    awards: ['N/A'
+    ],
+    images: [
+      '/images/events/event1.jpg',
+      '/images/events/event2.jpg',
+      '/images/events/event3.jpg',
+      '/images/events/event4.jpg'
+    ],
+    previousDegree: "Bachelor of Technology in Civil Engineering,(2025)",
+    topic: 'Assessment and groundwater treatment for drinking water supply',
+    duration: 'July 2025 – Present',
+    email: 'niyorugira_g@wr.iitr.ac.in',
+  },
   {
-    id: 'mtech-16',
+    id: 'mtech-20',
     type: 'MTech',
     name: 'Ms. Raksha Pokhrel',
     photo: '/images/groupmembers/mtech/raksha_pokhrel.jpeg',
@@ -780,8 +888,35 @@ export const mastersStudents = [
     email: 'raksha_p@wr.iitr.ac.in',
     coSupervisor: 'Prof. Mohammed Mujahid, Aligarh Muslim University, Aligarh'
   },
+   {
+    id: 'mtech-21',
+    type: 'MTech',
+    name: 'Mr. Sebastian Nicodem Lyakurwa',
+    photo: '/images/groupmembers/mtech/sebastian_lyakurwa.jpeg',
+    position: 'Master of Technology in Drinking Water and Sanitation',
+    nationality: 'Tanzania',
+    researchArea: '',
+    peerReviewedPublications: ['N/A'
+    ],
+    patents: ['N/A'
+    ],
+    conferences: ['N/A'
+    ],
+    awards: ['N/A'
+    ],
+    images: [
+      '/images/events/event1.jpg',
+      '/images/events/event2.jpg',
+      '/images/events/event3.jpg',
+      '/images/events/event4.jpg'
+    ],
+    previousDegree: "Master of Science in Project Planning and Management (2023)",
+    topic: 'Evaluating the Adequacy and Long-Term Sustainability of Wastewater Treatment Plants in Morogoro Municipality following the Implementation of Water Supply Project',
+    duration: 'July 2025 – Present',
+    email: 'sebastian_nl@wr.iitr.ac.in',
+  },
 {
-    id: 'mtech-17',
+    id: 'mtech-22',
     type: 'MTech',
     name: 'Ms. Shehnas TK',
     photo: '/images/groupmembers/mtech/shehnas_tk.jpg',
@@ -806,70 +941,15 @@ export const mastersStudents = [
     topic: '',
     duration: 'July 2025 – Present',
     email: 'shehnas_tk@wr.iitr.ac.in',
-    coSupervisor: 'Prof. Tanaya Sarmah, Indian Institute of Technology, Roorkee'
-  },
-  /* {
-    id: 'mtech-11',
-    type: 'MTech',
-    name: 'Mr. Aabbci J. S. Roodia',
-    photo: '/images/groupmembers/mtech/aabci_roodia.jpg',
-    position: 'Master of Technology in Drinking Water and Sanitation',
-    nationality: 'Indian',
-    researchArea: '',
-    peerReviewedPublications: ['N/A'
-    ],
-    patents: ['N/A'
-    ],
-    conferences: ['N/A'
-    ],
-    awards: ['N/A'
-    ],
-    images: [
-      '/images/events/event1.jpg',
-      '/images/events/event2.jpg',
-      '/images/events/event3.jpg',
-      '/images/events/event4.jpg'
-    ],
-    previousDegree: "Bachelor of Planning (2024), School of Planning and Architecture, Vijayawada",
-    topic: 'Waste-to-Energy incorporation in City  through Wastewater Resource Recovery',
-    duration: 'July 2025 – Present',
-    email: 'abhinavroodia@gmail.com',
     coSupervisor: 'Prof. Tanaya Sarmah, Indian Institute of Technology, Roorkee',
   },
-  {
-    id: 'mtech-11',
-    type: 'MTech',
-    name: 'Mr. Albert Tugumisirize RN',
-    photo: '/images/groupmembers/mtech/albert_tugumisirize.jpg',
-    position: 'Master of Technology in Drinking Water and Sanitation',
-    nationality: '',
-    researchArea: '',
-    peerReviewedPublications: ['N/A'
-    ],
-    patents: ['N/A'
-    ],
-    conferences: ['N/A'
-    ],
-    awards: ['N/A'
-    ],
-    images: [
-      '/images/events/event1.jpg',
-      '/images/events/event2.jpg',
-      '/images/events/event3.jpg',
-      '/images/events/event4.jpg'
-    ],
-    previousDegree: "Bachelor of Planning (2024), School of Planning and Architecture, Vijayawada",
-    topic: 'Waste-to-Energy incorporation in City  through Wastewater Resource Recovery',
-    duration: 'July 2025 – Present',
-    email: 'abhinavroodia@gmail.com',
-  },
 {
-    id: 'mtech-14',
+    id: 'mtech-23',
     type: 'MTech',
-    name: 'Mr. Festo Nicholaus Mnosi',
-    photo: '/images/groupmembers/mtech/festo_nicholaus.jpeg',
-    position: 'Master of Technology in Drinking Water and Sanitation',
-    nationality: 'Tanzania',
+    name: 'Mr. Sukdev Bepari',
+    photo: '/images/groupmembers/mtech/sukdev_bepari.jpeg',
+    position: 'Master of Technology in Water Resource Development',
+    nationality: 'India',
     researchArea: '',
     peerReviewedPublications: ['N/A'
     ],
@@ -885,204 +965,12 @@ export const mastersStudents = [
       '/images/events/event3.jpg',
       '/images/events/event4.jpg'
     ],
-    previousDegree: "Bachelor degree in Water Resources and Irrigation engineering",
-    topic: 'Evaluation of the community participation in the management of water supply projects in Ulanga District Tanzania',
-    duration: 'July 2025 – Present',
-    email: '',
-  },
-{
-    id: 'mtech-16',
-    type: 'MTech',
-    name: 'Mr. Hamisi Yasini Hamisi',
-    photo: '/images/groupmembers/mtech/hamisi_yasini.jpg',
-    position: 'Master of Technology in Drinking Water and Sanitation',
-    nationality: '',
-    researchArea: '',
-    peerReviewedPublications: ['N/A'
-    ],
-    patents: ['N/A'
-    ],
-    conferences: ['N/A'
-    ],
-    awards: ['N/A'
-    ],
-    images: [
-      '/images/events/event1.jpg',
-      '/images/events/event2.jpg',
-      '/images/events/event3.jpg',
-      '/images/events/event4.jpg'
-    ],
-    previousDegree: "",
+    previousDegree: "B.Tech in Civil Engineering from Dr. B.R.Ambedkar Institute of Technology Port Blair affiliated under PONDICHERRY UNIVERSITY ",
     topic: '',
     duration: 'July 2025 – Present',
-    email: '',
+    email: 'sukdev_b@wr.iitr.ac.in',
   },
-{
-    id: 'mtech-17',
-    type: 'MTech',
-    name: 'Mr. Humed Mohammed',
-    photo: '/images/groupmembers/mtech/humed_mohammed.jpeg',
-    position: 'Master of Technology in Drinking Water and Sanitation',
-    nationality: 'Tanzania',
-    researchArea: '',
-    peerReviewedPublications: ['N/A'
-    ],
-    patents: ['N/A'
-    ],
-    conferences: ['N/A'
-    ],
-    awards: ['N/A'
-    ],
-    images: [
-      '/images/events/event1.jpg',
-      '/images/events/event2.jpg',
-      '/images/events/event3.jpg',
-      '/images/events/event4.jpg'
-    ],
-    previousDegree: "Bachelor of Technology in Civil Engineering (2023)",
-    topic: 'Performance Based Assessment of Existing Weir Type Headworks Under Extreme Flow Condition Using HEC-RAS GIS',
-    duration: 'July 2025 – Present',
-    email: 'humed_m@wr.iitr.ac.in',
-  },
-{
-    id: 'mtech-19',
-    type: 'MTech',
-    name: 'Mr. Krishna Prasad P S',
-    photo: '/images/groupmembers/mtech/krishna_prasad.jpg',
-    position: 'Master of Technology in Drinking Water and Sanitation',
-    nationality: 'Indian',
-    researchArea: '',
-    peerReviewedPublications: ['N/A'
-    ],
-    patents: ['N/A'
-    ],
-    conferences: ['N/A'
-    ],
-    awards: ['N/A'
-    ],
-    images: [
-      '/images/events/event1.jpg',
-      '/images/events/event2.jpg',
-      '/images/events/event3.jpg',
-      '/images/events/event4.jpg'
-    ],
-    previousDegree: "Bachelor of Technology in Civil Engineering from Mahatma Gandhi university, Kerala (2018)",
-    topic: 'Modelling Drinking water Demand and waste water Generation for Institutional Building planning',
-    duration: 'July 2025 – Present',
-    email: 'krishna_pps@wr.iitr.ac.in',
-    coSupervisor: 'Prof. Arvind Kumar, Indian Institute of Technology, Kanpur'
-  },
-  
-{
-    id: 'mtech-21',
-    type: 'MTech',
-    name: 'Mr. Niyorugira Georges',
-    photo: '/images/groupmembers/mtech/niyorugira_georges.jpeg',
-    position: 'Master of Technology in Drinking Water and Sanitation',
-    nationality: 'Burundi',
-    researchArea: '',
-    peerReviewedPublications: ['N/A'
-    ],
-    patents: ['N/A'
-    ],
-    conferences: ['N/A'
-    ],
-    awards: ['N/A'
-    ],
-    images: [
-      '/images/events/event1.jpg',
-      '/images/events/event2.jpg',
-      '/images/events/event3.jpg',
-      '/images/events/event4.jpg'
-    ],
-    previousDegree: "Bachelor of Technology in Civil Engineering, Rajkiya Engineering College, Bijnor (2025)",
-    topic: 'Assessment and groundwater treatment for drinking water supply',
-    duration: 'July 2025 – Present',
-    email: 'niyorugira_g@wr.iitr.ac.in',
-  },
-    {
-    id: 'mtech-24',
-    type: 'MTech',
-    name: 'Mr. Recentiago Martinez',
-    photo: '/images/groupmembers/mtech/recentiago_martinez.jpeg',
-    position: 'Master of Technology in Water Resources Development',
-    nationality: 'Zambia',
-    researchArea: '',
-    peerReviewedPublications: ['N/A'
-    ],
-    patents: ['N/A'
-    ],
-    conferences: ['N/A'
-    ],
-    awards: ['N/A'
-    ],
-    images: [
-      '/images/events/event1.jpg',
-      '/images/events/event2.jpg',
-      '/images/events/event3.jpg',
-      '/images/events/event4.jpg'
-    ],
-    previousDegree: "Bachelor of Technology in Civil Engineering (2025) Marwadi university, Rajkot",
-    topic: 'NA',
-    duration: 'July 2025 – Present',
-    email: 'recentiago_m@wr.iitr.ac.in',
-    coSupervisor: 'NA'
-  },
-{
-    id: 'mtech-25',
-    type: 'MTech',
-    name: 'Mr. Sebastian Lyakurwa',
-    photo: '/images/groupmembers/mtech/sebastian_lyakurwa.jpeg',
-    position: 'Master of Technology in Drinking Water and Sanitation',
-    nationality: 'Tanzania',
-    researchArea: '',
-    peerReviewedPublications: ['N/A'
-    ],
-    patents: ['N/A'
-    ],
-    conferences: ['N/A'
-    ],
-    awards: ['N/A'
-    ],
-    images: [
-      '/images/events/event1.jpg',
-      '/images/events/event2.jpg',
-      '/images/events/event3.jpg',
-      '/images/events/event4.jpg'
-    ],
-    previousDegree: "Master of Science in Project Planning and Management (2023)",
-    topic: 'Evaluating the Adequacy and Long-Term Sustainability of Wastewater Treatment Plants in Morogoro Municipality following the Implementation of Water Supply Project',
-    duration: 'July 2025 – Present',
-    email: 'sebastian_nl@wr.iitr.ac.in',
-  },
-  
-  {
-    id: 'mtech-27',
-    type: 'MTech',
-    name: 'Mr. Veyo',
-    photo: '/images/groupmembers/mtech/veyo_.jpeg',
-    position: 'Master of Technology in Drinking Water and Sanitation',
-    nationality: 'Indian',
-    researchArea: '',
-    peerReviewedPublications: ['N/A'
-    ],
-    patents: ['N/A'
-    ],
-    conferences: ['N/A'
-    ],
-    awards: ['N/A'
-    ],
-    images: [
-      '/images/events/event1.jpg',
-      '/images/events/event2.jpg',
-      '/images/events/event3.jpg',
-      '/images/events/event4.jpg'
-    ],
-    previousDegree: "Bachelor of Technology in Civil Engineering (2023)",
-    topic: 'Performance Based Assessment of Existing Weir Type Headworks Under Extreme Flow Condition Using HEC-RAS GIS',
-    duration: 'July 2025 – Present',
-    email: 'veyo_p@wr.iitr.ac.in',
-  }, */
+
 ];
 
 export const project_student = [
@@ -1103,7 +991,7 @@ export const interns = [
     email: 'pratiksha.0059@gmail.com'
   },
 
-    {
+  {
     id: 'intern-38',
     type: 'intern',
     name: 'Ms. Priya',
@@ -1115,7 +1003,7 @@ export const interns = [
     email: 'pratiksha.0059@gmail.com'
   },
 
-      {
+  {
     id: 'intern-39',
     type: 'intern',
     name: 'Ms. Roshani Maindoli',
@@ -1127,7 +1015,7 @@ export const interns = [
     email: 'pratiksha.0059@gmail.com'
   },
 
-      {
+  {
     id: 'intern-40',
     type: 'intern',
     name: 'Ms. Mahak Rawat',
