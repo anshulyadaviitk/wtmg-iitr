@@ -66,12 +66,12 @@ export const instruments = [
   },
   {
     name: 'Microscope',
-    image: '/images/instruments/microscope.jpg',
+    image: '/images/instruments/microscope.wepb',
     link: 'https://www.amazon.in/gp/product/B07BR3F9N6',
   },
   {
     name: '3D Polymer Printer',
-    image: '/images/instruments/3dprinter.jpg',
+    image: '/images/instruments/3dprinter.wepb',
     link: 'https://www.amazon.in/gp/product/B07BR3F9N6',
   },
     {
@@ -81,7 +81,7 @@ export const instruments = [
   },
   {
     name: 'Digital Ultrasonic Cleaner',
-    image: '/images/instruments/ultrasonic.PNG',
+    image: '/images/instruments/ultrasonic.png',
     link: 'https://www.industrybuying.com/ultrasonic-bath-phoenix-LAB.ULT.33295076',
   },
   {
@@ -91,17 +91,17 @@ export const instruments = [
   },
   {
     name: 'Water contact angle meter',
-    image: '/images/instruments/wca.PNG',
+    image: '/images/instruments/wca.png',
     link: 'https://www.biolinscientific.com/attension/optical-tensiometers/theta-lite',
   },
   {
     name: 'Digital viscosity meter',
-    image: '/images/instruments/viscometer.PNG',
+    image: '/images/instruments/viscometer.png',
     link: 'https://www.industrybuying.com/lab-measuring-instrument-labtronics-LAB.LAB.524157305',
   },
   {
     name: 'Desktop workstation',
-    image: '/images/instruments/workstation.PNG',
+    image: '/images/instruments/workstation.png',
     link: 'https://www.dell.com/en-in/shop/precision-3660-tower-workstation/spd/precision-3660-workstation',
   },
   {
@@ -111,17 +111,17 @@ export const instruments = [
   },
   {
     name: 'Tubular Furnace',
-    image: '/images/instruments/tubularfurnace.PNG',
+    image: '/images/instruments/tubularfurnace.jpeg',
     link: 'https://www.industrybuying.com/muffle-furnace-nsaw-LAB.FUR.69140363',
   },
   {
     name: 'Muffle Furnaces',
-    image: '/images/instruments/mufflefurnace.PNG',
+    image: '/images/instruments/mufflefurnace.png',
     link: 'https://www.industrybuying.com/muffle-furnace-nsaw-LAB.FUR.69140363',
   },
   {
     name: 'Hot Air Oven',
-    image: '/images/instruments/oven.PNG',
+    image: '/images/instruments/oven.png',
     link: 'https://www.industrybuying.com/lab-ovens-wkm-LAB.LAB.120412767',
   },
   {
@@ -131,7 +131,7 @@ export const instruments = [
   },
   {
     name: 'Digital Overhead Stirrers',
-    image: '/images/instruments/overheadstirrers.jpg',
+    image: '/images/instruments/overheadstirrer.jpg',
     link: 'https://www.sigmaaldrich.com/IN/en/product/aldrich/z766933',
   },
   {
@@ -141,7 +141,7 @@ export const instruments = [
   },
   {
     name: 'Digital Hot Plate Magnetic Stirrers',
-    image: '/images/instruments/magneticstirrers.PNG',
+    image: '/images/instruments/magneticstirrer.PNG',
     link: 'https://www.abdoslifesciences.com/product/hot-plate-swirltop-digital-led-magnetic-stirrer-hot-plate/',
   },
   {
@@ -176,7 +176,7 @@ export const instruments = [
   },
   {
     name: 'Laboratory Refrigerator',
-    image: '/images/instruments/laboratoryrefrigerator.jpg',
+    image: '/images/instruments/laboratoryrefrigerator.png',
     link: 'https://www.industrybuying.com/visi-cooler-celfrost-FUR.VIS.47912968',
   },
   {
