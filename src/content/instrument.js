@@ -31,7 +31,7 @@ export const instruments = [
   },
     {
     name: 'BOD Incubator',
-    image: '/images/instruments/inst-10.jpeg',
+    image: '/images/instruments/bodincubator.webp',
     link: 'https://en.wikipedia.org/wiki/Potentiostat',
   },
   {
@@ -56,7 +56,7 @@ export const instruments = [
   // },
   {
     name: "Doctor's Blade",
-    image: '/images/instruments/blade.PNG',
+    image: '/images/instruments/blade.png',
     link: 'https://en.wikipedia.org/wiki/Doctor_blade',
   }, 
   {
@@ -66,12 +66,12 @@ export const instruments = [
   },
   {
     name: 'Microscope',
-    image: '/images/instruments/microscope.wepb',
+    image: '/images/instruments/microscope.webp',
     link: 'https://www.amazon.in/gp/product/B07BR3F9N6',
   },
   {
     name: '3D Polymer Printer',
-    image: '/images/instruments/3dprinter.wepb',
+    image: '/images/instruments/3dprinter.webp',
     link: 'https://www.amazon.in/gp/product/B07BR3F9N6',
   },
     {
