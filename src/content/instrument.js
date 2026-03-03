@@ -31,17 +31,17 @@ export const instruments = [
   },
     {
     name: 'BOD Incubator',
-    image: '/images/instruments/bodincubator.webp',
+    image: '/images/instruments/bodincubator.jpg',
     link: 'https://en.wikipedia.org/wiki/Potentiostat',
   },
   {
     name: 'BOD Digester',
-    image: '/images/instruments/inst-10.jpeg',
+    image: '/images/instruments/boddigester.jpg',
     link: 'https://en.wikipedia.org/wiki/Potentiostat',
   },
   {
     name: 'Refrigerated Centrifuge',
-    image: '/images/instruments/inst-10.jpeg',
+    image: '/images/instruments/centrifuge.jpg',
     link: 'https://en.wikipedia.org/wiki/Potentiostat',
   },
   {
@@ -66,12 +66,12 @@ export const instruments = [
   },
   {
     name: 'Microscope',
-    image: '/images/instruments/microscope.webp',
+    image: '/images/instruments/microscope.jpg',
     link: 'https://www.amazon.in/gp/product/B07BR3F9N6',
   },
   {
     name: '3D Polymer Printer',
-    image: '/images/instruments/3dprinter.webp',
+    image: '/images/instruments/3dprinter.jpg',
     link: 'https://www.amazon.in/gp/product/B07BR3F9N6',
   },
     {
@@ -141,7 +141,7 @@ export const instruments = [
   },
   {
     name: 'Digital Hot Plate Magnetic Stirrers',
-    image: '/images/instruments/magneticstirrer.PNG',
+    image: '/images/instruments/magneticstirrer.png',
     link: 'https://www.abdoslifesciences.com/product/hot-plate-swirltop-digital-led-magnetic-stirrer-hot-plate/',
   },
   {
