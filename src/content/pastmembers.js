@@ -89,7 +89,54 @@ images:[
  
   ], 
   interns: [
-  
+  {
+    id: 'intern-40',
+    type: 'intern',
+    name: 'Ms. Mansi Sati ',
+    photo: '/images/groupmembers/interns/mansi_sati.jpeg',
+    position: 'Intern',
+    College: 'Shri Dev Suman Uttrakhand University, Gopeshwar',
+    topic: 'Water treatment and Management',
+    duration: 'February 2026 (One month)',
+    email: 'pratiksha.0059@gmail.com'
+  },
+
+  {
+    id: 'intern-39',
+    type: 'intern',
+    name: 'Ms. Priya',
+    photo: '/images/groupmembers/interns/priya.jpeg',
+    position: 'Intern',
+    College: 'Shri Dev Suman Uttrakhand University, Gopeshwar',
+    topic: 'Water treatment and Management',
+    duration: 'February 2026 (One month)',
+    email: 'pratiksha.0059@gmail.com'
+  },
+
+  {
+    id: 'intern-38',
+    type: 'intern',
+    name: 'Ms. Roshani Maindoli',
+    photo: '/images/groupmembers/interns/roshani_maindoli.jpeg',
+    position: 'Intern',
+    College: 'Shri Dev Suman Uttrakhand University, Gopeshwar',
+    topic: 'Water treatment and Management',
+    duration: 'February 2026 (One month)',
+    email: 'pratiksha.0059@gmail.com'
+  },
+
+  {
+    id: 'intern-37',
+    type: 'intern',
+    name: 'Ms. Mahak Rawat',
+    photo: '/images/groupmembers/interns/mahak_rawat.jpeg',
+    position: 'Intern',
+    College: 'Shri Dev Suman Uttrakhand University, Gopeshwar',
+    topic: 'Water treatment and Management',
+    duration: 'February 2026 (One month)',
+    email: 'pratiksha.0059@gmail.com'
+  },
+
   {
     id: 'intern-36',
     type: 'intern',

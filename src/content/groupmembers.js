@@ -399,7 +399,7 @@ export const mastersStudents = [
       '/images/events/event4.jpg'
     ],
     previousDegree: "Bachelor of Technology in Civil Engineering from National Institute of Technology Srinagar (2022)",
-    topic: 'Development of Multifunctional Nanomaterial based Polymeric Membranes for Efficient Arsenic and Fluoride remediation',
+    topic: 'Development of graphene and iron-based metal–organic framework composites for efficient removal of arsenic from contaminated water',
     duration: 'July 2024 – Present',
     email: 'XXXXXXXXXX',
     
@@ -451,7 +451,7 @@ export const mastersStudents = [
       '/images/events/event4.jpg'
     ],
     previousDegree: 'Bachelor of Technology from Indian Institute of Technology Roorkee (2020)',
-    topic: 'Zero liquid discharge and resource recovery for industrial tannery wastewater using a hybrid reverse osmosis–membrane distillation treatment process',
+    topic: 'Graphene–MXene hybrid nanostructure for enhanced electrochemical sensing of arsenic in contaminated water',
     duration: 'July 2024 – Present',
     email: 'XXXXXXXXXX',
     coSupervisor: 'Dr. Prasanta K. Sahoo, National Institute of Hydrology, Roorkee'
@@ -559,7 +559,7 @@ export const mastersStudents = [
       '/images/events/event4.jpg'
     ],
     previousDegree: "Master of Science in Botany, CSJM University, Kanpur (2024)",
-    topic: 'Experimental and CFD Modeling of Phase Change and Solute Transport During Freeze Desalination of Aqueous Salt Solution',
+    topic: 'CFD Modeling of Phase Change and Solute Transport During Freeze Desalination of Aqueous Salt Solution',
     duration: 'July 2024 – Present',
     email: '240201004@hbtu.ac.in ',
     Supervisor: 'Prof Lalit Kumar, HBTU Kanpur',
@@ -574,7 +574,7 @@ export const mastersStudents = [
     nationality: 'Tanzania',
     researchArea: '',
     peerReviewedPublications: ['N/A'],
-    patents: ['Non-electric inline chlorination device for water disinfection and method thereof'],
+    patents: [''],
     conferences: ['N/A'],
     awards: ['N/A'],
     images: [
@@ -584,7 +584,7 @@ export const mastersStudents = [
       '/images/events/event4.jpg'
     ],
     previousDegree: 'Bachelor degree in water resources and irrigation engineering',
-    topic: 'Design, Development, and Performance Evaluation of a Passive Tablet-Based Chlorination Device for Decentralized Water Disinfection',
+    topic: 'Design and Performance Evaluation of a Passive Tablet-Based Chlorination Device for Decentralized Water Disinfection',
     duration: 'July 2024 – Present',
     email: 'prisca_jm@wr.iitr.ac.in',
     coSupervisor: 'Dr. Samuel Godfrey, WASH Chief,UNICEF, Sudan'
@@ -608,7 +608,7 @@ export const mastersStudents = [
       '/images/events/event4.jpg'
     ],
     previousDegree: 'Bachelor of Technology from Uttar Pradesh Technical University (2024)',
-    topic: 'Development of Multifunctional Nanomaterial based Polymeric Membranes for Efficient Uranium remediation',
+    topic: 'Development of graphene and iron-based metal–organic framework composites for efficient removal of uranium from contaminated water',
     duration: 'July 2024 – Present',
     email: 'XXXXXXXXXX',
     coSupervisor: 'Dr. Prasanta K. Sahoo, National Institute of Hydrology, Roorkee'
@@ -636,7 +636,7 @@ export const mastersStudents = [
       '/images/events/event4.jpg'
     ],
     previousDegree: "Bachelor of Technology in Civil Engineering, Rajkiya Engineering College, Bijnor (2025)",
-    topic: 'Experimental and modeling studies on freezing of salt droplets',
+    topic: 'Freezing characteristics of saline droplets on metallic pipe surfaces: experimental and theoretical study',
     duration: 'July 2025 – Present',
     email: 'dhairya_b@wr.iitr.ac.in',
     coSupervisor: 'Prof. Arvind Kumar, Indian Institute of Technology, Kanpur'
@@ -664,7 +664,7 @@ export const mastersStudents = [
       '/images/events/event4.jpg'
     ],
     previousDegree: "Bachelor of Technology in Civil Engineering from Motihari college of engineering (2022)",
-    topic: 'Urban Storm Water runoff as a major pathway for microplastic pollution in Indian rivers',
+    topic: 'Experimental and Modeling of Phase Change and Solute Transport During Freeze Desalination of Aqueous Salt Solution',
     duration: 'July 2025 – Present',
     email: 'diwakar_k@wr.iitr.ac.in',
     coSupervisor: 'Prof. Arvind Kumar, Indian Institute of Technology, Kanpur'
@@ -692,7 +692,7 @@ export const mastersStudents = [
       '/images/events/event4.jpg'
     ],
     previousDegree: "Bachelor degree in Water Resources and Irrigation engineering",
-    topic: 'Evaluation of the community participation in the management of water supply projects in Ulanga District Tanzania',
+    topic: 'Surface modification of ultrafiltration/membrane distillation membranes for improved antifouling performance in wastewater treatment',
     duration: 'July 2025 – Present',
     email: '',
   },
@@ -746,7 +746,7 @@ export const mastersStudents = [
       '/images/events/event4.jpg'
     ],
     previousDegree: "Bachelor of Technology in Civil Engineering (2023)",
-    topic: 'Performance Based Assessment of Existing Weir Type Headworks Under Extreme Flow Condition Using HEC-RAS GIS',
+    topic: 'AI-Based Assessment of Climate Variability Impacts on Surface Water Quality Using Remote Sensing and GIS',
     duration: 'July 2025 – Present',
     email: 'humed_m@wr.iitr.ac.in',
   },
@@ -773,10 +773,9 @@ export const mastersStudents = [
       '/images/events/event4.jpg'
     ],
     previousDegree: "Bachelor of Technology in Civil Engineering from National Institute of Technology Jaipur",
-    topic: '',
+    topic: 'Fouling behavior and mitigation strategies in ultrafiltration membranes for industrial wastewater treatment',
     duration: 'July 2025 – Present',
     email: 'kalash_d@wr.iitr.ac.in',
-    coSupervisor: 'Prof. Manoj Kumar, University of Delhi, Delhi'
   },
 {
     id: 'mtech-17',
@@ -856,7 +855,7 @@ export const mastersStudents = [
       '/images/events/event4.jpg'
     ],
     previousDegree: "Bachelor of Technology in Civil Engineering,(2025)",
-    topic: 'Assessment and groundwater treatment for drinking water supply',
+    topic: 'Development of low-fouling nanocomposite ultrafiltration membranes for industrial wastewater reclamation',
     duration: 'July 2025 – Present',
     email: 'niyorugira_g@wr.iitr.ac.in',
   },
@@ -883,7 +882,7 @@ export const mastersStudents = [
       '/images/events/event4.jpg'
     ],
     previousDegree: "Bachelor of Technology in Civil Engineering(2012)",
-    topic: 'Floodzone mapping at downstream of Kulekhani dam(Nepal) using GIS and Remote Sensing',
+    topic: 'Flood Inundation Modelling and Hazard Zonation in the Downstream Reach of Kulekhani Dam (Nepal) Using Remote Sensing, GIS and Hydrodynamic Modelling',
     duration: 'July 2025 – Present',
     email: 'raksha_p@wr.iitr.ac.in',
     coSupervisor: 'Prof. Mohammed Mujahid, Aligarh Muslim University, Aligarh'
@@ -911,7 +910,7 @@ export const mastersStudents = [
       '/images/events/event4.jpg'
     ],
     previousDegree: "Master of Science in Project Planning and Management (2023)",
-    topic: 'Evaluating the Adequacy and Long-Term Sustainability of Wastewater Treatment Plants in Morogoro Municipality following the Implementation of Water Supply Project',
+    topic: 'Development of a hybrid electrocoagulation–ultrafiltration system for enhanced removal of emerging contaminants from wastewater',
     duration: 'July 2025 – Present',
     email: 'sebastian_nl@wr.iitr.ac.in',
   },
@@ -938,7 +937,7 @@ export const mastersStudents = [
       '/images/events/event4.jpg'
     ],
     previousDegree: "",
-    topic: '',
+    topic: 'Machine Learning Framework for Spatio-Temporal Water Quality Modelling and Risk Assessment Using Remote Sensing and GIS',
     duration: 'July 2025 – Present',
     email: 'shehnas_tk@wr.iitr.ac.in',
     coSupervisor: 'Prof. Tanaya Sarmah, Indian Institute of Technology, Roorkee',
@@ -966,7 +965,7 @@ export const mastersStudents = [
       '/images/events/event4.jpg'
     ],
     previousDegree: "B.Tech in Civil Engineering from Dr. B.R.Ambedkar Institute of Technology Port Blair affiliated under PONDICHERRY UNIVERSITY ",
-    topic: '',
+    topic: 'Development of a Digital Twin Model for Performance Monitoring of FRP-Based Sewage Treatment Plant',
     duration: 'July 2025 – Present',
     email: 'sukdev_b@wr.iitr.ac.in',
   },
@@ -978,54 +977,6 @@ export const project_student = [
 ];
 
 export const interns = [
-
-  {
-    id: 'intern-37',
-    type: 'intern',
-    name: 'Ms. Mansi Sati ',
-    photo: '/images/groupmembers/interns/mansi_sati.jpeg',
-    position: 'Intern',
-    College: 'Shri Dev Suman Uttrakhand University, Gopeshwar',
-    topic: 'Water treatment and Management',
-    duration: 'February 2026 (One month)',
-    email: 'pratiksha.0059@gmail.com'
-  },
-
-  {
-    id: 'intern-38',
-    type: 'intern',
-    name: 'Ms. Priya',
-    photo: '/images/groupmembers/interns/priya.jpeg',
-    position: 'Intern',
-    College: 'Shri Dev Suman Uttrakhand University, Gopeshwar',
-    topic: 'Water treatment and Management',
-    duration: 'February 2026 (One month)',
-    email: 'pratiksha.0059@gmail.com'
-  },
-
-  {
-    id: 'intern-39',
-    type: 'intern',
-    name: 'Ms. Roshani Maindoli',
-    photo: '/images/groupmembers/interns/roshani_maindoli.jpeg',
-    position: 'Intern',
-    College: 'Shri Dev Suman Uttrakhand University, Gopeshwar',
-    topic: 'Water treatment and Management',
-    duration: 'February 2026 (One month)',
-    email: 'pratiksha.0059@gmail.com'
-  },
-
-  {
-    id: 'intern-40',
-    type: 'intern',
-    name: 'Ms. Mahak Rawat',
-    photo: '/images/groupmembers/interns/mahak_rawat.jpeg',
-    position: 'Intern',
-    College: 'Shri Dev Suman Uttrakhand University, Gopeshwar',
-    topic: 'Water treatment and Management',
-    duration: 'February 2026 (One month)',
-    email: 'pratiksha.0059@gmail.com'
-  },
 
   {
     id: 'intern-41',
