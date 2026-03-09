@@ -2309,7 +2309,7 @@ export const invitedTalks = [
     event: '2nd International Online Conference on Sustainable Technologies in Water Treatment and Desalination',
     speaker: 'Dr. A. Yadav',
     images:['/images/research/invited_talk/IT1(1).JPG','/images/research/invited_talk/IT1(2).JPG','/images/research/invited_talk/IT1(3).JPG'],
-    date: 28.01.2022,
+    date: '28.01.2022',
     mode:'Online',
     location: 'NIT Calicut',
     abstract: 'Presented recent developments in optimizing membranes to reduce fouling and enhance distillation flux.'
