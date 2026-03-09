@@ -754,7 +754,7 @@ export const mastersStudents = [
     id: 'mtech-16',
     type: 'MTech',
     name: 'Ms. Kalash Dwivedi',
-    photo: '/images/groupmembers/mtech/kalash_dwivedi.jpg',
+    photo: '/images/groupmembers/mtech/kalash_dwivedi.jpeg',
     position: 'Master of Technology in Water Resources Development',
     nationality: 'Indian',
     researchArea: '',
@@ -776,6 +776,7 @@ export const mastersStudents = [
     topic: 'Fouling behavior and mitigation strategies in ultrafiltration membranes for industrial wastewater treatment',
     duration: 'July 2025 – Present',
     email: 'kalash_d@wr.iitr.ac.in',
+    coSupervisor: 'Dr. Pallabi Das, Principal Scientist, CSIR-Central Institute of Mining and Fuel Research, Dhanbad'
   },
 {
     id: 'mtech-17',
@@ -803,6 +804,7 @@ export const mastersStudents = [
        topic: 'Design and development of nanocomposite membranes for wastewater treatment using capacitive deionization',
     duration: 'July 2025 – Present',
     email: 'gloria_n@wr.iitr.ac.in',
+    coSupervisor: 'Dr. Pallabi Das, Principal Scientist, CSIR-Central Institute of Mining and Fuel Research, Dhanbad'
   },
 {
     id: 'mtech-18',
@@ -964,10 +966,11 @@ export const mastersStudents = [
       '/images/events/event3.jpg',
       '/images/events/event4.jpg'
     ],
-    previousDegree: "B.Tech in Civil Engineering from Dr. B.R.Ambedkar Institute of Technology Port Blair affiliated under PONDICHERRY UNIVERSITY ",
-    topic: 'Development of a Digital Twin Model for Performance Monitoring of FRP-Based Sewage Treatment Plant',
+    previousDegree: "B.Tech in Civil Engineering from Dr. B.R.Ambedkar Institute of Technology Port Blair affiliated under Pondicherry University",
+    topic: 'Development of a Digital Twin Model for Performance Monitoring of fiber reinforced plastic based Sewage Treatment Plant',
     duration: 'July 2025 – Present',
     email: 'sukdev_b@wr.iitr.ac.in',
+    coSupervisor: 'Dr. Pawan Labhasetwar, IIT Madras'
   },
 
 ];
