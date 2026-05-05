@@ -474,9 +474,7 @@ coSupervisor: 'Dr. Prasanta K. Sahoo, National Institute of Hydrology, Roorkee'
       '/images/events/event4.jpg'
     ],
     previousDegree: 'Bachelor of planning (2024) from School of Planning and Architecture, Bhopal',
-    topic: 'Understanding Water and Ion Transport through 
-Functionalized 2D Membranes Using Molecular 
-Dynamics and Experimental Techniques',
+    topic: 'Understanding Water and Ion Transport through Functionalized 2D Membranes Using Molecular Dynamics and Experimental Techniques',
     duration: 'July 2024 – May 2026',
     email: 'aiswarya.priya.p@gmail.com',
     coSupervisor: 'Dr. Prasanta K. Sahoo, National Institute of Hydrology, Roorkee'
