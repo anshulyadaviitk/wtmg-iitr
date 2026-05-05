@@ -106,7 +106,7 @@ export const pi = {
   projects: [
     {
       title: 'Design and development of indigenous Membrane Distillation unit for treating RO reject (high saline water) and producing potable water',
-      funding: '40 lakhs',
+      funding: '39 lakhs',
       duration: '2020-2023',
       sponsor:'Council of Scientific & Industrial Research (CSIR)',
       role: 'PI',
@@ -157,6 +157,24 @@ export const pi = {
       title: 'Technical Evaluation and Feasibility Assessment of SARAL FRP Packaged Sewage Treatment Plant',
       duration: '01.01.2026-31.01.2026',
       sponsor:'VP Eco Trade',
+      role: 'PI',
+      images:'images/logos/vpecotrade.png',
+      description: 'Consultancy Project'
+    },  
+
+        {
+      title: 'Technical Vetting of Feasibility Report – CETP Jhilmil',
+      duration: '08.02.2026-10.03.2026',
+      sponsor:'Jhilmil & Friends Colony Industrial Area CETP Society',
+      role: 'PI',
+      images:'images/logos/vpecotrade.png',
+      description: 'Consultancy Project'
+    },  
+
+        {
+      title: 'Technical Vetting of Sewage Treatment Plant and Associated Infrastructure Components – Govindpuram Housing Scheme Phase‑1',
+      duration: '01.03.2026-30.09.2026',
+      sponsor:'Vice-Chairman, Moradabad Development Authority, Moradabad',
       role: 'PI',
       images:'images/logos/vpecotrade.png',
       description: 'Consultancy Project'
@@ -341,7 +359,40 @@ images:[
     duration: 'January 2026 – Present',
     email: 'nilotpallahkar123@gmail.com',
     contact: 'XXXX',
-    coSupervisor: ' ',
+    coSupervisor: 'Prof Tanaya Sarma, Indian Institute of Technology Roorkee',
+    links: {
+      linkedin: 'XXXX',
+      researchgate: 'XXXX',
+      scholar: 'XXXX'
+    }
+  },
+  {
+    id: 'phd-05',
+    type: 'PhD',
+    name: 'Mr. Bal Krishan',
+    photo: '/images/groupmembers/phd/bal_krishan.jpeg',
+    position: 'PhD Scholar',
+    funding:'MHRD fellowship',
+    peerReviewedPublications: [''
+],
+patents: ['IN202511026994: A self-cleaning solar enabled smart device for real time surface water health monitoring',
+              'IN202511089125: A multi-pass helical submerged membrane distillation module for desalination wastewater treating and method thereof', ],
+conferences: ['Certificate Course on Advances in Membrane Science and Separation Technologies, 28 July–02 August, 2025, IIT Roorkee, India',
+],
+awards: ['Best Poster award, WRDM Research Scholars Day 2024'
+]
+,
+images:[
+  '/images/events/event1.jpg',
+    '/images/events/event2.jpg',
+    '/images/events/event3.jpg',
+    '/images/events/event4.jpg'
+],
+        previousDegree: 'Bachelor of Technology from Indian Institute of Technology Roorkee (2020)',
+    topic: 'Two–dimensional nanomaterials for enhanced electrochemical sensing of heavy metals from contaminated water',
+    duration: 'July 2025 – present',
+    email: 'bal_k@wr.iitr.ac.in',
+    contact: 'XXXX',
     links: {
       linkedin: 'XXXX',
       researchgate: 'XXXX',
@@ -371,10 +422,9 @@ export const mastersStudents = [
       '/images/events/event4.jpg'
     ],
     previousDegree: 'Bachelor of Science in Environmental Science University from Open University of Tanzania',
-    topic: 'Design of planted and unplanted dry bed fecal sludge treatment plant: Case study Didia Ward, Shinyanga, Tanzania',
-    duration: 'July 2024 – Present',
+    topic: 'Integrated RS, GIS, ML and AHP Framework for Optimal Siting and Design of a Decentralized Faecal Sludge Treatment Plant in Shinyanga, Tanzania',
+    duration: 'July 2024 – May 2026',
     email: 'abas_am@wr.iitr.ac.in',
-    coSupervisor: 'Dr. Pawan Labhasetwar, IIT Madras'
   },
   {
     id: 'mtech-02',
@@ -399,10 +449,10 @@ export const mastersStudents = [
       '/images/events/event4.jpg'
     ],
     previousDegree: "Bachelor of Technology in Civil Engineering from National Institute of Technology Srinagar (2022)",
-    topic: 'Development of graphene and iron-based metal–organic framework composites for efficient removal of arsenic from contaminated water',
-    duration: 'July 2024 – Present',
-    email: 'XXXXXXXXXX',
-    
+    topic: 'Synthesis and Evaluation of MIL-53(Fe)/Graphene Oxide Composite for Adsorptive Removal of Arsenic from Aqueous Solutions',
+    duration: 'July 2024 – May 2026',
+    email: 'abhishek_ks@wr.iitr.ac.in',
+coSupervisor: 'Dr. Prasanta K. Sahoo, National Institute of Hydrology, Roorkee'
   },
 {
     id: 'mtech-03',
@@ -415,7 +465,7 @@ export const mastersStudents = [
     peerReviewedPublications: ['N/A'],
     patents: ['N/A'],
     conferences: ['Certificate Course on Advances in Membrane Science and Separation Technologies, 28 July–02 August, 2025, IIT Roorkee, India',
-                 'World  Conference on Hybrid Materials: Micro  and  Nano Length Scales (WCHM 2026)  January 24, 25 and 26, 2026 at Mahatma Gandhi University, Kottayam, Kerala, India'],
+                 'Membrane conference IIT Bombay, India'],
     awards: ['N/A'],
     images: [
       '/images/events/event1.jpg',
@@ -424,8 +474,10 @@ export const mastersStudents = [
       '/images/events/event4.jpg'
     ],
     previousDegree: 'Bachelor of planning (2024) from School of Planning and Architecture, Bhopal',
-    topic: 'Understanding Water and Ion Transport through Functionalized Two-Dimensional Membranes using Molecular Dynamics and Experimental Techniques',
-    duration: 'July 2024 – Present',
+    topic: 'Understanding Water and Ion Transport through 
+Functionalized 2D Membranes Using Molecular 
+Dynamics and Experimental Techniques',
+    duration: 'July 2024 – May 2026',
     email: 'aiswarya.priya.p@gmail.com',
     coSupervisor: 'Dr. Prasanta K. Sahoo, National Institute of Hydrology, Roorkee'
   },
@@ -441,8 +493,7 @@ export const mastersStudents = [
     patents: ['IN202511026994: A self-cleaning solar enabled smart device for real time surface water health monitoring',
               'IN202511089125: A multi-pass helical submerged membrane distillation module for desalination wastewater treating and method thereof', 
              ],
-    conferences: ['Certificate Course on Advances in Membrane Science and Separation Technologies, 28 July–02 August, 2025, IIT Roorkee, India',
-                 'World  Conference on Hybrid Materials: Micro  and  Nano Length Scales (WCHM 2026) January 24, 25 and 26, 2026 at Mahatma Gandhi University, Kottayam, Kerala, India'],
+    conferences: ['Certificate Course on Advances in Membrane Science and Separation Technologies, 28 July–02 August, 2025, IIT Roorkee, India'],
     awards: ['Best Poster award, WRDM Research Scholars Day 2024'],
     images: [
       '/images/events/event1.jpg',
@@ -451,10 +502,10 @@ export const mastersStudents = [
       '/images/events/event4.jpg'
     ],
     previousDegree: 'Bachelor of Technology from Indian Institute of Technology Roorkee (2020)',
-    topic: 'Graphene–MXene hybrid nanostructure for enhanced electrochemical sensing of arsenic in contaminated water',
-    duration: 'July 2024 – Present',
-    email: 'XXXXXXXXXX',
-    coSupervisor: 'Dr. Prasanta K. Sahoo, National Institute of Hydrology, Roorkee'
+    topic: 'Development and Validation of a Digital Twin for T-Junction Flow System using Experiments, Computational Fluid Dynamics, and Reduced-Order Modelling',
+    duration: 'July 2024 – May 2026',
+    email: 'bal_k@wr.iitr.ac.in',
+    coSupervisor: 'Dr. Vignesh S M, CADFEM India Pvt Ltd'
   },
   {
     id: 'mtech-05',
@@ -483,8 +534,8 @@ export const mastersStudents = [
       '/images/events/event4.jpg'
     ],
     previousDegree: "Bachelor's in Architecture from Dr. A.P.J. Abdul Kalam Technical University",
-    topic: 'Development of an Integrated Drinking Water and Sanitation Index for Pilgrim Sites in India: A Case Study of the Panchkoshi Yatra Marg, Varanasi',
-    duration: 'July 2024 – Present',
+    topic: 'Integrated Drinking Water and Sanitation Index for the Pilgrim Sites in India through the case of Panchkoshi Yatra, Varanasi',
+    duration: 'July 2024 – May 2026',
     email: 'architectharshpathak@gmail.com',
     coSupervisor: 'Prof Tanaya Sarmah, IIT Roorkee'
   },
@@ -507,10 +558,9 @@ export const mastersStudents = [
       '/images/events/event4.jpg'
     ],
     previousDegree: 'Bachelor of Science in Environmental Science University from Open University of Tanzania',
-    topic: 'Machine Learning Framework for Assessing and Predicting Water Quality in the Ruvuma River Basin, Tanzania',
-    duration: 'July 2024 – Present',
+    topic: 'Geospatial Assessment of Water Quality in the Ruvuma River, Tanzania, Integration of Multi-Index Approaches',
+    duration: 'July 2024 – May 2026',
     email: 'issah_m@wr.iitr.ac',
-    coSupervisor: 'Dr. Pawan Labhasetwar, IIT Madras'
   },
   {
     id: 'mtech-07',
@@ -531,8 +581,8 @@ export const mastersStudents = [
       '/images/events/event4.jpg'
     ],
     previousDegree: 'Bachelor of Technology in Civil Engineering (2024)',
-    topic: 'Decentralized wastewater treatment systems for rural communities: A feasibility and sustainability assessment',
-    duration: 'July 2024 – Present',
+    topic: 'Feasibility and Sustainability Assessment of Decentralised Wastewater Treatment Systems for Urban Communities in Bujumbura City, Burundi',
+    duration: 'July 2024 – May 2026',
     email: 'nsanzurwimo_m@wr.iitr.ac.in',
     coSupervisor: 'Dr. Samuel Godfrey, WASH Chief UNICEF, Sudan'
   },
@@ -584,8 +634,8 @@ export const mastersStudents = [
       '/images/events/event4.jpg'
     ],
     previousDegree: 'Bachelor degree in water resources and irrigation engineering',
-    topic: 'Design and Performance Evaluation of a Passive Tablet-Based Chlorination Device for Decentralized Water Disinfection',
-    duration: 'July 2024 – Present',
+    topic: 'Development and Performance Evaluation of a Passive Tablet-Based Chlorination Device for Decentralized Water Disinfection',
+    duration: 'July 2024 – May 2026',
     email: 'prisca_jm@wr.iitr.ac.in',
     coSupervisor: 'Dr. Samuel Godfrey, WASH Chief,UNICEF, Sudan'
   },
@@ -608,8 +658,8 @@ export const mastersStudents = [
       '/images/events/event4.jpg'
     ],
     previousDegree: 'Bachelor of Technology from Uttar Pradesh Technical University (2024)',
-    topic: 'Development of graphene and iron-based metal–organic framework composites for efficient removal of uranium from contaminated water',
-    duration: 'July 2024 – Present',
+    topic: 'Synthesis and Functionalization of Graphene Oxide for Efficient Uranium(VI) Removal from Aqueous Solutions',
+    duration: 'July 2024 – May 2026',
     email: 'XXXXXXXXXX',
     coSupervisor: 'Dr. Prasanta K. Sahoo, National Institute of Hydrology, Roorkee'
   },
@@ -776,7 +826,6 @@ export const mastersStudents = [
     topic: 'Fouling behavior and mitigation strategies in ultrafiltration membranes for industrial wastewater treatment',
     duration: 'July 2025 – Present',
     email: 'kalash_d@wr.iitr.ac.in',
-    coSupervisor: 'Dr. Pallabi Das, Principal Scientist, CSIR-Central Institute of Mining and Fuel Research, Dhanbad'
   },
 {
     id: 'mtech-17',
@@ -832,7 +881,6 @@ export const mastersStudents = [
     topic: 'Performance Based Assessment of Existing Weir Type Headworks Under Extreme Flow Condition Using HEC-RAS, GIS and flood mapping',
     duration: 'July 2025 – Present',
     email: 'niraj_p@wr.iitr.ac.in',
-    coSupervisor: 'Prof. Mohammed Mujahid, Aligarh Muslim University, Aligarh'
   },
 {
     id: 'mtech-19',
@@ -887,7 +935,6 @@ export const mastersStudents = [
     topic: 'Flood Inundation Modelling and Hazard Zonation in the Downstream Reach of Kulekhani Dam (Nepal) Using Remote Sensing, GIS and Hydrodynamic Modelling',
     duration: 'July 2025 – Present',
     email: 'raksha_p@wr.iitr.ac.in',
-    coSupervisor: 'Prof. Mohammed Mujahid, Aligarh Muslim University, Aligarh'
   },
    {
     id: 'mtech-21',
@@ -970,7 +1017,7 @@ export const mastersStudents = [
     topic: 'Development of a Digital Twin Model for Performance Monitoring of fiber reinforced plastic based Sewage Treatment Plant',
     duration: 'July 2025 – Present',
     email: 'sukdev_b@wr.iitr.ac.in',
-    coSupervisor: 'Dr. Pawan Labhasetwar, IIT Madras'
+    coSupervisor: 'Dr. Vignesh S M, CADFEM Pvt Ltd'
   },
 
 ];
