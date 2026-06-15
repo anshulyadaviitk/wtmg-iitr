@@ -406,13 +406,11 @@ images:[
     photo: '/images/groupmembers/phd/vaibhav_saini.jpeg',
     position: 'PhD Scholar',
     funding:'UGC NET JRF',
-    peerReviewedPublications: [''
-],
-patents: [],
-conferences: [],
-awards: []
-,
-images:[
+    peerReviewedPublications: [''],
+    patents: [],
+    conferences: [],
+    awards: [],
+    images:[
   '/images/events/event1.jpg',
     '/images/events/event2.jpg',
     '/images/events/event3.jpg',
@@ -512,8 +510,7 @@ images:[
     '/images/events/event4.jpg'
 ],
         previousDegree:
-"Master of Technology in Environmental Engineering from Madan Mohan
-Malaviya University of Technology,Gorakhpur, (2023)\nBachelor's of Techniology in Civil Engineering from Jaypee University of Engineering and Technology, Guna, (2018)",
+"Master of Technology in Environmental Engineering from Madan Mohan Malaviya University of Technology,Gorakhpur, (2023)\nBachelor's of Techniology in Civil Engineering from Jaypee University of Engineering and Technology, Guna, (2018)",
     topic: 'Design and Fabrication of Solar-Responsive Multifunctional Photothermal Catalytic Membranes for Decentralized Wastewater Purification',
     duration: 'July 2026 – present',
     email: 'shrutisingh4603@gmail.com',
