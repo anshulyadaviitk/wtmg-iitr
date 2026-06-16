@@ -819,6 +819,55 @@ export const project_student = [
 export const interns = [
 
  {
+    id: 'intern-58',
+    type: 'intern',
+    name: 'Mr. Vishwanath Gurudas Barve',
+    photo: '/images/groupmembers/interns/vishwanath_barve.jpeg',
+    position: 'Intern',
+    College: 'Indian Institute of Technology Jodhpur',
+    topic: 'Satellite based assessment of river water quality and Human influence using Geospatial data and machine learning',
+    duration: 'June-July (two months)',
+    email: 'vishwanathbarve1@gmail.com'
+  },
+
+ {
+    id: 'intern-57',
+    type: 'intern',
+    name: 'Mr. Rahul Yadav',
+    photo: '/images/groupmembers/interns/rahul_yadav.jpeg',
+    position: 'Intern',
+    College: 'Guru Tegh Bahadur 4th Centenary engineering college ',
+    topic: 'Satellite based assessment of river water quality and Human influence using Geospatial data and machine learning',
+    duration: 'June-July (45 days)',
+    email: 'rahulyadavmlsu2130@gmail.com'
+  },
+
+ {
+    id: 'intern-56',
+    type: 'intern',
+    name: 'Mr. Bhuvnesh Wahi',
+    photo: '/images/groupmembers/interns/bhuvnesh_wahi.jpeg',
+    position: 'Intern',
+    College: 'Guru Tegh Bahadur 4th Centenary engineering college ',
+    topic: 'Satellite based assessment of river water quality and Human influence using Geospatial data and machine learning',
+    duration: 'June-July (two months)',
+    email: 'bhuvneshwahi1@gmail.com'
+  },
+
+
+ {
+    id: 'intern-55',
+    type: 'intern',
+    name: 'Ms. Urvi Garg',
+    photo: '/images/groupmembers/interns/urvi_garg.jpeg',
+    position: 'Intern',
+    College: 'Madan Mohan Malaviya University of Technology',
+    topic: 'Satellite based assessment of river water quality and Human influence using Geospatial data and machine learning',
+    duration: 'June-December (six months)',
+    email: 'urvigarg139@gmail.com'
+  },
+
+ {
     id: 'intern-54',
     type: 'intern',
     name: 'Mr. Anurag Agarwal',
@@ -930,7 +979,7 @@ export const interns = [
     id: 'intern-45',
     type: 'intern',
     name: 'Mr. Yuvraj Makani',
-    photo: '/images/groupmembers/interns/yuvraj_makani.jpg',
+    photo: '/images/groupmembers/interns/yuvraj_makani.jpeg',
     position: 'Intern',
     College: 'Vivekananda Institute of Professional Studies-Technical Campus',
     topic: 'Ganga River monitoring',
