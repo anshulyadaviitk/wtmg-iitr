@@ -388,7 +388,7 @@ images:[
     '/images/events/event3.jpg',
     '/images/events/event4.jpg'
 ],
-        previousDegree: 'Bachelor of Technology from Indian Institute of Technology Roorkee (2020)',
+        previousDegree: "Master of Technology in Water Resources Development and Management, Indian Institute of Technology Roorkee (2026)\nBachelor of Technology from Indian Institute of Technology Roorkee (2020)",
     topic: 'Low–dimensional nanomaterials for enhanced electrochemical sensing of emerging contaminants from contaminated water',
     duration: 'July 2025 – present',
     email: 'bal_k@wr.iitr.ac.in',
@@ -417,8 +417,8 @@ images:[
     '/images/events/event4.jpg'
 ],
         previousDegree: 
-"Master of Technology in Water Resources Development and Management, Indian Institute of Technology Roorkee (2026)\nBachelor of Technology from Indian Institute of Technology Roorkee (2020)",
-    topic: 'Low–dimensional nanomaterials for enhanced electrochemical sensing of emerging contaminants from contaminated water',
+"Master of Science, Gurukul Kangri University, Haridwar (2024)\n Bachelor of Science, Gurukul Kangri University, Haridwar (2022)",
+    topic: 'Capacitive deionization',
     duration: 'July 2026 – present',
     email: 'vsainigkv@gmail.com',
     contact: 'XXXX',
@@ -433,7 +433,7 @@ images:[
     id: 'phd-07',
     type: 'PhD',
     name: 'Ms. Shruti Singh',
-    photo: '/images/groupmembers/phd/shruti_singh.jpg',
+    photo: '/images/groupmembers/phd/shruti_singh.jpeg',
     position: 'PhD Scholar',
     funding:'UGC NET JRF',
     peerReviewedPublications: [''
@@ -450,7 +450,7 @@ images:[
 ],
         previousDegree: 
 "Master of science in renewable energy and environment from Indira Gandhi National Open university (2025)\nBachelor's of science (Honours) Chemistry from Daulat Ram college, Delhi University (2023)",
-    topic: 'Design and Fabrication of Solar-Responsive Multifunctional Photothermal Catalytic Membranes for Decentralized Wastewater Purification',
+    topic: 'Design and Fabrication of Solar-Responsive Functionalised and Grafted Photothermal Catalytic Membranes for Wastewater Treatment',
     duration: 'July 2026 – present',
     email: 'shrutisingh4603@gmail.com',
     contact: 'XXXX',
@@ -465,7 +465,7 @@ images:[
     id: 'phd-08',
     type: 'PhD',
     name: 'Mr. Arindam Pal',
-    photo: '/images/groupmembers/phd/arindam_pal.jpg',
+    photo: '/images/groupmembers/phd/arindam_pal.jpeg',
     position: 'PhD Scholar',
     peerReviewedPublications: [''
 ],
@@ -481,7 +481,7 @@ images:[
 ],
         previousDegree:
 "Master of Technology in Mechanical Engineering from KIIT School of Mechanical Engineering, (2023)\nBachelor's of Techniology in Mechanical Engineering from KIIT School of Mechanical Engineering (2018)",
-    topic: 'Design and Fabrication of Solar-Responsive Multifunctional Photothermal Catalytic Membranes for Decentralized Wastewater Purification',
+    topic: 'Freezing characteristics of saline droplets on metallic pipe surfaces: experimental and theoretical study',
     duration: 'July 2026 – present',
     email: 'shrutisingh4603@gmail.com',
     contact: 'XXXX',
@@ -495,7 +495,7 @@ images:[
     id: 'phd-09',
     type: 'PhD',
     name: 'Ms. Sapana Jaiswal',
-    photo: '/images/groupmembers/phd/sapana_jaiswal.jpg',
+    photo: '/images/groupmembers/phd/sapana_jaiswal.jpeg',
     position: 'PhD Scholar',
     peerReviewedPublications: [''
 ],
@@ -511,9 +511,9 @@ images:[
 ],
         previousDegree:
 "Master of Technology in Environmental Engineering from Madan Mohan Malaviya University of Technology,Gorakhpur, (2023)\nBachelor's of Techniology in Civil Engineering from Jaypee University of Engineering and Technology, Guna, (2018)",
-    topic: 'Design and Fabrication of Solar-Responsive Multifunctional Photothermal Catalytic Membranes for Decentralized Wastewater Purification',
+    topic: 'Dynamic pollutant monitoring in rivers using multi-source remote sensing data and automated validation',
     duration: 'July 2026 – present',
-    email: 'shrutisingh4603@gmail.com',
+    email: 'sapana15jan@gmail.com',
     contact: 'XXXX',
     links: {
       linkedin: 'XXXX',
@@ -526,7 +526,7 @@ images:[
     id: 'phd-10',
     type: 'PhD',
     name: 'Ms. Sneha Anant Bramhankar',
-    photo: '/images/groupmembers/phd/sneha_bramhankar.jpg',
+    photo: '/images/groupmembers/phd/sneha_bramhankar.jpeg',
     position: 'PhD Scholar',
     peerReviewedPublications: [''
 ],
@@ -542,7 +542,7 @@ images:[
 ],
         previousDegree: 
 "Master of Engineering in Mechanical Design Engineering from RMD Sinhagad College of Engineering, Pune (2016)\nBachelor's of Engineering in Mechanical Engineering from KDK College of Engineering, Nagpur (2013)",
-    topic: 'Design and Fabrication of Solar-Responsive Multifunctional Photothermal Catalytic Membranes for Decentralized Wastewater Purification',
+    topic: 'Freeze desalination',
     duration: 'July 2026 – present',
     email: 'snehail.com',
     contact: 'XXXX',
@@ -818,7 +818,164 @@ export const project_student = [
 
 export const interns = [
 
-  {
+ {
+    id: 'intern-54',
+    type: 'intern',
+    name: 'Mr. Anurag Agarwal',
+    photo: '/images/groupmembers/interns/anurag_agarwal.jpeg',
+    position: 'Intern',
+    College: 'Madan Mohan Malaviya University of Technology',
+    topic: 'Ganga River monitoring',
+    duration: 'June (15 days)',
+    email: ''
+  },
+
+{
+    id: 'intern-53',
+    type: 'intern',
+    name: 'Ms. Riddhi Jain',
+    photo: '/images/groupmembers/interns/riddhi_jain.jpeg',
+    position: 'Intern',
+    College: 'Indian Institute Of Technology Roorkee, Roorkee',
+    topic: 'Satellite-Based Assessment of River Water Quality',
+    duration: 'May–July (Three months)',
+    email: 'riddhijn123@gmail.com'
+  },
+
+{
+    id: 'intern-52',
+    type: 'intern',
+    name: 'Mr. Pranjal  Agarwal',
+    photo: '/images/groupmembers/interns/pranjal_agrawal.jpeg',
+    position: 'Intern',
+    College: 'COER University',
+    topic: 'Web Development',
+    duration: 'June–July (Two months)',
+    email: 'raragarwal098@gmail.com'
+  },
+
+{
+    id: 'intern-51',
+    type: 'intern',
+    name: 'Mr. Utkarsh Sharma',
+    photo: '/images/groupmembers/interns/utkarsh_sharma.jpeg',
+    position: 'Intern',
+    College: 'COER University',
+    topic: 'Web Development',
+    duration: 'June–July (Two months)',
+    email: 'utkarshsharmays@gmail.com'
+  },
+
+{
+    id: 'intern-50',
+    type: 'intern',
+    name: 'Ms. Shruti Sahani',
+    photo: '/images/groupmembers/interns/shruti_sahani.jpeg',
+    position: 'Intern',
+    College: 'Madan Mohan Malaviya University of Technology',
+    topic: 'Modelling & Simulation',
+    duration: 'May–June (One month)',
+    email: ''
+},
+
+{
+    id: 'intern-49',
+    type: 'intern',
+    name: 'Ms. Tanaya Kaushik',
+    photo: '/images/groupmembers/interns/tanaya_kaushik.png',
+    position: 'Intern',
+    College: 'Madan Mohan Malaviya University of Technology',
+    topic: 'Ganga River monitoring',
+    duration: 'May–June (One month)',
+    email: 'tanayakaushik21@gmail.com'
+  },
+
+{
+    id: 'intern-48',
+    type: 'intern',
+    name: 'Mr. Vaibhav Singh',
+    photo: '/images/groupmembers/interns/vaibhav_singh.jpeg',
+    position: 'Intern',
+    College: 'Madan Mohan Malaviya University of Technology',
+    topic: 'Ganga River monitoring',
+    duration: 'May–June (One month)',
+    email: ''
+  },
+
+{
+    id: 'intern-47',
+    type: 'intern',
+    name: 'Mr. Vidit Tyagi',
+    photo: '/images/groupmembers/interns/vidit_tyagi.jpg',
+    position: 'Intern',
+    College: 'COER University',
+    topic: 'Ganga River monitoring',
+    duration: 'July–August (Two months)',
+    email: 'vidittyagi1500@gmail.com'
+  },
+
+{
+    id: 'intern-46',
+    type: 'intern',
+    name: 'Mr. Aditya Agrawal',
+    photo: '/images/groupmembers/interns/aditya_agarwal.jpg',
+    position: 'Intern',
+    College: 'COER University',
+    topic: 'Web Development',
+    duration: 'July–August (Two months)',
+    email: ''
+  },
+
+{
+    id: 'intern-45',
+    type: 'intern',
+    name: 'Mr. Yuvraj Makani',
+    photo: '/images/groupmembers/interns/yuvraj_makani.jpg',
+    position: 'Intern',
+    College: 'Vivekananda Institute of Professional Studies-Technical Campus',
+    topic: 'Ganga River monitoring',
+    duration: 'July–August (Two months)',
+    email: 'yuvrajmakani7@gmail.com'
+  },
+
+{
+    id: 'intern-44',
+    type: 'intern',
+    name: 'Ms. Aanya Agarwal',
+    photo: '/images/groupmembers/interns/aanya_agrawal.jpg',
+    position: 'Intern',
+    College: 'Vivekananda Institute of Professional Studies-Technical Campus',
+    topic: 'GIS-Sensing',
+    duration: 'July–August (Two months)',
+    email: 'aanya.agrawal.in@gmail.com'
+  },
+
+{
+    id: 'intern-43',
+    type: 'intern',
+    name: 'Ms. Kalyani Agarwal',
+    photo: '/images/groupmembers/interns/kalyani_agrawal.jpg',
+    position: 'Intern',
+    College: 'Amrita Vishwa Vidyapeetham, Faridabad',
+    topic: 'Artificial Intelligence, Computer Vision, Machine Learning, Deep Learning, Remote Sensing, and Data Science',
+    duration: 'July–August (Two months)',
+    email: 'agarwalmamt@gmail.com'
+  },
+
+{
+    id: 'intern-42',
+    type: 'intern',
+    name: 'Mr. Himanshu Raghuwanshi',
+    photo: '/images/groupmembers/interns/himanshu_raghuwanshi.jpg',
+    position: 'SPARK Intern',
+    College: 'Institute of Chemical Technology, Mumbai',
+    topic: 'Design and development of nanocomposite membrane',
+    duration: 'May–July (Three months)',
+    email: 'himanshuraghuwanshi99@gmail.com'
+  },
+
+
+{
     id: 'intern-41',
     type: 'intern',
     name: 'Ms. Pratiksha',
