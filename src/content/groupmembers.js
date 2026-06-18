@@ -191,7 +191,7 @@ export const pi = {
     },
    
    {
-      title: 'Assessment of Environmental FIows in the Ghagra and Gomti River Basins',
+      title: 'Assessment of Environmental Flows in the Ghagra and Gomti River Basins',
       funding: '842.73 lakhs',
       duration: '2025-2028',
       sponsor:'NMCG, Ministry of Jal Shakti',
@@ -544,7 +544,7 @@ images:[
 "Master of Engineering in Mechanical Design Engineering from RMD Sinhagad College of Engineering, Pune (2016)\nBachelor's of Engineering in Mechanical Engineering from KDK College of Engineering, Nagpur (2013)",
     topic: 'Freeze desalination',
     duration: 'July 2026 – present',
-    email: 'snehail.com',
+    email: 'sneha_bramhankar@gmail.com',
     contact: 'XXXX',
     links: {
       linkedin: 'XXXX',
@@ -552,6 +552,38 @@ images:[
       scholar: 'XXXX'
     }
   },
+
+{
+    id: 'phd-11',
+    type: 'PhD',
+    name: 'Mr. Sandeep Shankar Chavan',
+    photo: '/images/groupmembers/phd/sandeep_chavan.jpeg',
+    position: 'PhD Scholar',
+    peerReviewedPublications: [''
+],
+patents: [],
+conferences: [],
+awards: []
+,
+images:[
+  '/images/events/event1.jpg',
+    '/images/events/event2.jpg',
+    '/images/events/event3.jpg',
+    '/images/events/event4.jpg'
+],
+        previousDegree: 
+"Master of Technology from JSS Science and Technology University, Mysuru, Karnataka\nBachelor of Engineering from Visvesvaraya Technological University, Belagavi, Karnataka",
+    topic: 'Cpacitive Deionization',
+    duration: 'July 2026 – present',
+    email: 'sandeep@gmail.com',
+    contact: 'XXXX',
+    links: {
+      linkedin: 'XXXX',
+      researchgate: 'XXXX',
+      scholar: 'XXXX'
+    }
+  },
+
 ];
 
 export const mastersStudents = [
@@ -819,6 +851,79 @@ export const project_student = [
 export const interns = [
 
  {
+    id: 'intern-64',
+    type: 'intern',
+    name: 'Mr. Vivek Kumar',
+    photo: '/images/groupmembers/interns/vivek_kumar.jpeg',
+    position: 'Intern',
+    College: 'Bikaner technical University, Bikaner',
+    topic: 'Satellite based assessment of river water quality and Human influence using Geospatial data and machine learning',
+    duration: 'May-August 2026 (four months)',
+    email: '7iamvivek@gamil.com'
+  },
+
+
+ {
+    id: 'intern-63',
+    type: 'intern',
+    name: 'Ms. Unnati Jain',
+    photo: '/images/groupmembers/interns/unnati_jain.jpeg',
+    position: 'Intern',
+    College: 'Indian Institute of Technology Patna',
+    topic: 'Satellite based assessment of river water quality and Human influence using Geospatial data and machine learning',
+    duration: 'June-July (two months)',
+    email: 'rahulyadavmlsu2130@gmail.com'
+  },
+
+ {
+    id: 'intern-62',
+    type: 'intern',
+    name: 'Mr. Ashutosh Narayan',
+    photo: '/images/groupmembers/interns/ashutosh_narayan.jpeg',
+    position: 'Intern',
+    College: 'Indian Institute of Technology Patna',
+    topic: 'Satellite based assessment of river water quality and Human influence using Geospatial data and machine learning',
+    duration: 'June-July (two months)',
+    email: 'rahulyadavmlsu2130@gmail.com'
+  },
+
+ {
+    id: 'intern-61',
+    type: 'intern',
+    name: 'Ms. Anushka Chaudhary',
+    photo: '/images/groupmembers/interns/anushka_chaudhary.jpeg',
+    position: 'Intern',
+    College: 'Mohanlal Sukhadia University Udaipur',
+    topic: 'Satellite based assessment of river water quality and Human influence using Geospatial data and machine learning',
+    duration: 'June-July (two months)',
+    email: 'rahulyadavmlsu2130@gmail.com'
+  },
+
+ {
+    id: 'intern-60',
+    type: 'intern',
+    name: 'Mr. Aarav Chaudhary',
+    photo: '/images/groupmembers/interns/aarav_chaudhary.jpeg',
+    position: 'Intern',
+    College: 'Mohanlal Sukhadia University Udaipur',
+    topic: 'Satellite based assessment of river water quality and Human influence using Geospatial data and machine learning',
+    duration: 'June-July (two months)',
+    email: 'rahulyadavmlsu2130@gmail.com'
+  },
+
+ {
+    id: 'intern-59',
+    type: 'intern',
+    name: 'Mr. Rahul Yadav',
+    photo: '/images/groupmembers/interns/rahul_yadav.jpeg',
+    position: 'Intern',
+    College: 'Mohanlal Sukhadia University Udaipur',
+    topic: 'Satellite based assessment of river water quality and Human influence using Geospatial data and machine learning',
+    duration: 'June-July (two months)',
+    email: 'rahulyadavmlsu2130@gmail.com'
+  },
+
+ {
     id: 'intern-58',
     type: 'intern',
     name: 'Mr. Vishwanath Gurudas Barve',
@@ -826,15 +931,15 @@ export const interns = [
     position: 'Intern',
     College: 'Indian Institute of Technology Jodhpur',
     topic: 'Satellite based assessment of river water quality and Human influence using Geospatial data and machine learning',
-    duration: 'June-July (two months)',
+    duration: 'June-December (six months)',
     email: 'vishwanathbarve1@gmail.com'
   },
 
  {
     id: 'intern-57',
     type: 'intern',
-    name: 'Mr. Rahul Yadav',
-    photo: '/images/groupmembers/interns/rahul_yadav.jpeg',
+    name: 'Ms. Khushi Sharma',
+    photo: '/images/groupmembers/interns/khushi_sharma.jpeg',
     position: 'Intern',
     College: 'Guru Tegh Bahadur 4th Centenary engineering college ',
     topic: 'Satellite based assessment of river water quality and Human influence using Geospatial data and machine learning',
