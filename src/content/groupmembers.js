@@ -483,7 +483,7 @@ images:[
 "Master of Technology in Mechanical Engineering from KIIT School of Mechanical Engineering, (2023)\nBachelor's of Techniology in Mechanical Engineering from KIIT School of Mechanical Engineering (2018)",
     topic: 'Freezing characteristics of saline droplets on metallic pipe surfaces: experimental and theoretical study',
     duration: 'July 2026 – present',
-    email: 'shrutisingh4603@gmail.com',
+    email: 'pal.arindam.44@gmail.com',
     contact: 'XXXX',
     links: {
       linkedin: 'XXXX',
@@ -559,6 +559,7 @@ images:[
     name: 'Mr. Sandeep Shankar Chavan',
     photo: '/images/groupmembers/phd/sandeep_chavan.jpeg',
     position: 'PhD Scholar',
+    funding:'AICTE QIP',
     peerReviewedPublications: [''
 ],
 patents: [],
@@ -583,13 +584,41 @@ images:[
       scholar: 'XXXX'
     }
   },
+{
+    id: 'phd-12',
+    type: 'PhD',
+    name: 'Ms. Shehnas TK',
+    photo: '/images/groupmembers/PHD/shehnas_tk.jpg',
+    position: 'PhD Scholar',
+    funding:'MHRD fellowship',
+    peerReviewedPublications: ['N/A'
+    ],
+    patents: ['N/A'
+    ],
+    conferences: ['N/A'
+    ],
+    awards: ['N/A'
+    ],
+    images: [
+      '/images/events/event1.jpg',
+      '/images/events/event2.jpg',
+      '/images/events/event3.jpg',
+      '/images/events/event4.jpg'
+    ],
+    previousDegree: "",
+    topic: 'Digital twin',
+    duration: 'July 2026 – Present',
+    email: 'shehnas_tk@wr.iitr.ac.in',
+    coSupervisor: 'Prof. Sameer Ali, Indian Institute of Technology, Roorkee',
+  },
+
 
 ];
 
 export const mastersStudents = [
   
 {
-    id: 'mtech-20',
+    id: 'mtech-21',
     type: 'MTech',
     name: 'Mr. Dhairya Bhardwaj',
     photo: '/images/groupmembers/mtech/dhairya_bhardwaj.jpeg',
@@ -618,7 +647,7 @@ export const mastersStudents = [
   },
 
   {
-    id: 'mtech-19',
+    id: 'mtech-20',
     type: 'MTech',
     name: 'Mr. Festo Nicholaus Mnosi',
     photo: '/images/groupmembers/mtech/festo_nicholaus.jpeg',
@@ -645,7 +674,7 @@ export const mastersStudents = [
     email: '',
   },
 {
-    id: 'mtech-18',
+    id: 'mtech-19',
     type: 'MTech',
     name: 'Mr. Hamisi Yasini Hamisi',
     photo: '/images/groupmembers/mtech/hamisi_yasini.jpg',
@@ -672,7 +701,7 @@ export const mastersStudents = [
     email: '',
   },
 {
-    id: 'mtech-17',
+    id: 'mtech-18',
     type: 'MTech',
     name: 'Mr. Humed Mohammed Ebrahim',
     photo: '/images/groupmembers/mtech/humed_mohammed.jpeg',
@@ -701,7 +730,7 @@ export const mastersStudents = [
     coSupervisor: 'Prof Anshul Yadav'
   },
   {
-    id: 'mtech-16',
+    id: 'mtech-17',
     type: 'MTech',
     name: 'Ms. Kalash Dwivedi',
     photo: '/images/groupmembers/mtech/kalash_dwivedi.jpeg',
@@ -728,7 +757,7 @@ export const mastersStudents = [
     email: 'kalash_d@wr.iitr.ac.in',
   },
 {
-    id: 'mtech-15',
+    id: 'mtech-16',
     type: 'MTech',
     name: 'Ms. Nampija Gloria',
     photo: '/images/groupmembers/mtech/gloria_nampija.jpg',
@@ -755,6 +784,37 @@ export const mastersStudents = [
     email: 'gloria_n@wr.iitr.ac.in',
     coSupervisor: ''
   },
+
+
+{
+    id: 'mtech-15',
+    type: 'MTech',
+    name: 'Mr. Niraj Podar',
+    photo: '/images/groupmembers/mtech/niraj_podar.jpeg',
+    position: 'Master of Technology in Water Resource Development',
+    nationality: 'Nepali',
+    researchArea: '',
+    peerReviewedPublications: ['N/A'
+    ],
+    patents: ['N/A'
+    ],
+    conferences: ['N/A'
+    ],
+    awards: ['N/A'
+    ],
+    images: [
+      '/images/events/event1.jpg',
+      '/images/events/event2.jpg',
+      '/images/events/event3.jpg',
+      '/images/events/event4.jpg'
+    ],
+    previousDegree: "Bachelor of Technology in Civil Engineering (2023)",
+    topic: 'Performance Based Assessment of Existing Weir Type Headworks Under Extreme Flow Condition Using HEC-RAS, GIS and flood mapping',
+    duration: 'July 2025 – Present',
+    email: 'niraj_p@wr.iitr.ac.in',
+  },
+
+
 {
     id: 'mtech-14',
     type: 'MTech',
@@ -811,7 +871,7 @@ export const mastersStudents = [
     topic: 'Machine Learning Framework for Spatio-Temporal Water Quality Modelling and Risk Assessment Using Remote Sensing and GIS',
     duration: 'July 2025 – Present',
     email: 'shehnas_tk@wr.iitr.ac.in',
-    coSupervisor: 'Prof. Tanaya Sarmah, Indian Institute of Technology, Roorkee',
+    coSupervisor: 'Prof. Sameer Ali, Indian Institute of Technology, Roorkee',
   },
 {
     id: 'mtech-12',
