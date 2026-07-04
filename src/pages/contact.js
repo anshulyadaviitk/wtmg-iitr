@@ -51,7 +51,7 @@ export default function ContactPage() {
 
                 <h1 className="text-5xl md:text-6xl font-bold leading-tight text-gray-900">
 
-                  Let's Build the Future of
+                  Let&apos;s Build the Future of
 
                   <span className="block text-cyan-700 mt-2">
                     Water Research
@@ -65,7 +65,7 @@ export default function ContactPage() {
                   student inquiries, academic partnerships, and
                   laboratory visits.
 
-                  Feel free to reach out to our team and we'll
+                  Feel free to reach out to our team and we&apos;ll
                   respond as soon as possible.
 
                 </p>
@@ -121,7 +121,7 @@ export default function ContactPage() {
                 </span>
 
                 <h2 className="text-4xl font-bold text-gray-900 mt-3 mb-10">
-                  We'd love to hear from you
+                  We&apos;d love to hear from you
                 </h2>
 
                 {/* Email */}
