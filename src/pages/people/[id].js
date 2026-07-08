@@ -1,20 +1,28 @@
-import { useRouter } from 'next/router';
-import Head from 'next/head';
-import Image from 'next/image';
-import {/* pi, */postdoc,phdScholars, mastersStudents,project_student, interns } from '@/content/groupmembers';
-import Layout from '@/components/layout/Layout';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+import { useRouter } from "next/router";
+import Head from "next/head";
+import Image from "next/image";
+import Layout from "@/components/layout/Layout";
+
+import {
+  postdoc,
+  phdScholars,
+  mastersStudents,
+  project_student,
+  interns,
+} from "@/content/groupmembers";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
 
 const allPeople = [
-  /*pi,*/
   ...postdoc,
   ...phdScholars,
   ...mastersStudents,
-   ...project_student,
+  ...project_student,
   ...interns,
 ];
 
@@ -25,7 +33,7 @@ export default function PeopleView() {
   if (router.isFallback) {
     return (
       <Layout>
-        <div className="text-center py-20">Loading...</div>
+        <div className="py-24 text-center">Loading...</div>
       </Layout>
     );
   }
@@ -37,197 +45,280 @@ export default function PeopleView() {
   if (!person) {
     return (
       <Layout>
-        <div className="text-center py-20 text-xl">Person not found</div>
+        <div className="py-24 text-center text-2xl">Person not found</div>
       </Layout>
     );
   }
 
-  // Safe access to potentially undefined properties
   const researchInterests = person.researchInterests || [];
   const education = person.education || [];
   const projects = person.projects || [];
   const contact = person.contact || {};
-  const social = person.social || {};
 
   return (
     <Layout>
       <Head>
-        <title>{person.name} | Water Resources Research Group</title>
-        <meta name="description" content={`Profile of ${person.name}, ${person.position}`} />
+        <title>{person.name}</title>
       </Head>
 
-      <div className="container mx-auto px-4 py-12 max-w-4xl">
-        <div className="flex flex-col md:flex-row gap-8 mb-8">
-        {person.photo && (
-  <div className="relative w-48 h-48 flex-shrink-0">
-    <Image
-      src={person.photo}
-      alt={person.name}
-      fill
-      className="object-contain md:object-contain object-top"
-      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-      priority
-    />
-  </div>
-)}
+      {/* Main Container Wrapper */}
+      <div className="max-w-7xl mx-auto px-6 py-14">
+        
+        {/* Profile Header */}
+        <div className="bg-white rounded-3xl shadow-lg overflow-hidden">
+          <div className="grid lg:grid-cols-3 gap-10 p-10">
+            <div className="flex justify-center">
+              <div className="relative w-72 h-72 rounded-full overflow-hidden border-8 border-blue-50 shadow-lg">
+                <Image
+                  src={person.photo}
+                  alt={person.name}
+                  fill
+                  priority
+                  className="object-cover"
+                />
+              </div>
+            </div>
 
-          
-          <div>
-            <h1 className="text-3xl font-bold mb-2">{person.name}</h1>
-            <p className="text-blue-600 text-xl font-semibold mb-4">{person.position}</p>
-            
-            {person.department && (
-              <p className="text-gray-700 mb-4 whitespace-pre-line">
-                <strong></strong> {person.department}
+            <div className="lg:col-span-2 flex flex-col justify-center">
+              <h1 className="text-5xl font-bold text-gray-900">{person.name}</h1>
+              <p className="mt-4 text-2xl text-blue-600 font-semibold">
+                {person.position}
               </p>
-            )}
+              {person.department && (
+                <p className="mt-6 text-gray-600 leading-8">{person.department}</p>
+              )}
+            </div>
           </div>
         </div>
 
-        {/* Research Interests */}
-    {researchInterests.length > 0 && (
-  <div className="mb-6 text-left">
-    <h2 className="text-xl font-semibold mb-2">Research Interests</h2>
-    <div className="flex flex-wrap gap-2 justify-start">
-      {researchInterests.map((interest, idx) => (
-        <span
-          key={idx}
-          className="bg-blue-50 text-blue-800 px-3 py-1 rounded-full text-sm"
-        >
-          {interest}
-        </span>
-      ))}
-    </div>
-  </div>
-)}
+        {/* ================= Research & Education ================= */}
+        {(researchInterests.length > 0 || education.length > 0) && (
+          <div className="grid lg:grid-cols-2 gap-8 mt-10">
+            {/* Research Interests */}
+            {researchInterests.length > 0 && (
+              <div className="bg-white rounded-3xl shadow-md p-8">
+                <h2 className="text-2xl font-bold mb-6">Research Interests</h2>
+                <div className="flex flex-wrap gap-3">
+                  {researchInterests.map((item, index) => (
+                    <span
+                      key={index}
+                      className="px-4 py-2 rounded-full bg-blue-100 text-blue-700 font-medium"
+                    >
+                      {item}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            )}
 
-
-        {/* Education */}
-        {education.length > 0 && (
-          <div className="mb-6">
-            <h2 className="text-xl font-semibold mb-2">Education</h2>
-            <ul className="space-y-2">
-              {education.map((edu, idx) => (
-                <li key={idx} className="flex items-start">
-                  <span className="text-blue-500 mr-2">•</span>
-                  <span>{edu}</span>
-                </li>
-              ))}
-            </ul>
+            {/* Education */}
+            {education.length > 0 && (
+              <div className="bg-white rounded-3xl shadow-md p-8">
+                <h2 className="text-2xl font-bold mb-6">Education</h2>
+                <div className="space-y-4">
+                  {education.map((edu, index) => (
+                    <div key={index} className="flex items-start gap-3">
+                      <div className="w-3 h-3 rounded-full bg-blue-600 mt-2"></div>
+                      <p className="text-gray-700 leading-7">{edu}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
         )}
 
-        {/* Contact info */}
+        {/* ================= Contact ================= */}
         {(contact.email || contact.phone || contact.office || contact.website) && (
-          <div className="mb-6">
-            <h2 className="text-xl font-semibold mb-2">Contact</h2>
-            <ul className="space-y-2">
+          <div className="bg-white rounded-3xl shadow-md p-8 mt-10">
+            <h2 className="text-2xl font-bold mb-6">Contact Information</h2>
+            <div className="grid md:grid-cols-2 gap-6">
               {contact.email && (
-                <li className="flex items-center">
-                  <span className="text-gray-500 w-24">Email:</span>
-                  <a href={`mailto:${contact.email}`} className="text-blue-600 hover:underline">
+                <div>
+                  <p className="text-gray-500">Email</p>
+                  <a
+                    href={`mailto:${contact.email}`}
+                    className="text-blue-600 font-medium hover:underline"
+                  >
                     {contact.email}
                   </a>
-                </li>
+                </div>
               )}
+
               {contact.phone && (
-                <li className="flex items-center">
-                  <span className="text-gray-500 w-24">Phone:</span>
-                  <span>{contact.phone}</span>
-                </li>
+                <div>
+                  <p className="text-gray-500">Phone</p>
+                  <p>{contact.phone}</p>
+                </div>
               )}
+
               {contact.office && (
-                <li className="flex items-center">
-                  <span className="text-gray-500 w-24">Office:</span>
-                  <span>{contact.office}</span>
-                </li>
+                <div>
+                  <p className="text-gray-500">Office</p>
+                  <p>{contact.office}</p>
+                </div>
               )}
+
               {contact.website && (
-                <li className="flex items-center">
-                  <span className="text-gray-500 w-24">Website:</span>
-                  <a href={contact.website} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
-                    {contact.website}
+                <div>
+                  <p className="text-gray-500">Website</p>
+                  <a
+                    href={contact.website}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:underline"
+                  >
+                    Visit Website
                   </a>
-                </li>
-              )}
-            </ul>
-          </div>
-        )}
-
-        {/* Bio */}
-        {person.bio && (
-          <div className="mb-6">
-            <h2 className="text-xl font-semibold mb-2">Bio</h2>
-            <p className="text-gray-700">{person.bio}</p>
-          </div>
-        )}
-
-        {/* Social links */}
-        {(social.googleScholar || social.researchGate || social.linkedIn) && (
-          <div className="mb-6">
-            <h2 className="text-xl font-semibold mb-2">Social Profiles</h2>
-            <div className="flex gap-4">
-              {social.googleScholar && (
-                <a
-                  href={social.googleScholar}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center text-blue-600 hover:underline"
-                >
-                  <span className="mr-1">Google Scholar</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                  </svg>
-                </a>
-              )}
-              {social.researchGate && (
-                <a
-                  href={social.researchGate}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center text-blue-600 hover:underline"
-                >
-                  <span className="mr-1">ResearchGate</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                  </svg>
-                </a>
-              )}
-              {social.linkedIn && (
-                <a
-                  href={social.linkedIn}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center text-blue-600 hover:underline"
-                >
-                  <span className="mr-1">LinkedIn</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                  </svg>
-                </a>
+                </div>
               )}
             </div>
           </div>
         )}
 
-        {/* Projects */}
+        {/* ================= Bio ================= */}
+        {person.bio && (
+          <div className="bg-white rounded-3xl shadow-md p-8 mt-10">
+            <h2 className="text-2xl font-bold mb-6">Biography</h2>
+            <p className="text-gray-700 leading-8 whitespace-pre-line">
+              {person.bio}
+            </p>
+          </div>
+        )}
+
+        {/* ================= Additional Information ================= */}
+        {(person.topic ||
+          person.previousDegree ||
+          person.nationality ||
+          person.researchArea ||
+          person.funding ||
+          person.duration ||
+          person.progress ||
+          person.currentStatus ||
+          person.thesisLink) && (
+          <div className="bg-white rounded-3xl shadow-md p-8 mt-10">
+            <h2 className="text-2xl font-bold mb-8">Additional Information</h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              {person.topic && (
+                <div>
+                  <p className="text-sm text-gray-500 mb-1">Research Topic</p>
+                  <p className="text-gray-800 font-medium leading-7">
+                    {person.topic}
+                  </p>
+                </div>
+              )}
+
+              {person.researchArea && (
+                <div>
+                  <p className="text-sm text-gray-500 mb-1">Research Area</p>
+                  <p className="text-gray-800 font-medium">{person.researchArea}</p>
+                </div>
+              )}
+
+              {person.previousDegree && (
+                <div>
+                  <p className="text-sm text-gray-500 mb-1">Previous Degree</p>
+                  <p className="text-gray-800 font-medium">
+                    {person.previousDegree}
+                  </p>
+                </div>
+              )}
+
+              {person.nationality && (
+                <div>
+                  <p className="text-sm text-gray-500 mb-1">Nationality</p>
+                  <p className="text-gray-800 font-medium">{person.nationality}</p>
+                </div>
+              )}
+
+              {person.funding && (
+                <div>
+                  <p className="text-sm text-gray-500 mb-1">Funding</p>
+                  <p className="text-gray-800 font-medium">{person.funding}</p>
+                </div>
+              )}
+
+              {person.duration && (
+                <div>
+                  <p className="text-sm text-gray-500 mb-1">Duration</p>
+                  <p className="text-gray-800 font-medium">{person.duration}</p>
+                </div>
+              )}
+
+              {person.progress && (
+                <div>
+                  <p className="text-sm text-gray-500 mb-1">Progress</p>
+                  <p className="text-gray-800 font-medium">{person.progress}</p>
+                </div>
+              )}
+
+              {person.currentStatus && (
+                <div>
+                  <p className="text-sm text-gray-500 mb-1">Current Status</p>
+                  <p className="text-gray-800 font-medium">
+                    {person.currentStatus}
+                  </p>
+                </div>
+              )}
+
+              {person.email && (
+                <div>
+                  <p className="text-sm text-gray-500 mb-1">Email</p>
+                  <a
+                    href={`mailto:${person.email}`}
+                    className="text-blue-600 hover:underline"
+                  >
+                    {person.email}
+                  </a>
+                </div>
+              )}
+
+              {person.thesisLink && (
+                <div>
+                  <p className="text-sm text-gray-500 mb-1">Thesis</p>
+                  <a
+                    href={person.thesisLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center px-4 py-2 rounded-lg bg-blue-600 text-white hover:bg-blue-700 transition"
+                  >
+                    Download Thesis
+                  </a>
+                </div>
+              )}
+            </div>
+          </div>
+        )}
+
+        {/* ================= Projects ================= */}
         {projects.length > 0 && (
-          <div className="mb-6">
-            <h2 className="text-xl font-semibold mb-2">Projects</h2>
-            <div className="space-y-4">
-              {projects.map((proj, idx) => (
-                <div key={idx} className="bg-gray-50 p-4 rounded-lg">
-                  <h3 className="font-semibold text-lg">{proj.title}</h3>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-2">
-                    {proj.funding && (
-                      <p><strong>Funding:</strong> {proj.funding}</p>
+          <div className="bg-white rounded-3xl shadow-md p-8 mt-10">
+            <h2 className="text-2xl font-bold mb-8">Projects</h2>
+            <div className="space-y-6">
+              {projects.map((project, index) => (
+                <div
+                  key={index}
+                  className="border rounded-2xl p-6 hover:shadow-md transition"
+                >
+                  <h3 className="text-xl font-semibold">{project.title}</h3>
+                  <div className="grid md:grid-cols-2 gap-4 mt-4">
+                    {project.funding && (
+                      <div>
+                        <p className="text-gray-500 text-sm">Funding</p>
+                        <p>{project.funding}</p>
+                      </div>
                     )}
-                    {proj.duration && (
-                      <p><strong>Duration:</strong> {proj.duration}</p>
+                    {project.duration && (
+                      <div>
+                        <p className="text-gray-500 text-sm">Duration</p>
+                        <p>{project.duration}</p>
+                      </div>
                     )}
                   </div>
-                  {proj.description && (
-                    <p className="mt-2 text-gray-700">{proj.description}</p>
+                  {project.description && (
+                    <p className="mt-5 text-gray-700 leading-7">
+                      {project.description}
+                    </p>
                   )}
                 </div>
               ))}
@@ -235,169 +326,112 @@ export default function PeopleView() {
           </div>
         )}
 
-        {/* Additional fields */}
-        {(person.topic || person.previousDegree || person.nationality || person.duration || person.email || person.currentStatus || person.thesisLink) && (
-          <div className="mt-8 pt-6 border-t border-gray-200">
-            <h2 className="text-xl font-semibold mb-4">Additional Information</h2>
-            <div className="space-y-4">
-              {person.previousDegree && (
-                <div>
-                  <h3 className="font-medium text-gray-500">Previous Degree</h3>
-                  <p className="whitespace-pre-line">{person.previousDegree}</p>
-                </div>
-              )}
-               {person.previousDegree && (
-                <div>
-                  <h3 className="font-medium text-gray-500">Nationality</h3>
-                  <p className="whitespace-pre-line">{person.nationality}</p>
-                </div>
-              )}
-        <div className="w-full flex justify-start items-start text-left">
-  {person.topic && (
-    <div>
-      <h3 className="font-medium text-gray-500">Research Topic</h3>
-      <p>{person.topic}</p>
-    </div>
-  )}
-   {person.funding && (
-    <div>
-      <h3 className="font-medium text-gray-500">Funding</h3>
-      <p>{person.funding}</p>
-    </div>
-  )}
-</div>
-<div className="w-full flex justify-start items-start text-left">
-  {person.researchArea && (
-    <div>
-      <h3 className="font-medium text-gray-500">Research Area</h3>
-      <p>{person.researchArea}</p>
-    </div>
-  )}
-</div>
+        {/* ================= Publications / Patents / Conferences / Awards ================= */}
+        {(person.type?.includes("PhD") || person.type?.includes("MTech")) && (
+          <div className="space-y-10 mt-10">
+            {/* Publications */}
+            {person.peerReviewedPublications?.length > 0 && (
+              <div className="bg-white rounded-3xl shadow-md p-8">
+                <h2 className="text-2xl font-bold mb-6">
+                  Peer Reviewed Publications
+                </h2>
+                <ul className="space-y-4">
+                  {person.peerReviewedPublications.map((pub, index) => (
+                    <li
+                      key={index}
+                      className="border-l-4 border-blue-600 pl-5 text-gray-700 leading-7"
+                    >
+                      {pub}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
 
-              {person.duration && (
-                <div>
-                  <h3 className="font-medium text-gray-500">Duration</h3>
-                  <p>{person.duration}</p>
-                </div>
-              )}
-              {person.progress && (
-                <div>
-                  <h3 className="font-medium text-gray-500">Progress</h3>
-                  <p>{person.progress}</p>
-                </div>
-              )}
-              {person.email && (
-                <div>
-                  <h3 className="font-medium text-gray-500">Email</h3>
-                  <a href={`mailto:${person.email}`} className="text-blue-600 hover:underline">
-                    {person.email}
-                  </a>
-                </div>
-              )}
-              {person.currentStatus && (
-                <div>
-                  <h3 className="font-medium text-gray-500">Current Status</h3>
-                  <p>{person.currentStatus}</p>
-                </div>
-              )}
-              {person.thesisLink && (
-                <div>
-                  <h3 className="font-medium text-gray-500">Thesis</h3>
-                  <a
-                    href={person.thesisLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-blue-600 hover:underline"
-                  >
-                    Download PDF
-                  </a>
-                </div>
-              )}
-            </div>
+            {/* Patents */}
+            {person.patents?.length > 0 && (
+              <div className="bg-white rounded-3xl shadow-md p-8">
+                <h2 className="text-2xl font-bold mb-6">Patents</h2>
+                <ul className="space-y-4">
+                  {person.patents.map((patent, index) => (
+                    <li
+                      key={index}
+                      className="border-l-4 border-green-600 pl-5 text-gray-700 leading-7"
+                    >
+                      {patent}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            {/* Conferences */}
+            {person.conferences?.length > 0 && (
+              <div className="bg-white rounded-3xl shadow-md p-8">
+                <h2 className="text-2xl font-bold mb-6">Conferences</h2>
+                <ul className="space-y-4">
+                  {person.conferences.map((conference, index) => (
+                    <li
+                      key={index}
+                      className="border-l-4 border-orange-500 pl-5 text-gray-700 leading-7"
+                    >
+                      {conference}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            {/* Awards */}
+            {person.awards?.length > 0 && (
+              <div className="bg-white rounded-3xl shadow-md p-8">
+                <h2 className="text-2xl font-bold mb-6">Awards</h2>
+                <ul className="space-y-4">
+                  {person.awards.map((award, index) => (
+                    <li
+                      key={index}
+                      className="border-l-4 border-yellow-500 pl-5 text-gray-700 leading-7"
+                    >
+                      {award}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
           </div>
         )}
-       {/* Only show for PhD and MTech students */}
-{(person.type?.includes('PhD') || person.type?.includes('MTech')) && (
-  <div className="mt-8 pt-6 border-t border-gray-300 space-y-6">
 
- 
+        {/* ================= Image Gallery ================= */}
+        {person.images?.length > 0 && (
+          <div className="bg-white rounded-3xl shadow-md p-8 mt-10">
+            <h2 className="text-2xl font-bold mb-8">Gallery</h2>
+            <Swiper
+              modules={[Navigation, Pagination, Autoplay]}
+              spaceBetween={20}
+              slidesPerView={1}
+              navigation
+              pagination={{ clickable: true }}
+              autoplay={{
+                delay: 3000,
+                disableOnInteraction: false,
+              }}
+              loop
+              className="rounded-2xl overflow-hidden"
+            >
+              {person.images.map((image, index) => (
+                <SwiperSlide key={index}>
+                  <img
+                    src={image}
+                    alt={`Gallery ${index + 1}`}
+                    className="w-full h-[450px] object-cover rounded-2xl"
+                  />
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          </div>
+        )}
 
-    {/* Publications */}
-    {person.peerReviewedPublications?.length > 0 && (
-      <div>
-        <h2 className="text-xl font-semibold mb-2">Peer Reviewed Publications</h2>
-        <ul className="list-disc pl-5 space-y-1 text-gray-700">
-          {person.peerReviewedPublications.map((pub, idx) => (
-            <li key={idx}>{pub}</li>
-          ))}
-        </ul>
       </div>
-    )}
-
-    {/* Patents */}
-    {person.patents?.length > 0 && (
-      <div>
-        <h2 className="text-xl font-semibold mb-2">Patents</h2>
-        <ul className="list-disc pl-5 space-y-1 text-gray-700">
-          {person.patents.map((pat, idx) => (
-            <li key={idx}>{pat}</li>
-          ))}
-        </ul>
-      </div>
-    )}
-
-    {/* Conferences */}
-    {person.conferences?.length > 0 && (
-      <div>
-        <h2 className="text-xl font-semibold mb-2">Conferences Attended</h2>
-        <ul className="list-disc pl-5 space-y-1 text-gray-700">
-          {person.conferences.map((conf, idx) => (
-            <li key={idx}>{conf}</li>
-          ))}
-        </ul>
-      </div>
-    )}
-
-    {/* Awards */}
-    {person.awards?.length > 0 && (
-      <div>
-        <h2 className="text-xl font-semibold mb-2">Awards</h2>
-        <ul className="list-disc pl-5 space-y-1 text-gray-700">
-          {person.awards.map((award, idx) => (
-            <li key={idx}>{award}</li>
-          ))}
-        </ul>
-      </div>
-    )}
-       {/* Event Highlights Carousel */}
-    {person.images?.length > 0 && (
-      <div className="w-full max-w-4xl mx-auto mt-12">
-        <Swiper
-          modules={[Navigation, Pagination, Autoplay]}
-          spaceBetween={20}
-          slidesPerView={1}
-          navigation
-          pagination={{ clickable: true }}
-          autoplay={{ delay: 3000, disableOnInteraction: false }}
-          loop={true}
-          className="rounded-2xl overflow-hidden shadow-xl"
-        >
-          {person.images.map((src, index) => (
-            <SwiperSlide key={index}>
-              <img
-                src={src}
-                alt={`Event ${index + 1}`}
-                className="w-full h-64 object-cover"
-              />
-            </SwiperSlide>
-          ))}
-        </Swiper>
-      </div>
-    )}
-
-  </div>
-)}
-    </div>
-  </Layout>
-)};
+    </Layout>
+  );
+}

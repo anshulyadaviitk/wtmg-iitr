@@ -1,113 +1,102 @@
-import Head from 'next/head';
-import Layout from '@/components/layout/Layout';
-import { past } from '@/content/pastmembers';
-import PastMemberCard from '@/components/people/PastMemberCard';
-import SectionTitle from '@/components/ui/SectionTitle';
-import { useRouter } from 'next/router';
-import { useEffect } from 'react';
+import Head from "next/head";
+import Layout from "@/components/layout/Layout";
+import { useEffect } from "react";
+import { useRouter } from "next/router";
+
+import { past } from "@/content/pastmembers";
+
+import PastMemberCard from "@/components/people/PastMemberCard";
+import SectionTitle from "@/components/ui/SectionTitle";
 
 export default function PastMembersPage() {
   const router = useRouter();
 
-  // Scroll to section if hash exists in URL
   useEffect(() => {
-    if (router.asPath.includes('#')) {
-      const sectionId = router.asPath.split('#')[1];
-      const element = document.getElementById(sectionId);
+    if (router.asPath.includes("#")) {
+      const id = router.asPath.split("#")[1];
+      const element = document.getElementById(id);
+
       if (element) {
-        element.scrollIntoView({ behavior: 'smooth' });
+        element.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
       }
     }
   }, [router.asPath]);
 
+  const sections = [
+    {
+      id: "phd",
+      title: "PhD Alumni",
+      members: past.phd,
+    },
+    {
+      id: "masters",
+      title: "Master's Alumni",
+      members: past.masters,
+    },
+    {
+      id: "project",
+      title: "Project Students",
+      members: past.project,
+    },
+    {
+      id: "interns",
+      title: "Interns / Dissertation Students",
+      members: past.interns,
+    },
+  ];
+
   return (
     <Layout>
       <Head>
-        <title>Alumni | WRDM Research Group</title>
-        <meta name="description" content="Meet our distinguished alumni and past members of the WRDM Research Group" />
+        <title>Past Members | WRDM Research Group</title>
       </Head>
 
-      <div className="container mx-auto px-4 sm:px-6 py-8 md:py-12">
-        <SectionTitle
-          title="Past Members & Alumni"
-          subtitle="Former members of our research group who have contributed significantly to our work"
-          className="mb-12"
-        />
+      <section className="bg-gradient-to-b from-blue-50 to-white py-12">
+        <div className="max-w-7xl mx-auto px-6">
 
-        <div className="space-y-12">
-          {/* PhD Alumni Section */}
-          <section id="phd" className="scroll-mt-20">
-            <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl md:text-3xl font-bold mb-6 text-gray-800 border-b pb-2">
-                PhD Alumni
-              </h2>
-              <div className="space-y-6">
-                {past.phd.map(member => (
-                  <PastMemberCard 
-                    key={member.id} 
-                    member={member} 
-                    className="hover:shadow-md transition-shadow duration-300"
-                  />
-                ))}
-              </div>
-            </div>
-          </section>
+          <SectionTitle
+            title="Past Members & Alumni"
+            subtitle="Former members of our research group."
+            className="mb-12"
+          />
 
-          {/* Master's Alumni Section */}
-          <section id="masters" className="scroll-mt-20">
-            <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl md:text-3xl font-bold mb-6 text-gray-800 border-b pb-2">
-                Master&apos;s Alumni
-              </h2>
-              <div className="space-y-6">
-                {past.masters.map(member => (
-                  <PastMemberCard 
-                    key={member.id} 
-                    member={member} 
-                    className="hover:shadow-md transition-shadow duration-300"
-                  />
-                ))}
-              </div>
-            </div>
-          </section>
+          {sections.map((section) => (
+            <div key={section.id} id={section.id} className="mb-20">
 
-          {/* Project Alumni Section */}
-          <section id="project" className="scroll-mt-20">
-            <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl md:text-3xl font-bold mb-6 text-gray-800 border-b pb-2">
-                Project Alumni
-              </h2>
-              <div className="space-y-6">
-                {past.project.map(member => (
-                  <PastMemberCard 
-                    key={member.id} 
-                    member={member} 
-                    className="hover:shadow-md transition-shadow duration-300"
-                  />
-                ))}
-              </div>
-            </div>
-          </section>
+              <SectionTitle
+                title={section.title}
+                className="mb-8"
+              />
 
-          {/* Former Interns Section */}
-          <section id="interns" className="scroll-mt-20">
-            <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl md:text-3xl font-bold mb-6 text-gray-800 border-b pb-2">
-                Interns/ Dissertation students 
-              </h2>
-              <div className="space-y-6">
-                {past.interns.map(member => (
-                  <PastMemberCard 
-                    key={member.id} 
-                    member={member} 
-                    className="hover:shadow-md transition-shadow duration-300"
-                  />
-                ))}
-              </div>
+              {section.members.length > 0 ? (
+
+                <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+
+                  {section.members.map((member) => (
+                    <PastMemberCard
+                      key={member.id}
+                      member={member}
+                    />
+                  ))}
+
+                </div>
+
+              ) : (
+
+                <div className="text-center py-12 text-gray-500">
+                  No members found.
+                </div>
+
+              )}
+
             </div>
-          </section>
+          ))}
+
         </div>
-      </div>
+      </section>
     </Layout>
   );
 }
