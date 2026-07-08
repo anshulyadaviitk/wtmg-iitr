@@ -466,6 +466,7 @@ images:[
     type: 'PhD',
     name: 'Mr. Arindam Pal',
     photo: '/images/groupmembers/phd/arindam_pal.jpeg',
+    funding:'In Service',
     position: 'PhD Scholar',
     peerReviewedPublications: [''
 ],
@@ -496,6 +497,7 @@ images:[
     type: 'PhD',
     name: 'Ms. Sapana Jaiswal',
     photo: '/images/groupmembers/phd/sapana_jaiswal.jpeg',
+    funding:'In Service',
     position: 'PhD Scholar',
     peerReviewedPublications: [''
 ],
@@ -527,6 +529,7 @@ images:[
     type: 'PhD',
     name: 'Ms. Sneha Anant Bramhankar',
     photo: '/images/groupmembers/phd/sneha_bramhankar.jpeg',
+    funding:'In Service',
     position: 'PhD Scholar',
     peerReviewedPublications: [''
 ],
