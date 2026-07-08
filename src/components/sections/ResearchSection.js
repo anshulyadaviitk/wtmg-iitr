@@ -27,14 +27,18 @@ useEffect(() => {
 }, []);
   
   return (
-    <section className="py-0 bg-gradient-to-b from-gray-50 to-white">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">
-            Research Areas
+    <section className="py-24 bg-slate-50 relative overflow-hidden">
+      {/* Abstract Background */}
+      <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]"></div>
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-4xl h-96 bg-blue-200/30 rounded-full blur-3xl opacity-50 pointer-events-none"></div>
+
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl font-extrabold text-slate-900 sm:text-5xl tracking-tight mb-4">
+            Research <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-600">Areas</span>
           </h2>
-          <p className="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
-            Exploring cutting-edge innovations and scientific breakthroughs
+          <p className="mt-4 text-lg text-slate-600 max-w-2xl mx-auto font-medium leading-relaxed">
+            Exploring cutting-edge innovations and scientific breakthroughs in water treatment and management.
           </p>
         </div>
 
@@ -71,47 +75,47 @@ useEffect(() => {
 
           {researchAreas.map((area) => (
             <SwiperSlide key={area.id}>
-              <div className="bg-white rounded-xl shadow-lg overflow-hidden h-full flex flex-col transition-all duration-300 hover:shadow-xl hover:-translate-y-1" style={{ height: '560px' }}>
+              <div className="group bg-white rounded-[2rem] shadow-sm border border-slate-200/60 overflow-hidden h-full flex flex-col transition-all duration-500 hover:shadow-2xl hover:-translate-y-2 hover:border-blue-200" style={{ height: '560px' }}>
                 {/* Image with fixed aspect ratio */}
-                <div className="relative aspect-video w-full overflow-hidden flex-shrink-0">
+                <div className="relative aspect-video w-full overflow-hidden flex-shrink-0 bg-slate-100">
                   <Image
                     src={area.image}
                     alt={area.title}
                     fill
-                    className="object-contain transition-transform duration-500 group-hover:scale-105"
+                    className="object-cover transition-transform duration-700 group-hover:scale-110"
                     priority
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-gray-900/10 to-transparent" />
-
+                  <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-slate-900/10 to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-300" />
+                  
+                  {area.icon && (
+                    <div className="absolute bottom-4 left-6 w-12 h-12 bg-white/20 backdrop-blur-md rounded-2xl border border-white/30 flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 shadow-lg">
+                      <area.icon className="h-6 w-6 text-white" />
+                    </div>
+                  )}
                 </div>
 
                 {/* Content area with constrained height and scroll */}
-                <div className="p-6 flex flex-col flex-grow overflow-hidden">
-                  <div className="flex-grow overflow-y-auto">
-                    <div className="flex items-center mb-3">
-                      {area.icon && (
-                        <div className="p-2 rounded-lg bg-blue-50 mr-3">
-                          <area.icon className="h-5 w-5 text-blue-600" />
-                        </div>
-                      )}
-                      <h3 className="text-xl font-bold text-gray-900 line-clamp-2">
-                        {area.title}
-                      </h3>
-                    </div>
-                    <p className="text-gray-600 mb-4 line-clamp-3">
+                <div className="p-8 flex flex-col flex-grow overflow-hidden relative">
+                  <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-500 to-cyan-500 transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500" />
+
+                  <div className="flex-grow overflow-y-auto pr-2 scrollbar-thin scrollbar-thumb-slate-200">
+                    <h3 className="text-2xl font-extrabold text-slate-900 mb-3 group-hover:text-blue-600 transition-colors line-clamp-2 leading-snug">
+                      {area.title}
+                    </h3>
+                    <p className="text-slate-600 mb-6 leading-relaxed text-sm font-medium">
                       {area.description}
                     </p>
                     {area.projects?.length > 0 && (
                       <div className="mb-4">
-                        <h4 className="text-sm font-semibold text-gray-700 mb-2">
-                          Key Projects:
+                        <h4 className="text-[11px] font-bold text-slate-400 uppercase tracking-wider mb-4 flex items-center gap-2">
+                          Key Projects
                         </h4>
-                        <ul className="space-y-2 max-h-[120px] overflow-y-auto pr-2">
+                        <ul className="space-y-3">
                           {area.projects.slice(0, 3).map((p, idx) => (
-                            <li key={idx} className="flex items-start">
-                              <span className="flex-shrink-0 mt-1 mr-2">
+                            <li key={idx} className="flex items-start bg-slate-50/80 p-3 rounded-xl border border-slate-100 group/item hover:bg-blue-50/50 transition-colors">
+                              <span className="flex-shrink-0 mt-0.5 mr-3 w-5 h-5 bg-blue-100 rounded-full flex items-center justify-center group-hover/item:bg-blue-600 transition-colors">
                                 <svg
-                                  className="h-4 w-4 text-blue-500"
+                                  className="h-3 w-3 text-blue-600 group-hover/item:text-white transition-colors"
                                   fill="none"
                                   viewBox="0 0 24 24"
                                   stroke="currentColor"
@@ -119,40 +123,18 @@ useEffect(() => {
                                   <path
                                     strokeLinecap="round"
                                     strokeLinejoin="round"
-                                    strokeWidth={2}
-                                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                                    strokeWidth={3}
+                                    d="M5 13l4 4L19 7"
                                   />
                                 </svg>
                               </span>
-                              <span className="text-sm text-gray-700 line-clamp-2">{p}</span>
+                              <span className="text-sm font-semibold text-slate-700 line-clamp-2 group-hover/item:text-slate-900">{p}</span>
                             </li>
                           ))}
                         </ul>
                       </div>
                     )}
                   </div>
-
-                  {/* Fixed position link at bottom */}
-                  {/* {area.slug && (
-                    <Link
-                      href={`/research/${area.slug}`}
-                      className="mt-4 inline-flex items-center text-blue-600 hover:text-blue-800 font-medium transition-colors duration-200 flex-shrink-0"
-                    >
-                      Explore Research
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        className="h-5 w-5 ml-1"
-                        viewBox="0 0 20 20"
-                        fill="currentColor"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                    </Link>
-                  )} */}
                 </div>
               </div>
             </SwiperSlide>

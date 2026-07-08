@@ -288,26 +288,27 @@ export default function Home() {
 <section className="py-24 bg-slate-50 relative overflow-hidden">
   {/* Abstract BG */}
   <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]"></div>
+  <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-4xl h-96 bg-blue-200/30 rounded-full blur-3xl opacity-50 pointer-events-none"></div>
   
   <div className="container mx-auto px-6 max-w-6xl relative z-10">
     <h2 className="text-4xl md:text-5xl font-extrabold text-center mb-16 text-slate-900 tracking-tight">
-      News & <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">Events</span>
+      News & <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-600">Events</span>
     </h2>
 
-    <div className="flex flex-col md:flex-row gap-8 md:gap-12">
+    <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
  {/* Notice  */}
-<div className="flex-1 bg-white/80 backdrop-blur-xl p-8 rounded-3xl shadow-xl border border-white/50">
-  <div className="flex items-center gap-3 mb-6 border-b border-slate-100 pb-4">
-    <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center">
-      <BookOpenIcon className="w-5 h-5 text-blue-600" />
+<div className="group flex-1 bg-white rounded-[2rem] p-8 shadow-sm border border-slate-200/60 hover:shadow-2xl hover:border-blue-200 transition-all duration-500 relative overflow-hidden">
+  <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-500 to-cyan-500 transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500" />
+  <div className="flex items-center gap-4 mb-8">
+    <div className="w-14 h-14 rounded-2xl bg-blue-50 flex items-center justify-center group-hover:bg-blue-600 transition-colors duration-500 shadow-sm border border-blue-100">
+      <BookOpenIcon className="w-7 h-7 text-blue-600 group-hover:text-white transition-colors duration-500" />
     </div>
-    <h3 className="text-2xl font-bold text-slate-800">
+    <h3 className="text-2xl font-bold text-slate-900 group-hover:text-blue-600 transition-colors">
       Notice Board
     </h3>
   </div>
 
-  <ul className="space-y-4 max-h-[380px] overflow-y-auto pr-3 scrollbar-thin scrollbar-thumb-slate-300 scrollbar-track-transparent">
-
+  <ul className="space-y-4 max-h-[400px] overflow-y-auto pr-3 scrollbar-thin scrollbar-thumb-slate-200">
     {[...notices]
       .sort((a, b) => {
         if (a.isNew && !b.isNew) return -1;
@@ -317,7 +318,7 @@ export default function Home() {
       .map((notice) => (
         <li
           key={notice.id}
-          className="group bg-slate-50 border border-slate-100 rounded-2xl p-5 hover:bg-blue-50/50 hover:border-blue-200 transition-all duration-300"
+          className="group/item bg-slate-50 border border-slate-100 rounded-2xl p-5 hover:bg-blue-50/50 hover:border-blue-200 transition-all duration-300 relative overflow-hidden"
         >
           <div className="flex flex-col sm:flex-row justify-between sm:items-center gap-3">
             <div>
@@ -325,19 +326,19 @@ export default function Home() {
                 href={notice.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[15px] font-semibold text-slate-800 group-hover:text-blue-700 transition-colors"
+                className="text-[15px] font-semibold text-slate-800 group-hover/item:text-blue-700 transition-colors"
               >
                 {notice.title}
               </a>
               {notice.isNew && (
-                <span className="ml-3 inline-block px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wider bg-red-50 text-red-600 rounded-full ring-1 ring-red-600/20">
+                <span className="ml-3 inline-block px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wider bg-red-50 text-red-600 rounded-full ring-1 ring-red-600/20 shadow-sm animate-pulse">
                   New
                 </span>
               )}
             </div>
             <time
               dateTime={notice.date}
-              className="text-xs font-medium text-slate-400 min-w-fit px-3 py-1 bg-white rounded-full shadow-sm"
+              className="text-xs font-bold text-slate-400 min-w-fit px-3 py-1.5 bg-white rounded-lg shadow-sm border border-slate-100 uppercase tracking-wider"
               title={new Date(notice.date).toLocaleString()}
             >
               {new Date(notice.date).toLocaleDateString(undefined, {
@@ -351,28 +352,31 @@ export default function Home() {
       ))}
   </ul>
 
-  <div className="mt-8 text-center">
-    <Button href="/notice" variant="outline" className="px-8 py-3 rounded-xl border-slate-200 text-slate-600 hover:bg-slate-50 font-semibold">
+  <div className="mt-8 pt-6 border-t border-slate-100 text-center">
+    <Link href="/notice" className="inline-flex items-center text-blue-600 font-bold hover:text-blue-700 transition-colors group/link">
       View All Notices
-    </Button>
+      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-1 transform group-hover/link:translate-x-1 transition-transform" viewBox="0 0 20 20" fill="currentColor">
+        <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
+      </svg>
+    </Link>
   </div>
 </div>
 
 
       {/* Upcoming Events (Right) */}
-<div className="flex-1 bg-white/80 backdrop-blur-xl p-8 rounded-3xl shadow-xl border border-white/50">
-  <div className="flex items-center gap-3 mb-6 border-b border-slate-100 pb-4">
-    <div className="w-10 h-10 rounded-full bg-indigo-100 flex items-center justify-center">
-      <CalendarIcon className="w-5 h-5 text-indigo-600" />
+<div className="group flex-1 bg-white rounded-[2rem] p-8 shadow-sm border border-slate-200/60 hover:shadow-2xl hover:border-cyan-200 transition-all duration-500 relative overflow-hidden">
+  <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-cyan-500 to-blue-500 transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500" />
+  <div className="flex items-center gap-4 mb-8">
+    <div className="w-14 h-14 rounded-2xl bg-cyan-50 flex items-center justify-center group-hover:bg-cyan-600 transition-colors duration-500 shadow-sm border border-cyan-100">
+      <CalendarIcon className="w-7 h-7 text-cyan-600 group-hover:text-white transition-colors duration-500" />
     </div>
-    <h3 className="text-2xl font-bold text-slate-800">
+    <h3 className="text-2xl font-bold text-slate-900 group-hover:text-cyan-600 transition-colors">
       Upcoming Events
     </h3>
   </div>
 
   {/* Scrollable area */}
-  <ul className="space-y-4 max-h-[380px] overflow-y-auto pr-3 scrollbar-thin scrollbar-thumb-slate-300 scrollbar-track-transparent">
-
+  <ul className="space-y-4 max-h-[400px] overflow-y-auto pr-3 scrollbar-thin scrollbar-thumb-slate-200">
     {[...upcomingevents]
       .sort((a, b) => {
         if (a.isNew && !b.isNew) return -1;
@@ -382,7 +386,7 @@ export default function Home() {
       .map((event) => (
         <li
           key={event.id}
-          className="group bg-slate-50 border border-slate-100 rounded-2xl p-5 hover:bg-indigo-50/50 hover:border-indigo-200 transition-all duration-300"
+          className="group/item bg-slate-50 border border-slate-100 rounded-2xl p-5 hover:bg-cyan-50/50 hover:border-cyan-200 transition-all duration-300"
         >
           <div className="flex flex-col sm:flex-row justify-between sm:items-center gap-3">
             <div>
@@ -390,19 +394,19 @@ export default function Home() {
                 href={event.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[15px] font-semibold text-slate-800 group-hover:text-indigo-700 transition-colors"
+                className="text-[15px] font-semibold text-slate-800 group-hover/item:text-cyan-700 transition-colors"
               >
                 {event.title}
               </a>
               {event.isNew && (
-                <span className="ml-3 inline-block px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wider bg-indigo-50 text-indigo-600 rounded-full ring-1 ring-indigo-600/20">
+                <span className="ml-3 inline-block px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wider bg-cyan-50 text-cyan-600 rounded-full ring-1 ring-cyan-600/20 shadow-sm animate-pulse">
                   New
                 </span>
               )}
             </div>
             <time
               dateTime={event.date}
-              className="text-xs font-medium text-slate-400 min-w-fit px-3 py-1 bg-white rounded-full shadow-sm"
+              className="text-xs font-bold text-slate-400 min-w-fit px-3 py-1.5 bg-white rounded-lg shadow-sm border border-slate-100 uppercase tracking-wider"
               title={new Date(event.date).toLocaleString()}
             >
               {new Date(event.date).toLocaleDateString(undefined, {
@@ -416,10 +420,13 @@ export default function Home() {
       ))}
   </ul>
 
-  <div className="mt-8 text-center">
-    <Button href="/events" variant="outline" className="px-8 py-3 rounded-xl border-slate-200 text-slate-600 hover:bg-slate-50 font-semibold">
+  <div className="mt-8 pt-6 border-t border-slate-100 text-center">
+    <Link href="/events" className="inline-flex items-center text-cyan-600 font-bold hover:text-cyan-700 transition-colors group/link">
       View All Events
-    </Button>
+      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-1 transform group-hover/link:translate-x-1 transition-transform" viewBox="0 0 20 20" fill="currentColor">
+        <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
+      </svg>
+    </Link>
   </div>
 </div>
 

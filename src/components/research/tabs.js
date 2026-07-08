@@ -1,15 +1,15 @@
 export default function Tabs({ activeTab, setActiveTab, tabs }) {
   return (
-    <div className="flex justify-center border-b border-gray-300 mb-8">
+    <div className="flex flex-wrap justify-center gap-2 mb-12 p-2 bg-slate-100/50 backdrop-blur-md rounded-2xl border border-slate-200/60 max-w-fit mx-auto">
       {tabs.map((tab) => (
         <button
           key={tab.id}
           onClick={() => setActiveTab(tab.id)}
-          className={`px-4 py-2 mx-2 font-medium transition-colors duration-200 border-b-2 
+          className={`px-6 py-3 rounded-xl font-bold text-sm transition-all duration-300
             ${
               activeTab === tab.id
-                ? 'border-blue-600 text-blue-600'
-                : 'border-transparent text-gray-600 hover:text-blue-500'
+                ? 'bg-white text-blue-600 shadow-md ring-1 ring-slate-200/50 scale-105'
+                : 'bg-transparent text-slate-500 hover:text-slate-800 hover:bg-slate-200/50'
             }`}
         >
           {tab.label}

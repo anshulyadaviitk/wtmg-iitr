@@ -4,6 +4,7 @@ import React from "react";
 import Layout from '@/components/layout/Layout';
 import { motion } from "framer-motion";
 import { BookOpen, Calendar, Download, FileText, CheckCircle2, Clock, ChevronRight } from "lucide-react";
+import TeachingSchedule from "@/components/sections/TeachingSchedule";
 
 const courses = [
   {
@@ -128,7 +129,7 @@ export default function TeachingPage() {
           <div className="absolute -bottom-8 left-20 w-72 h-72 bg-pink-400 rounded-full blur-3xl mix-blend-multiply filter animate-blob animation-delay-4000" />
         </div>
 
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <motion.div 
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -142,6 +143,8 @@ export default function TeachingPage() {
               Explore the courses I teach, aimed at equipping the next generation of engineers with knowledge in water and wastewater management.
             </p>
           </motion.div>
+
+          <TeachingSchedule />
 
           <motion.div 
             variants={containerVariants}

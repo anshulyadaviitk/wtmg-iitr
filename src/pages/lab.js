@@ -41,22 +41,31 @@ export default function Lab() {
         <meta name="description" content="Explore our state-of-the-art water research laboratory facilities at IIT Roorkee" />
       </Head>
 
-      {/* Hero Section */}
-      <section className="relative w-full h-[50vh] min-h-[400px] max-h-[600px]">
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/70 to-purple-900/70" />
+      {/* Modern Hero Section */}
+      <section className="relative w-full h-[60vh] min-h-[500px] flex items-center justify-center overflow-hidden">
         <Image
           src={labImages[0].src}
           alt={labImages[0].alt}
           fill
-          className="object-cover"
+          className="object-cover transition-transform duration-[10s] hover:scale-110"
           priority
         />
-        <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-4">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">
-            Research Laboratory
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/90 via-slate-900/70 to-blue-900/60 mix-blend-multiply" />
+        
+        {/* Abstract blur effects */}
+        <div className="absolute -top-1/4 -left-1/4 w-1/2 h-1/2 bg-blue-500/30 rounded-full blur-[100px] pointer-events-none" />
+        <div className="absolute -bottom-1/4 -right-1/4 w-1/2 h-1/2 bg-cyan-500/30 rounded-full blur-[100px] pointer-events-none" />
+        
+        <div className="relative z-10 w-full max-w-5xl mx-auto px-4 text-center">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-white text-sm font-medium mb-6 shadow-sm">
+            <span className="w-2 h-2 rounded-full bg-blue-400 animate-pulse" />
+            WRDM Department
+          </div>
+          <h1 className="text-5xl md:text-7xl font-extrabold text-white mb-6 tracking-tight leading-tight">
+            Research <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">Laboratory</span>
           </h1>
-          <p className="text-xl text-gray-100 max-w-3xl">
-            State-of-the-art facilities for water treatment and analysis research
+          <p className="text-xl md:text-2xl text-slate-200 max-w-3xl mx-auto font-light leading-relaxed">
+            State-of-the-art facilities for advanced water treatment, analysis, and membrane bioreactor research.
           </p>
         </div>
       </section>
@@ -168,43 +177,46 @@ export default function Lab() {
           
           <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-2">
             {/* Instruments */}
-            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 flex flex-col h-full">
+            <div className="group bg-white p-8 rounded-[2rem] shadow-sm border border-slate-200/60 hover:shadow-2xl hover:-translate-y-2 hover:border-blue-200 transition-all duration-500 flex flex-col h-full relative overflow-hidden">
+              <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-500 to-cyan-500 transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500" />
               <div className="mb-6">
-                <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
-                  <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-16 h-16 bg-blue-50 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-blue-600 transition-colors duration-500 shadow-sm border border-blue-100">
+                  <svg className="w-8 h-8 text-blue-600 group-hover:text-white transition-colors duration-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-semibold text-gray-800 mb-3">Instruments</h3>
-                <p className="text-gray-600">
+                <h3 className="text-2xl font-bold text-slate-900 mb-4 group-hover:text-blue-600 transition-colors">Instruments</h3>
+                <p className="text-slate-600 leading-relaxed font-medium">
                   Advanced equipment for water quality analysis, treatment processes, and material characterization.
                 </p>
               </div>
-              <div className="mt-auto">
-                <Button as={Link} href="/lab/instruments" variant="outline" className="w-full">
+              <div className="mt-auto pt-6 border-t border-slate-100">
+                <Link href="/lab/instruments" className="inline-flex items-center text-blue-600 font-bold hover:text-blue-700 transition-colors group/link">
                   View Equipment List
-                </Button>
+                  <ChevronRight className="w-5 h-5 ml-1 transform group-hover/link:translate-x-1 transition-transform" />
+                </Link>
               </div>
             </div>
 
             {/* Research Areas */}
-            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 flex flex-col h-full">
+            <div className="group bg-white p-8 rounded-[2rem] shadow-sm border border-slate-200/60 hover:shadow-2xl hover:-translate-y-2 hover:border-cyan-200 transition-all duration-500 flex flex-col h-full relative overflow-hidden">
+              <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-cyan-500 to-blue-500 transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500" />
               <div className="mb-6">
-                <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
-                  <svg className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-16 h-16 bg-cyan-50 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-cyan-600 transition-colors duration-500 shadow-sm border border-cyan-100">
+                  <svg className="w-8 h-8 text-cyan-600 group-hover:text-white transition-colors duration-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-semibold text-gray-800 mb-3">Research Areas</h3>
-                <p className="text-gray-600">
+                <h3 className="text-2xl font-bold text-slate-900 mb-4 group-hover:text-cyan-600 transition-colors">Research Areas</h3>
+                <p className="text-slate-600 leading-relaxed font-medium">
                   Specialized zones for membrane technology, CFD modeling, water treatment processes, and more.
                 </p>
               </div>
-              <div className="mt-auto">
-                <Button as={Link} href="//#research" variant="outline" className="w-full">
-  Explore Research
-</Button>
-
+              <div className="mt-auto pt-6 border-t border-slate-100">
+                <Link href="/research" className="inline-flex items-center text-cyan-600 font-bold hover:text-cyan-700 transition-colors group/link">
+                  Explore Research
+                  <ChevronRight className="w-5 h-5 ml-1 transform group-hover/link:translate-x-1 transition-transform" />
+                </Link>
               </div>
             </div>
 

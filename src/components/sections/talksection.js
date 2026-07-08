@@ -20,7 +20,7 @@ export function InvitedTalksSection() {
 
       <div className="space-y-8">
         {invitedTalks.map((talk, idx) => (
-          <div key={idx} className="bg-white rounded-xl shadow-lg overflow-hidden">
+          <div key={idx} className="bg-white rounded-xl shadow-lg overflow-hidden mb-8">
             <div className="p-6 md:p-8 space-y-6">
               <div>
                 <h3 className="text-2xl font-bold text-gray-800">{talk.title}</h3>
@@ -93,14 +93,14 @@ export function InvitedTalksSection() {
                           }}
                           pagination={{
                             clickable: true,
-                            el: '.photo-pagination',
+                            el: `.photo-pagination-${idx}`,
                             type: 'bullets',
                             bulletClass: 'swiper-pagination-bullet',
                             bulletActiveClass: 'swiper-pagination-bullet-active',
                           }}
                           navigation={{
-                            nextEl: '.photo-next',
-                            prevEl: '.photo-prev',
+                            nextEl: `.photo-next-${idx}`,
+                            prevEl: `.photo-prev-${idx}`,
                           }}
                           loop={true}
                           className="rounded-xl overflow-hidden shadow-md"
@@ -125,7 +125,7 @@ export function InvitedTalksSection() {
                         </Swiper>
 
                         <button
-                          className="photo-prev absolute left-4 top-1/2 -translate-y-1/2 z-10 bg-white/90 hover:bg-white p-2 rounded-full shadow-lg transition-all opacity-0 group-hover:opacity-100"
+                          className={`photo-prev-${idx} absolute left-4 top-1/2 -translate-y-1/2 z-10 bg-white/90 hover:bg-white p-2 rounded-full shadow-lg transition-all opacity-0 group-hover:opacity-100`}
                           aria-label="Previous photo"
                         >
                           <svg className="w-5 h-5 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -134,7 +134,7 @@ export function InvitedTalksSection() {
                         </button>
 
                         <button
-                          className="photo-next absolute right-4 top-1/2 -translate-y-1/2 z-10 bg-white/90 hover:bg-white p-2 rounded-full shadow-lg transition-all opacity-0 group-hover:opacity-100"
+                          className={`photo-next-${idx} absolute right-4 top-1/2 -translate-y-1/2 z-10 bg-white/90 hover:bg-white p-2 rounded-full shadow-lg transition-all opacity-0 group-hover:opacity-100`}
                           aria-label="Next photo"
                         >
                           <svg className="w-5 h-5 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -142,7 +142,7 @@ export function InvitedTalksSection() {
                           </svg>
                         </button>
 
-                        <div className="photo-pagination flex justify-center gap-1.5 mt-4" />
+                        <div className={`photo-pagination-${idx} flex justify-center gap-1.5 mt-4`} />
                       </div>
                     </div>
                   )}
@@ -157,7 +157,7 @@ export function InvitedTalksSection() {
                         {Object.entries(talk.youtubeLinks).map(([sessionType, url]) => (
                           <div key={sessionType} className="flex items-center">
                             <svg className="h-5 w-5 text-red-500 mr-2" viewBox="0 0 24 24" fill="currentColor">
-                              <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z" />
+                              <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385-8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z" />
                             </svg>
                             <a
                               href={url}
