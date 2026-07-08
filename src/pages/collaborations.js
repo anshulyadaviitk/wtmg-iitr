@@ -116,7 +116,7 @@ export default function Collaborations() {
               {/* Right Side */}
               <div>
                 <img
-                  src="/images/contact-water.png"
+                  src="/images/hero.jpeg"
                   alt="WTM Research Group"
                   className="rounded-2xl shadow-xl w-full object-cover"
                 />
