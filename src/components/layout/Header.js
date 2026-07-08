@@ -164,8 +164,10 @@ const isActiveLink = (path, submenu = []) => {
 };
   return (
     <header 
-      className={`fixed w-full z-50 transition-all duration-300 ${
-        scrolled ? 'bg-white/95 backdrop-blur-md shadow-md py-2' : 'bg-white/90 backdrop-blur-sm py-3'
+      className={`fixed w-full z-50 transition-all duration-500 ${
+        scrolled 
+          ? 'bg-white/70 backdrop-blur-xl border-b border-slate-200/50 shadow-sm py-2' 
+          : 'bg-white/40 backdrop-blur-sm py-4'
       }`}
       aria-label="Main navigation"
     >
@@ -211,10 +213,10 @@ const isActiveLink = (path, submenu = []) => {
               >
        <Link
   href={link.path}
-  className={`relative px-3 py-2 text-sm font-medium transition-all duration-300 rounded-md flex items-center space-x-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 ${
+  className={`relative px-4 py-2 text-[15px] font-semibold transition-all duration-300 rounded-full flex items-center space-x-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 ${
     isActiveLink(link.path, link.submenu)
-      ? 'text-blue-600'
-      : 'text-gray-700 hover:text-blue-600'
+      ? 'text-blue-600 bg-blue-50/50'
+      : 'text-slate-600 hover:text-blue-600 hover:bg-slate-50/50'
   }`}
   aria-haspopup={link.submenu ? 'true' : undefined}
   aria-expanded={link.submenu && openDropdown === link.name ? 'true' : 'false'}
@@ -240,23 +242,23 @@ const isActiveLink = (path, submenu = []) => {
                 
                 {link.submenu && (
                   <div 
-                    className={`absolute left-1/2 transform -translate-x-1/2 top-full mt-1 w-56 bg-white rounded-lg shadow-xl z-50 transition-all duration-300 origin-top ${
+                    className={`absolute left-1/2 transform -translate-x-1/2 top-full mt-2 w-60 bg-white/90 backdrop-blur-xl border border-slate-200/50 rounded-2xl shadow-2xl z-50 transition-all duration-300 origin-top overflow-hidden ${
                       openDropdown === link.name 
-                        ? 'opacity-100 scale-100' 
-                        : 'opacity-0 scale-95 pointer-events-none'
+                        ? 'opacity-100 scale-100 translate-y-0' 
+                        : 'opacity-0 scale-95 -translate-y-2 pointer-events-none'
                     }`}
                     onMouseEnter={() => handleMouseEnter(link.name)}
                     onMouseLeave={handleMouseLeave}
                   >
-                    <div className="py-1 border border-gray-100 rounded-lg">
+                    <div className="py-2">
                       {link.submenu.map((sublink) => (
                         <Link
                           key={sublink.path}
                           href={sublink.path}
-                          className={`block px-4 py-2 text-sm transition-colors duration-200 focus-visible:outline-none focus-visible:bg-blue-50 ${
+                          className={`block px-5 py-2.5 text-[14px] font-medium transition-all duration-200 focus-visible:outline-none focus-visible:bg-blue-50 ${
                             isActiveLink(sublink.path)
-                              ? 'bg-blue-50 text-blue-600'
-                              : 'text-gray-700 hover:bg-blue-50 hover:text-blue-600'
+                              ? 'bg-blue-50/80 text-blue-600'
+                              : 'text-slate-600 hover:bg-slate-50 hover:text-blue-600 hover:pl-6'
                           }`}
                           onClick={closeAllMenus}
                         >
