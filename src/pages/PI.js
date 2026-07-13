@@ -178,7 +178,7 @@ export default function DrAnshulYadav() {
           logo: "images/logos/iitr-logo-white.png",
           from: "Sep 2024",
           to: "Present",
-          description: "Teaching and research in [your specialization] department."
+          description: "Teaching and research in Water Resources Development & Management department."
         },
         {
           position: "Assistant Professor",
@@ -186,7 +186,7 @@ export default function DrAnshulYadav() {
           logo: "images/logos/acsir.jpeg",
           from: "Jan 2023",
           to: "Sep 2024",
-          description: "Conducted research and mentored graduate students in [your field]."
+          description: "Conducted research and mentored graduate students in Engineering Science."
         },
         {
           position: "Scientist",
@@ -194,7 +194,7 @@ export default function DrAnshulYadav() {
           logo: "images/logos/csir.png",
           from: "Apr 2019",
           to: "Sep 2024",
-          description: "Led research projects focused on [specific research areas]."
+          description: "Led research projects focused on Membrane Science and Separation Technology."
         },
         {
           position: "Assistant Professor",
@@ -202,7 +202,7 @@ export default function DrAnshulYadav() {
           logo: "images/logos/knit.jpg",
           from: "Dec 2017",
           to: "Feb 2019",
-          description: "Taught undergraduate courses in [subjects] and supervised student projects."
+          description: "Taught undergraduate courses in Mechanical Engineering and supervised student projects."
         },
         {
           position: "Project Associate",
@@ -210,7 +210,7 @@ export default function DrAnshulYadav() {
           logo: "images/logos/iitkanpur.jpg",
           from: "Jun 2017",
           to: "Sep 2017",
-          description: "Worked on [specific project name] under the guidance of [advisor name]."
+          description: "Worked in Research under the guidance of Dr Arvind Kumar."
         },
         {
           position: "Teaching Assistant",
@@ -218,7 +218,7 @@ export default function DrAnshulYadav() {
           logo: "images/logos/iitkanpur.jpg",
           from: "Jul 2016",
           to: "Apr 2017",
-          description: "Assisted in teaching [course names] and grading assignments."
+          description: "Assisted in teaching Mechanical Engineering and grading assignments."
         }
       ].map((exp, index) => (
         <li className="mb-0.5 ml-1 relative group" key={index}>
