@@ -99,7 +99,7 @@ export default function Research() {
                 
                 <div className="flex flex-col md:flex-row gap-8">
                   <div className="w-full md:w-48 shrink-0 flex flex-col items-start">
-                    {book.year && <div className="bg-slate-900 text-white text-3xl font-black tracking-tighter px-5 py-3 rounded-xl mb-6 shadow-md w-full text-center md:text-left md:w-auto">{book.year}</div>}
+                    {book.year && <div className="bg-white border-2 border-slate-200 text-slate-800 text-2xl font-bold px-5 py-3 rounded-xl mb-6 shadow-sm w-full text-center md:text-left md:w-auto">{book.year}</div>}
                     {book.image && (
                       <div className="w-full aspect-[3/4] relative rounded-xl overflow-hidden shadow-inner border border-slate-100 bg-slate-50">
                         <img

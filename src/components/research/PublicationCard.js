@@ -34,7 +34,7 @@ export default function PublicationCard({ publication }) {
         {/* Left Side: Visual / Year */}
         <div className="w-full md:w-48 shrink-0 flex flex-col items-start">
           {year && (
-            <div className="bg-slate-900 text-white text-3xl font-black tracking-tighter px-5 py-3 rounded-xl mb-6 shadow-md w-full text-center md:text-left md:w-auto">
+            <div className="bg-white border-2 border-slate-200 text-slate-800 text-2xl font-bold px-5 py-3 rounded-xl mb-6 shadow-sm w-full text-center md:text-left md:w-auto">
               {year}
             </div>
           )}
