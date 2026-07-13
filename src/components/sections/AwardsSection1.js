@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay, Navigation } from "swiper/modules";
 import Image from "next/image";
 import Link from "next/link";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -15,6 +15,7 @@ export default function AwardsSection1() {
   const [faculty, setFaculty] = useState([]);
   const [guestEditors, setGuestEditors] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [selectedAward, setSelectedAward] = useState(null);
 
   const prevRef = useRef(null);
   const nextRef = useRef(null);
@@ -143,21 +144,22 @@ export default function AwardsSection1() {
               <SwiperSlide key={i}>
                 <motion.div
                   whileHover={{ y: -6 }}
-                  className="bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden"
+                  onClick={() => setSelectedAward(item)}
+                  className="bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden group cursor-pointer"
                 >
 
                   {/* IMAGE */}
-                  <div className="relative h-[260px] bg-white">
+                  <div className="relative h-[260px] bg-white overflow-hidden">
                     <Image
                       src={getImage(item.image?.[0]) || "/images/awards/no-image.jpg"}
                       alt={item.title}
                       fill
-                      className="object-cover"
+                      className="object-cover transition-transform duration-500 group-hover:scale-110"
                     />
                   </div>
 
                   {/* CONTENT */}
-                  <div className="p-5">
+                  <div className="p-5 flex flex-col flex-grow h-[calc(100%-260px)]">
                     <h3 className="font-bold text-lg">
                       {item.title}
                     </h3>
@@ -166,23 +168,32 @@ export default function AwardsSection1() {
                       {item.organization}
                     </p>
 
-                    <p className="text-xs text-gray-400">
+                    <p className="text-xs text-gray-400 mb-2">
                       {item.year}
                     </p>
 
-                    <p className="text-sm mt-3 text-gray-600 line-clamp-3">
+                    <p className="text-sm text-gray-600 line-clamp-3 mb-4 flex-grow">
                       {item.description}
                     </p>
 
-                    {item.link && (
-                      <Link
-                        href={item.link}
-                        target="_blank"
-                        className="inline-block mt-4 text-blue-600 text-sm"
-                      >
-                        View →
-                      </Link>
-                    )}
+                    <div className="flex justify-between items-center mt-auto pt-4 border-t border-gray-100">
+                      {item.link ? (
+                        <Link
+                          href={item.link}
+                          target="_blank"
+                          onClick={(e) => e.stopPropagation()}
+                          className="text-blue-600 text-sm font-medium hover:underline z-10 relative"
+                        >
+                          External Link
+                        </Link>
+                      ) : (
+                        <div></div>
+                      )}
+                      
+                      <span className="text-blue-600 text-sm font-semibold flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+                        More Details <span className="text-lg leading-none">→</span>
+                      </span>
+                    </div>
                   </div>
 
                 </motion.div>
@@ -252,6 +263,72 @@ export default function AwardsSection1() {
         )}
 
       </div>
+
+      {/* ================= MODAL ================= */}
+      <AnimatePresence>
+        {selectedAward && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            onClick={() => setSelectedAward(null)}
+            className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 p-4 backdrop-blur-sm"
+          >
+            <motion.div
+              initial={{ scale: 0.9, opacity: 0, y: 20 }}
+              animate={{ scale: 1, opacity: 1, y: 0 }}
+              exit={{ scale: 0.9, opacity: 0, y: 20 }}
+              onClick={(e) => e.stopPropagation()}
+              className="bg-white rounded-2xl p-6 max-w-4xl w-full max-h-[90vh] overflow-y-auto shadow-2xl relative"
+            >
+              <button
+                onClick={() => setSelectedAward(null)}
+                className="absolute top-4 right-4 text-gray-500 hover:text-gray-900 bg-gray-100 hover:bg-gray-200 rounded-full w-8 h-8 flex items-center justify-center transition-colors z-10"
+              >
+                ✕
+              </button>
+
+              <div className="grid md:grid-cols-2 gap-8 mt-4">
+                <div className="relative h-[300px] md:h-[500px] w-full bg-gray-50 rounded-xl overflow-hidden border border-gray-100">
+                  <Image
+                    src={getImage(selectedAward.image?.[0]) || "/images/awards/no-image.jpg"}
+                    alt={selectedAward.title}
+                    fill
+                    className="object-contain"
+                  />
+                </div>
+                <div className="flex flex-col">
+                  <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">
+                    {selectedAward.title}
+                  </h3>
+                  <p className="text-lg text-blue-600 font-medium mb-1">
+                    {selectedAward.organization}
+                  </p>
+                  <p className="text-sm text-gray-400 mb-6 font-medium">
+                    {selectedAward.year}
+                  </p>
+                  <div className="text-gray-700 whitespace-pre-wrap leading-relaxed flex-grow">
+                    {selectedAward.description}
+                  </div>
+                  
+                  {selectedAward.link && (
+                    <div className="mt-8">
+                      <Link
+                        href={selectedAward.link}
+                        target="_blank"
+                        className="inline-flex items-center justify-center px-6 py-3 bg-blue-600 text-white font-medium rounded-xl hover:bg-blue-700 transition-colors"
+                      >
+                        Visit External Link →
+                      </Link>
+                    </div>
+                  )}
+                </div>
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
     </section>
   );
 }

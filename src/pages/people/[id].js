@@ -87,7 +87,6 @@ export default function PeopleView() {
 
     const selectedFolder = person.category ? (folder[person.category] || "phd") : "phd";
     
-    // यहाँ हमेशा सही रिलेटिव पाथ बनेगा: /images/groupmembers/phd/vivek_kumar.jpeg
     const finalPath = `/images/groupmembers/${selectedFolder}/${person.photo}`;
 
     return finalPath.startsWith("/") ? finalPath : `/${finalPath}`;

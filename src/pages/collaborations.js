@@ -248,9 +248,6 @@ export default function Collaborations() {
                         <p className="text-gray-600">
                           📍 {item.location}, {item.country}
                         </p>
-                        <button className="mt-6 bg-blue-700 hover:bg-blue-800 text-white px-6 py-2 rounded-lg transition">
-                          View Details →
-                        </button>
                       </div>
                     </div>
                   </div>
