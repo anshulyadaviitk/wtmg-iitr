@@ -20,7 +20,7 @@ export default function Footer() {
                 />
               </div>
               <div>
-                <h6 className="text-xl font-bold">Department of Water Resources<br />Development & Management</h6>
+                <h6 className="text-xl font-bold !text-white">Department of Water Resources<br />Development & Management</h6>
               </div>
             </div>
             <p className="text-gray-300 mb-4">
@@ -35,7 +35,7 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-lg font-semibold mb-4 border-b pb-2 border-gray-600">Quick Links</h4>
+            <h4 className="text-lg font-semibold !text-white mb-4 border-b pb-2 border-gray-600">Quick Links</h4>
             <ul className="space-y-2">
               <li><Link href="/research" className="text-gray-300 hover:text-white">Research Areas</Link></li>
               <li><Link href="/contact" className="text-gray-300 hover:text-white">Contact Us</Link></li>
@@ -46,7 +46,7 @@ export default function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h4 className="text-lg font-semibold mb-4 border-b pb-2 border-gray-600">Contact</h4>
+            <h4 className="text-lg font-semibold !text-white mb-4 border-b pb-2 border-gray-600">Contact</h4>
             <address className="not-italic">
               <p className="text-gray-300 mb-2">
                 <strong>Dr. Anshul Yadav</strong><br />
