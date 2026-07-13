@@ -28,7 +28,7 @@ export default function Footer() {
               Roorkee, Uttarakhand 247667<br />
               India
             </p>
-            <p className="text-gray-300">
+            <p className="text-gray-300" suppressHydrationWarning>
               © {new Date().getFullYear()} All Rights Reserved
             </p>
           </div>

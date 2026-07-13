@@ -36,7 +36,7 @@ export default function NoticesPage() {
                     </span>
                   )}
                 </h2>
-                <p className="text-sm text-gray-500 mt-1">
+                <p className="text-sm text-gray-500 mt-1" suppressHydrationWarning>
                   Published on: {new Date(notice.date).toLocaleDateString()}
                 </p>
                 <a

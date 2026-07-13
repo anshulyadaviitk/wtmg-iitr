@@ -337,6 +337,7 @@ export default function Home() {
               )}
             </div>
             <time
+              suppressHydrationWarning
               dateTime={notice.date}
               className="text-xs font-bold text-slate-400 min-w-fit px-3 py-1.5 bg-white rounded-lg shadow-sm border border-slate-100 uppercase tracking-wider"
               title={new Date(notice.date).toLocaleString()}
@@ -405,6 +406,7 @@ export default function Home() {
               )}
             </div>
             <time
+              suppressHydrationWarning
               dateTime={event.date}
               className="text-xs font-bold text-slate-400 min-w-fit px-3 py-1.5 bg-white rounded-lg shadow-sm border border-slate-100 uppercase tracking-wider"
               title={new Date(event.date).toLocaleString()}
