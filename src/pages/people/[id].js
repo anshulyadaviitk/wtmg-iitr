@@ -64,7 +64,7 @@ export default function PeopleView() {
     loadPerson();
   }, [id]);
 
-  // यह फंक्शन सुनिश्चित करेगा कि पाथ हमेशा "/" से ही शुरू हो
+ 
   const getPhotoPath = (person) => {
     if (!person?.photo) {
       return "/images/default-profile.png";
