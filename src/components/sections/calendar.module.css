@@ -1,0 +1,162 @@
+/* ===========================
+   React Big Calendar Styling
+=========================== */
+
+.rbc-calendar {
+  font-family: inherit;
+  border-radius: 20px;
+}
+
+.rbc-toolbar {
+  display: none;
+}
+
+/* Header */
+
+.rbc-header {
+  background: #f8fafc;
+  color: #0f172a;
+  font-weight: 700;
+  padding: 14px 0;
+  border: none;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.rbc-month-view,
+.rbc-time-view {
+  border: 1px solid #e2e8f0;
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+/* Cells */
+
+.rbc-day-bg {
+  transition: 0.25s;
+}
+
+.rbc-day-bg:hover {
+  background: #eff6ff;
+}
+
+/* Today */
+
+.rbc-today {
+  background: #dbeafe !important;
+}
+
+/* Dates */
+
+.rbc-date-cell {
+  padding: 10px;
+  text-align: right;
+  font-weight: 600;
+}
+
+.rbc-off-range-bg {
+  background: #fafafa;
+}
+
+.rbc-off-range {
+  color: #cbd5e1;
+}
+
+/* Events */
+
+.rbc-event {
+  background: #2563eb !important;
+  border: none !important;
+  border-radius: 8px !important;
+  padding: 3px 8px !important;
+  font-size: 13px !important;
+  font-weight: 600;
+  transition: .25s;
+}
+
+.rbc-event:hover {
+  background: #1d4ed8 !important;
+  transform: scale(1.02);
+}
+
+.rbc-selected {
+  background: #1d4ed8 !important;
+}
+
+.rbc-event-label {
+  display: none;
+}
+
+/* Week & Day */
+
+.rbc-time-header {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.rbc-timeslot-group {
+  min-height: 60px;
+}
+
+.rbc-time-content {
+  border-top: none;
+}
+
+/* Current Time */
+
+.rbc-current-time-indicator {
+  background: #ef4444;
+  height: 2px;
+}
+
+/* Month Row */
+
+.rbc-month-row {
+  min-height: 120px;
+}
+
+/* Popup */
+
+.rbc-overlay {
+  border-radius: 14px;
+  border: none;
+  box-shadow: 0 15px 40px rgba(0,0,0,.12);
+}
+
+.rbc-overlay-header {
+  padding: 12px;
+  font-weight: 700;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* Show More */
+
+.rbc-show-more {
+  color: #2563eb;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+/* Buttons */
+
+.button {
+  transition: .25s;
+}
+
+/* Responsive */
+
+@media (max-width:768px){
+
+.rbc-month-row{
+    min-height:90px;
+}
+
+.rbc-date-cell{
+    padding:4px;
+    font-size:12px;
+}
+
+.rbc-event{
+    font-size:11px !important;
+    padding:2px 4px !important;
+}
+
+}
