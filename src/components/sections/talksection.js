@@ -1,185 +1,268 @@
 'use client';
 
-import SectionTitle from '@/components/ui/SectionTitle';
-import { invitedTalks } from '@/content/research';
-import { CalendarIcon, MapPinIcon, VideoCameraIcon, PhotoIcon } from '@heroicons/react/24/outline';
-import { MicrophoneIcon, UserIcon } from '@heroicons/react/24/solid';
+import { useEffect, useState } from 'react';
 import Image from 'next/image';
-import { GlobeAltIcon, BuildingOfficeIcon } from '@heroicons/react/24/outline';
+
+import {
+  CalendarIcon,
+  MapPinIcon,
+  GlobeAltIcon,
+  BuildingOfficeIcon,
+  PhotoIcon,
+  VideoCameraIcon,
+} from '@heroicons/react/24/outline';
+
+import {
+  UserIcon,
+  MicrophoneIcon,
+} from '@heroicons/react/24/solid';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+
 import 'swiper/css';
-import 'swiper/css/pagination';
 import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
 
 export function InvitedTalksSection() {
+  const [talks, setTalks] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchTalks = async () => {
+      try {
+        const response = await fetch(
+          "https://opensheet.elk.sh/1AuCpQjHD_MQwovqAbfwfHbBwTyrhXfV0B0qqJfAubhk/talks"
+        );
+
+        const data = await response.json();
+
+        const formatted = data.map((item) => {
+          // Parse images safely (filter out empty strings)
+          const parsedImages = item.images
+            ? item.images.split(",").map((img) => img.trim()).filter(Boolean)
+            : [];
+
+          // Parse youtubeLinks safely (handles JSON strings or plain text URLs)
+          let parsedYoutube = null;
+          if (item.youtubeLinks) {
+            try {
+              parsedYoutube = typeof item.youtubeLinks === 'string' && item.youtubeLinks.trim().startsWith('{')
+                ? JSON.parse(item.youtubeLinks)
+                : item.youtubeLinks;
+            } catch (e) {
+              parsedYoutube = item.youtubeLinks;
+            }
+          }
+
+          return {
+            ...item,
+            images: parsedImages,
+            parsedYoutube,
+          };
+        });
+
+        // Sort: Latest Talk First
+        formatted.sort((a, b) => {
+          const getDate = (value) => {
+            if (!value) return new Date(0);
+            if (String(value).includes(".")) {
+              const [d, m, y] = value.split(".");
+              return new Date(`${y}-${m}-${d}`);
+            }
+            return new Date(value);
+          };
+
+          return getDate(b.date) - getDate(a.date);
+        });
+
+        setTalks(formatted);
+      } catch (err) {
+        console.error("Failed to fetch talks:", err);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchTalks();
+  }, []);
+
+  if (loading) {
+    return (
+      <div className="py-20 text-center">
+        <div className="animate-spin h-10 w-10 rounded-full border-4 border-blue-600 border-t-transparent mx-auto"></div>
+        <p className="mt-5 text-gray-500">Loading Invited Talks...</p>
+      </div>
+    );
+  }
+
   return (
-    <section className="space-y-8">
+    <div className="space-y-10">
+      {talks.map((talk, idx) => (
+        <div
+          key={talk.id || idx}
+          className="bg-white rounded-3xl shadow-xl border border-slate-200 overflow-hidden hover:shadow-2xl transition duration-300"
+        >
+          <div className="p-8">
+            {/* Header */}
+            <div className="mb-8">
+              <h2 className="text-3xl font-bold text-slate-800 leading-snug mb-6">
+                {talk.title}
+              </h2>
 
-      <div className="space-y-8">
-        {invitedTalks.map((talk, idx) => (
-          <div key={idx} className="bg-white rounded-xl shadow-lg overflow-hidden mb-8">
-            <div className="p-6 md:p-8 space-y-6">
-              <div>
-                <h3 className="text-2xl font-bold text-gray-800">{talk.title}</h3>
-                <div className="flex flex-wrap items-center text-gray-500 mt-2 gap-4">
-                  <span className="flex items-center">
-                    <UserIcon className="h-4 w-4 mr-1" />
-                    {talk.speaker}
-                  </span>
-                  <span className="flex items-center">
-  <CalendarIcon className="h-4 w-4 mr-1" />
-  {talk.date}
-</span>
+              <div className="flex flex-wrap gap-3">
+                {talk.speaker && (
+                  <div className="flex items-center bg-blue-50 text-blue-700 px-4 py-2 rounded-full">
+                    <UserIcon className="h-5 w-5 mr-2" />
+                    <span className="font-medium">{talk.speaker}</span>
+                  </div>
+                )}
 
-{talk.location && (
-  <span className="flex items-center">
-    <MapPinIcon className="h-4 w-4 mr-1" />
-    {talk.location}
-  </span>
-)}
+                {talk.date && (
+                  <div className="flex items-center bg-green-50 text-green-700 px-4 py-2 rounded-full">
+                    <CalendarIcon className="h-5 w-5 mr-2" />
+                    {talk.date}
+                  </div>
+                )}
 
-{talk.mode && (
-  <span className="flex items-center text-gray-500">
-    {talk.mode.toLowerCase() === 'online' ? (
-      <GlobeAltIcon className="h-4 w-4 mr-1" /> // or ComputerDesktopIcon
-    ) : (
-      <BuildingOfficeIcon className="h-4 w-4 mr-1" />
-    )}
-    {talk.mode}
-  </span>
-)}
+                {talk.location && (
+                  <div className="flex items-center bg-orange-50 text-orange-700 px-4 py-2 rounded-full">
+                    <MapPinIcon className="h-5 w-5 mr-2" />
+                    {talk.location}
+                  </div>
+                )}
 
-                  {talk.event && (
-                    <span className="flex items-center">
-                      <MicrophoneIcon className="h-4 w-4 mr-1" />
-                      {talk.event}
-                    </span>
-                  )}
-                
-
-                </div>
-
-                {talk.abstract && (
-                  <div className="mt-4">
-                    <h4 className="text-lg font-semibold text-gray-800 mb-2">Abstract</h4>
-                    <p className="text-gray-700">{talk.abstract}</p>
+                {talk.mode && (
+                  <div className="flex items-center bg-purple-50 text-purple-700 px-4 py-2 rounded-full">
+                    {String(talk.mode).toLowerCase() === "online" ? (
+                      <GlobeAltIcon className="h-5 w-5 mr-2" />
+                    ) : (
+                      <BuildingOfficeIcon className="h-5 w-5 mr-2" />
+                    )}
+                    {talk.mode}
                   </div>
                 )}
               </div>
-
-              {(talk.images?.length > 0 || talk.youtubeLinks) && (
-                <div className="pt-4 border-t border-gray-100">
-                  <h4 className="text-lg font-semibold text-gray-800 mb-4">Event Media</h4>
-
-                  {talk.images?.length > 0 && (
-                    <div className="mb-8">
-                      <div className="flex items-center text-gray-700 mb-4">
-                        <PhotoIcon className="h-5 w-5 mr-2 text-gray-500" />
-                        <span className="font-semibold text-lg">Photo Gallery</span>
-                      </div>
-
-                      <div className="relative group">
-                        <Swiper
-                          modules={[Navigation, Pagination, Autoplay]}
-                          slidesPerView={1}
-                          spaceBetween={16}
-                          autoplay={{
-                            delay: 2000,
-                            disableOnInteraction: false,
-                            pauseOnMouseEnter: true,
-                          }}
-                          pagination={{
-                            clickable: true,
-                            el: `.photo-pagination-${idx}`,
-                            type: 'bullets',
-                            bulletClass: 'swiper-pagination-bullet',
-                            bulletActiveClass: 'swiper-pagination-bullet-active',
-                          }}
-                          navigation={{
-                            nextEl: `.photo-next-${idx}`,
-                            prevEl: `.photo-prev-${idx}`,
-                          }}
-                          loop={true}
-                          className="rounded-xl overflow-hidden shadow-md"
-                        >
-                          {talk.images.map((url, i) => (
-                            <SwiperSlide key={i}>
-                              <div className="flex justify-center">
-                                <div className="relative aspect-video max-h-[300px] w-full overflow-hidden">
-                                  <Image
-                                    src={url}
-                                    alt={`Talk photo ${i + 1}`}
-                                    fill
-                                    className="object-contain transition-transform duration-300 group-hover:scale-105"
-                                    sizes="(max-width: 768px) 100vw, 75vw"
-                                    priority={i === 0}
-                                  />
-                                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
-                                </div>
-                              </div>
-                            </SwiperSlide>
-                          ))}
-                        </Swiper>
-
-                        <button
-                          className={`photo-prev-${idx} absolute left-4 top-1/2 -translate-y-1/2 z-10 bg-white/90 hover:bg-white p-2 rounded-full shadow-lg transition-all opacity-0 group-hover:opacity-100`}
-                          aria-label="Previous photo"
-                        >
-                          <svg className="w-5 h-5 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-                          </svg>
-                        </button>
-
-                        <button
-                          className={`photo-next-${idx} absolute right-4 top-1/2 -translate-y-1/2 z-10 bg-white/90 hover:bg-white p-2 rounded-full shadow-lg transition-all opacity-0 group-hover:opacity-100`}
-                          aria-label="Next photo"
-                        >
-                          <svg className="w-5 h-5 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                          </svg>
-                        </button>
-
-                        <div className={`photo-pagination-${idx} flex justify-center gap-1.5 mt-4`} />
-                      </div>
-                    </div>
-                  )}
-
-                  {talk.youtubeLinks && (
-                    <div className="mt-6">
-                      <div className="flex items-center text-gray-700 mb-3">
-                        <VideoCameraIcon className="h-5 w-5 mr-2" />
-                        <span className="font-medium">Video Recordings</span>
-                      </div>
-                      <div className="space-y-2">
-                        {Object.entries(talk.youtubeLinks).map(([sessionType, url]) => (
-                          <div key={sessionType} className="flex items-center">
-                            <svg className="h-5 w-5 text-red-500 mr-2" viewBox="0 0 24 24" fill="currentColor">
-                              <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385-8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z" />
-                            </svg>
-                            <a
-                              href={url}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="text-blue-600 hover:underline"
-                            >
-                              {sessionType.charAt(0).toUpperCase() +
-                                sessionType.slice(1).replace(/([A-Z])/g, ' $1')}{' '}
-                              Session
-                            </a>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                  )}
-                </div>
-              )}
             </div>
+
+            {/* Event */}
+            {talk.event && (
+              <div className="bg-white border border-gray-200 rounded-2xl p-5 mb-8 shadow-sm">
+                <div className="flex items-center mb-2">
+                  <MicrophoneIcon className="h-6 w-6 mr-2" />
+                  <h3 className="font-semibold text-lg text-gray-800">Invited Event</h3>
+                </div>
+                <p className="leading-7 text-gray-600">{talk.event}</p>
+              </div>
+            )}
+
+            {/* Abstract */}
+            {talk.abstract && (
+              <div className="bg-gray-50 rounded-2xl p-6 border border-gray-200 mb-8">
+                <h3 className="text-xl font-bold text-gray-800 mb-3">
+                  Abstract
+                </h3>
+                <p className="text-gray-600 leading-8">{talk.abstract}</p>
+              </div>
+            )}
+
+            {/* Event Media */}
+            {(talk.images?.length > 0 || talk.parsedYoutube) && (
+              <div className="border-t pt-8">
+                {talk.images?.length > 0 && (
+                  <>
+                    <div className="flex items-center mb-6">
+                      <PhotoIcon className="h-6 w-6 mr-3 text-blue-600" />
+                      <h3 className="text-2xl font-bold text-gray-800">
+                        Event Gallery
+                      </h3>
+                    </div>
+
+                    <div className="relative">
+                      <Swiper
+                        modules={[Navigation, Pagination, Autoplay]}
+                        slidesPerView={1}
+                        spaceBetween={20}
+                        loop={talk.images.length > 1}
+                        autoplay={{
+                          delay: 2500,
+                          disableOnInteraction: false,
+                          pauseOnMouseEnter: true,
+                        }}
+                        pagination={{ clickable: true }}
+                        navigation={true}
+                        className="rounded-2xl overflow-hidden shadow-xl"
+                      >
+                        {talk.images.map((image, i) => (
+                          <SwiperSlide key={i}>
+                            <div className="relative h-[250px] md:h-[450px] lg:h-[550px] w-full bg-gray-100">
+                              <Image
+                                src={image}
+                                alt={`${talk.title || 'Talk'}-${i}`}
+                                fill
+                                unoptimized
+                                className="object-contain"
+                                sizes="100vw"
+                                priority={i === 0}
+                              />
+                            </div>
+                          </SwiperSlide>
+                        ))}
+                      </Swiper>
+                    </div>
+                  </>
+                )}
+
+                {/* Videos */}
+                {talk.parsedYoutube && (
+                  <div className="mt-10">
+                    <div className="flex items-center mb-5">
+                      <VideoCameraIcon className="h-6 w-6 text-red-600 mr-3" />
+                      <h3 className="text-2xl font-bold">Video Recordings</h3>
+                    </div>
+
+                    <div className="grid gap-4">
+                      {typeof talk.parsedYoutube === 'object' && !Array.isArray(talk.parsedYoutube) ? (
+                        Object.entries(talk.parsedYoutube).map(([session, url]) => (
+                          <a
+                            key={session}
+                            href={String(url)}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center justify-between rounded-xl border border-red-200 bg-red-50 px-5 py-4 hover:bg-red-100 transition"
+                          >
+                            <span className="font-medium text-red-700">
+                              {session}
+                            </span>
+                            <span className="text-red-600 font-semibold">
+                              Watch →
+                            </span>
+                          </a>
+                        ))
+                      ) : (
+                        <a
+                          href={String(talk.parsedYoutube)}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center justify-between rounded-xl border border-red-200 bg-red-50 px-5 py-4 hover:bg-red-100 transition"
+                        >
+                          <span className="font-medium text-red-700">
+                            Watch Video Recording
+                          </span>
+                          <span className="text-red-600 font-semibold">
+                            Watch →
+                          </span>
+                        </a>
+                      )}
+                    </div>
+                  </div>
+                )}
+              </div>
+            )}
           </div>
-        ))}
-      </div>
-    </section>
+        </div>
+      ))}
+    </div>
   );
 }
