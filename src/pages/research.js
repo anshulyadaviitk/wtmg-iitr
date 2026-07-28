@@ -74,7 +74,17 @@ useEffect(() => {
         link: item.link,
       }));
 
-      setPatents(formattedData);
+      const sortedPatents = formattedData.sort((a, b) => {
+      const [dayA, monthA, yearA] = a.filingDate.split("-").map(Number);
+      const [dayB, monthB, yearB] = b.filingDate.split("-").map(Number);
+
+      const dateA = new Date(yearA, monthA - 1, dayA);
+      const dateB = new Date(yearB, monthB - 1, dayB);
+
+      return dateB - dateA; // Latest first
+    });
+
+setPatents(sortedPatents);
     } catch (error) {
       console.error(error);
     }
