@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Layout from '@/components/layout/Layout';
-import { publications, patents, invitedTalks } from '@/content/research';
+import { publications, invitedTalks } from '@/content/research';
 import PublicationCard from '@/components/research/PublicationCard';
 import SectionTitle from '@/components/ui/SectionTitle';
 import Tabs from '@/components/research/tabs';
@@ -15,6 +15,7 @@ export default function Research() {
   const { tab } = router.query;
   const [activeTab, setActiveTab] = useState('papers');
   const [isClient, setIsClient] = useState(false);
+  const [patents, setPatents] = useState([]);
 
   // Per-talk slideshow state
   const [slideIndices, setSlideIndices] = useState({});
@@ -48,6 +49,45 @@ export default function Research() {
       setActiveTab(tab);
     }
   }, [tab]);
+  useEffect(() => {
+  setIsClient(true);
+}, []);
+
+useEffect(() => {
+  async function loadPatents() {
+    try {
+      const response = await fetch(
+        "https://opensheet.elk.sh/1AuCpQjHD_MQwovqAbfwfHbBwTyrhXfV0B0qqJfAubhk/patent"
+      );
+
+      const data = await response.json();
+
+      const formattedData = data.map((item) => ({
+        id: item.id,
+        title: item.title,
+        inventors: item.inventors
+          ? item.inventors.split(",").map((i) => i.trim())
+          : [],
+        patentNumber: item.patentNumber,
+        filingDate: item.filingDate,
+        status: item.status,
+        link: item.link,
+      }));
+
+      setPatents(formattedData);
+    } catch (error) {
+      console.error(error);
+    }
+  }
+
+  loadPatents();
+}, []);
+
+useEffect(() => {
+  if (tab && ['papers', 'books', 'patents', 'talks'].includes(tab)) {
+    setActiveTab(tab);
+  }
+}, [tab]);
 
   if (!isClient) return null; // Prevent hydration mismatch
 
