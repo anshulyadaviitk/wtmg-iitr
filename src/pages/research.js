@@ -16,6 +16,7 @@ export default function Research() {
   const [activeTab, setActiveTab] = useState('papers');
   const [isClient, setIsClient] = useState(false);
   const [patents, setPatents] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   // Per-talk slideshow state
   const [slideIndices, setSlideIndices] = useState({});
@@ -56,37 +57,47 @@ export default function Research() {
 useEffect(() => {
   async function loadPatents() {
     try {
+      setLoading(true);
+
       const response = await fetch(
         "https://opensheet.elk.sh/1AuCpQjHD_MQwovqAbfwfHbBwTyrhXfV0B0qqJfAubhk/patent"
       );
 
       const data = await response.json();
 
-      const formattedData = data.map((item) => ({
-        id: item.id,
-        title: item.title,
-        inventors: item.inventors
-          ? item.inventors.split(",").map((i) => i.trim())
-          : [],
-        patentNumber: item.patentNumber,
-        filingDate: item.filingDate,
-        status: item.status,
-        link: item.link,
-      }));
+      console.log("Google Sheet Data:", data);
 
-      const sortedPatents = formattedData.sort((a, b) => {
-      const [dayA, monthA, yearA] = a.filingDate.split("-").map(Number);
-      const [dayB, monthB, yearB] = b.filingDate.split("-").map(Number);
+      const formattedData = data
+        .filter(item => item.id && item.filingDate)
+        .map((item) => ({
+          id: item.id,
+          title: item.title,
+          inventors: item.inventors
+            ? item.inventors.split(",").map((i) => i.trim())
+            : [],
+          patentNumber: item.patentNumber,
+          filingDate: item.filingDate,
+          status: item.status,
+          link: item.link,
+        }));
 
-      const dateA = new Date(yearA, monthA - 1, dayA);
-      const dateB = new Date(yearB, monthB - 1, dayB);
+      formattedData.sort((a, b) => {
+        const [d1, m1, y1] = a.filingDate.split("-").map(Number);
+        const [d2, m2, y2] = b.filingDate.split("-").map(Number);
 
-      return dateB - dateA; // Latest first
-    });
+        return (
+          new Date(y2, m2 - 1, d2) -
+          new Date(y1, m1 - 1, d1)
+        );
+      });
 
-setPatents(sortedPatents);
+      console.log(formattedData);
+
+      setPatents(formattedData);
     } catch (error) {
-      console.error(error);
+      console.error("Patent Fetch Error:", error);
+    } finally {
+      setLoading(false);
     }
   }
 
@@ -212,7 +223,16 @@ useEffect(() => {
         {activeTab === 'patents' && (
           <div className="mt-8 space-y-6">
             <h3 className="text-2xl font-bold mb-8 text-slate-800">Patents</h3>
-            {patents.map((patent) => (
+            {loading ? (
+  <div className="text-center py-20 text-xl font-semibold">
+    Loading Patents...
+  </div>
+) : patents.length === 0 ? (
+  <div className="text-center py-20 text-red-600">
+    No Patent Found
+  </div>
+) : (
+  patents.map((patent) => (
               <div key={patent.id} className="group relative bg-white rounded-2xl p-6 md:p-8 border border-slate-200 hover:border-cyan-500/30 transition-all duration-300 shadow-sm hover:shadow-xl hover:-translate-y-1 mb-8 overflow-hidden z-10">
                 
                 <div className="absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-cyan-50 to-blue-50 rounded-bl-full -z-10 opacity-50 group-hover:opacity-100 transition-opacity" />
@@ -267,7 +287,8 @@ useEffect(() => {
                   </div>
                 </div>
               </div>
-            ))}
+            ))
+)}
           </div>
         )}
 
